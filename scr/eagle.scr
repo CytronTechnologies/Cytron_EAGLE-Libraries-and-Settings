@@ -1,0 +1,149 @@
+# Configuration Script
+#
+# This file can be used to configure the editor windows.
+
+
+# Assign (Universal).
+Assign F2    Info;
+Assign A+F2  Show;
+Assign F3    Name;
+Assign F4    Value;
+Assign F5    Window Fit;
+
+Assign C+A   Add;
+Assign C+C   Copy;
+Assign C+D   Delete;
+Assign C+E   Error;
+Assign C+G   Group;
+Assign S+C+G Grid On;
+Assign S+A+G Grid Off;
+Assign C+S   Smash;
+Assign C+T   Text;
+Assign C+V   Paste;
+Assign C+X   Move;
+
+
+
+#Layer colors
+Set palette 16 0xFFC0C0C0; # Light Grey
+Set palette 24 0xFFFFFFFF; # White
+
+Set color_layer 21 16; #Set tPlace to light grey
+Set color_layer 22 16; #Set bPlace to light grey
+
+Set color_layer 25 3; #Set tNames to light blue
+Set color_layer 26 3; #Set bNames to light blue
+
+Set color_layer 27 5; #Set tValues to light pink
+Set color_layer 28 5; #Set bValues to light pink
+
+Set color_layer 51 6; #Set tDocu to light yellow
+Set color_layer 52 6;  #Set bDocu to dark yellow
+
+
+
+
+
+
+BRD:
+
+# Assign.
+Assign F6   'display none; display Pads Unrouted Dimension tPlace tNames tValues tCream tDocu;'
+Assign A+F6 'display none; display Pads Unrouted Dimension bPlace bNames bValues bCream bDocu;'
+Assign F7   'display none; display Top Pads Vias Unrouted Dimension tPlace tOrigins tStop Holes Milling;'
+Assign A+F7 'display none; display Bottom Pads Vias Unrouted Dimension bPlace bOrigins bStop Holes Milling;'
+Assign F8   'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'				
+
+Assign F9    Route;
+Assign A+F9  Ripup;
+Assign F10   Ratsnest;
+Assign A+F10 DRC;
+
+Assign F11   'Grid mil 50 on; Grid alt mil 5;';
+Assign A+F11 'Grid mil 5 on; Grid alt mil 1;';
+Assign F12   'Grid mm 1 on; Grid alt mm 0.1;';
+Assign A+F12 'Grid mm 0.1 on; Grid alt mm 0.01;';
+
+#Setup Cytron Defaults
+Grid mil 50 2 on;
+Grid alt mil 5;
+
+display none;
+display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;;
+
+Set WIRE_BEND 1;    #Route with 45 degree angles
+Set Drill 0.4mm;    #Make vias 0.4mm
+Change Shape Round; #Make vias round
+Change Width 15;    #Routing width default to 15mil
+
+Change Font Vector; #Make text on board in vector font
+Change Size 32;
+Change Ratio 16;
+
+
+
+
+
+
+
+
+SCH:
+
+# Assign.
+Assign F9   Net;
+Assign F10  Label;
+
+Grid Default;
+Change Width 0.006;
+Change Font Proportional;
+Change Size 0.07;
+Change Ratio 8;
+
+
+
+
+
+
+LBR:
+
+DEV:
+
+Grid Default;
+
+
+
+SYM:
+
+Grid Default On;
+Change Width 0.01;
+Change Font Proportional;
+Change Size 0.07;
+Change Ratio 8;
+
+
+
+PAC:
+
+# Assign.
+Assign F6   'display none; display Pads Unrouted Dimension tNames tValues tCream tDocu;'
+Assign A+F6 'display none; display Pads Unrouted Dimension bNames bValues bCream bDocu;'
+Assign F7   'display none; display Top Pads Vias Unrouted Dimension tPlace tOrigins tStop Holes Milling;'
+Assign A+F7 'display none; display Bottom Pads Vias Unrouted Dimension bPlace bOrigins bStop Holes Milling;'
+Assign F8   'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tNames bNames tValues bValues tStop bStop tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'				
+
+Assign F11   'Grid mil 50 on; Grid alt mil 5;';
+Assign A+F11 'Grid mil 5 on; Grid alt mil 1;';
+Assign F12   'Grid mm 1 on; Grid alt mm 0.1;';
+Assign A+F12 'Grid mm 0.1 on; Grid alt mm 0.01;';
+
+
+Grid mil 50 2 on;
+Grid alt mil 5;
+
+display none;
+display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tNames bNames tValues bValues tStop bStop tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;
+
+Change Width 8;
+Change Font Vector; #Make text on board in vector font
+Change Size 30;
+Change Ratio 15;

@@ -1,0 +1,61 @@
+#usage "<b>Data generation for mounting machines</b><p>\n"
+       "This ULP generates files for top and bottom layers "
+       "wich can be used with mounting machines. "
+       "Use x and y coordinates of the origin points (units: mm) of the SMD elements"
+       "and packages from defined lbr."
+       "The syntax of the output data looks like this:<p>"
+       "Name x-coord y-coord Rotation Value Package<p><p>"
+       "<author>Author: support@cadsoft.de</author>"
+
+string def_lbr = "marks";  // define a library name to export also place coordinates
+                    // 2006.04.18 alf@cadsoft.de
+
+char   Tab = '\t'; // ';';
+
+
+board(B) {
+  // Get filename
+  string fileNameTop = dlgFileSave("Save File", filesetext(B.name, ".mnt"), "*.mnt");
+  if (fileNameTop == "") exit(0);
+  string fileNameBot = dlgFileSave("Save File", filesetext(B.name, ".mnb"), "*.mnb");
+  if (fileNameBot == "") exit(0);
+
+  int wasSmd = 0;
+  output(fileNameBot, "wt") ;
+  output(fileNameTop, "wt") {
+    B.elements(E) {
+      E.package.contacts(C) {
+        if (C.smd && C.smd.layer == 1) {
+          if (E.mirror == 0) {
+            printf("%s%c%.4f%c%.4f%c%.1f%c%s%c%s\n",
+            E.name, Tab, u2mm(E.x), Tab, u2mm(E.y), Tab,
+            E.angle, Tab, E.value, Tab, E.package.name);
+          }
+          else {
+            output(fileNameBot, "at") {
+              printf("%s%c%.4f%c%.4f%c%.1f%c%s%c%s\n",
+              E.name, Tab, u2mm(E.x), Tab, u2mm(E.y), Tab,
+              E.angle, Tab, E.value, Tab, E.package.name);
+            }
+          }
+          break;
+        }
+      }
+      if (strlwr(E.package.library) == def_lbr) {
+        if (E.mirror == 0) {
+          printf("%s%c%.4f%c%.4f%c%.1f%c%s%c%s\n",
+          E.name, Tab, u2mm(E.x), Tab, u2mm(E.y), Tab,
+          E.angle, Tab, E.value, Tab, E.package.name);
+        }
+        else {
+          output(fileNameBot, "at") {
+            printf("%s%c%.4f%c%.4f%c%.1f%c%s%c%s\n",
+            E.name, Tab, u2mm(E.x), Tab, u2mm(E.y), Tab,
+            E.angle, Tab, E.value, Tab, E.package.name);
+          }
+        }
+      }
+    }
+  }
+}
+
