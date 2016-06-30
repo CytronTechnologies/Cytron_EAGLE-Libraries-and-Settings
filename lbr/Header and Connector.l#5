@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5670,7 +5670,7 @@ Size: 65mm x 30mm&lt;br&gt;
 </package>
 <package name="FPC-RA-B-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 19.6mm x 6.5mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Bottom&lt;br&gt;
@@ -5707,40 +5707,50 @@ Created by: Idris</description>
 </package>
 <package name="FPC-RA-T-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 22mm x 7.1mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Top&lt;br&gt;
 &lt;br&gt;
-Created by: Idris</description>
-<smd name="1" x="-7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="2" x="-6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="3" x="-5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="4" x="-4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="5" x="-3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="6" x="-2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="7" x="-1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="8" x="0" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="9" x="1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="10" x="2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="11" x="3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="12" x="4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="13" x="5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="14" x="6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="15" x="7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="P$16" x="-9.8" y="0" dx="2" dy="2.5" layer="1"/>
-<smd name="P$17" x="9.8" y="0" dx="2" dy="2.5" layer="1"/>
-<wire x1="-11.05" y1="1.6" x2="-11.05" y2="5.55" width="0.2032" layer="51"/>
-<wire x1="11.05" y1="1.6" x2="11.05" y2="5.55" width="0.2032" layer="51"/>
-<wire x1="-11.05" y1="5.55" x2="11.05" y2="5.55" width="0.2032" layer="51"/>
-<wire x1="-11.05" y1="1.6" x2="-11.05" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="-11.05" y1="4.05" x2="11.05" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="11.05" y1="1.6" x2="11.05" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="-8.5" y1="-1.25" x2="-7.6" y2="-1.25" width="0.2032" layer="21"/>
+Reference:&lt;br&gt;
+&lt;a href=http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&gt;http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Created by:&lt;br&gt;
+&lt;i&gt;Idris&lt;/i&gt;</description>
+<smd name="1" x="-7" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="2" x="-6" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="3" x="-5" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="-4" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="5" x="-3" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="6" x="-2" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="7" x="-1" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="8" x="0" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="9" x="1" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="2" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="3" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="4" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="13" x="5" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="6" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="15" x="7" y="-2.4" dx="2.2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="P$16" x="-9.6" y="0" dx="1.8" dy="2.6" layer="1"/>
+<smd name="P$17" x="9.6" y="0" dx="1.8" dy="2.6" layer="1"/>
+<wire x1="-11" y1="-1.3" x2="11" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="-11" y1="-1.3" x2="-11" y2="4.1" width="0.2032" layer="51"/>
+<wire x1="11" y1="-1.3" x2="11" y2="4.1" width="0.2032" layer="51"/>
+<wire x1="-11" y1="4.1" x2="11" y2="4.1" width="0.2032" layer="51"/>
+<wire x1="-10" y1="1.6" x2="-10" y2="3" width="0.2032" layer="21"/>
+<wire x1="-10" y1="3" x2="10" y2="3" width="0.2032" layer="21"/>
+<wire x1="10" y1="1.6" x2="10" y2="3" width="0.2032" layer="21"/>
 <text x="-6.35" y="1.27" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-6.35" y="0" size="0.762" layer="51" font="vector" ratio="15">&gt;LABEL</text>
 <text x="-6.35" y="0" size="0.762" layer="21" font="vector" ratio="15">&gt;LABEL</text>
-<wire x1="7.6" y1="-1.25" x2="8.5" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-10.9" y1="4" x2="10.9" y2="4" width="0.2032" layer="21"/>
+<wire x1="-10.9" y1="4" x2="-10.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="3" x2="10" y2="3" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="4" x2="10.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="-10" y1="3" x2="-10.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="-7.6" y1="-1.2" x2="-8.4" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="7.6" y1="-1.2" x2="8.4" y2="-1.2" width="0.2032" layer="21"/>
 </package>
 <package name="USB-A-REC">
 <description>USB A Receptacle&lt;br&gt;

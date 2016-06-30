@@ -5670,7 +5670,7 @@ Size: 65mm x 30mm&lt;br&gt;
 </package>
 <package name="FPC-RA-B-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 19.6mm x 6.5mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Bottom&lt;br&gt;
@@ -5707,27 +5707,31 @@ Created by: Idris</description>
 </package>
 <package name="FPC-RA-T-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 22mm x 7.1mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Top&lt;br&gt;
 &lt;br&gt;
-Created by: Idris</description>
-<smd name="1" x="-7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="2" x="-6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="3" x="-5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="4" x="-4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="5" x="-3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="6" x="-2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="7" x="-1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="8" x="0" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="9" x="1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="10" x="2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="11" x="3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="12" x="4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="13" x="5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="14" x="6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="15" x="7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+Reference:&lt;br&gt;
+&lt;a href=http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&gt;http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Created by:&lt;br&gt;
+&lt;i&gt;Idris&lt;/i&gt;</description>
+<smd name="16" x="-7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="17" x="-6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="18" x="-5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="19" x="-4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="20" x="-3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="21" x="-2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="22" x="-1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="23" x="0" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="24" x="1" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="25" x="2" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="26" x="3" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="27" x="4" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="28" x="5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="29" x="6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="30" x="7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <smd name="P$16" x="-9.8" y="0" dx="2" dy="2.5" layer="1"/>
 <smd name="P$17" x="9.8" y="0" dx="2" dy="2.5" layer="1"/>
 <wire x1="-11.05" y1="1.6" x2="-11.05" y2="5.55" width="0.2032" layer="51"/>
@@ -10073,21 +10077,21 @@ SMT header is CONN-09042.</description>
 </device>
 <device name="_(RA-T-1MM)" package="FPC-RA-T-1X15-1MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="1" pad="16"/>
+<connect gate="G$1" pin="10" pad="25"/>
+<connect gate="G$1" pin="11" pad="26"/>
+<connect gate="G$1" pin="12" pad="27"/>
+<connect gate="G$1" pin="13" pad="28"/>
+<connect gate="G$1" pin="14" pad="29"/>
+<connect gate="G$1" pin="15" pad="30"/>
+<connect gate="G$1" pin="2" pad="17"/>
+<connect gate="G$1" pin="3" pad="18"/>
+<connect gate="G$1" pin="4" pad="19"/>
+<connect gate="G$1" pin="5" pad="20"/>
+<connect gate="G$1" pin="6" pad="21"/>
+<connect gate="G$1" pin="7" pad="22"/>
+<connect gate="G$1" pin="8" pad="23"/>
+<connect gate="G$1" pin="9" pad="24"/>
 </connects>
 <technologies>
 <technology name="">

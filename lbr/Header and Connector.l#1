@@ -5670,7 +5670,7 @@ Size: 65mm x 30mm&lt;br&gt;
 </package>
 <package name="FPC-RA-B-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 19.6mm x 6.5mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Bottom&lt;br&gt;
@@ -5707,12 +5707,16 @@ Created by: Idris</description>
 </package>
 <package name="FPC-RA-T-1X15-1MM">
 <description>FPC connector for Raspberry Pi CSI camera&lt;br&gt;
-Size: 22.1mm x 6.8mm&lt;br&gt;
+Size: 22mm x 7.1mm&lt;br&gt;
 Pitch: 1mm&lt;br&gt;
 Contact: 15&lt;br&gt;
 Contact Position: Top&lt;br&gt;
 &lt;br&gt;
-Created by: Idris</description>
+Reference:&lt;br&gt;
+&lt;a href=http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&gt;http://my.element14.com/wurth-elektronik/68611514122/connector-fpc-zif-15pos-1mm/dp/2520126&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Created by:&lt;br&gt;
+&lt;i&gt;Idris&lt;/i&gt;</description>
 <smd name="1" x="-7" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <smd name="2" x="-6" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <smd name="3" x="-5" y="-2.15" dx="2" dy="0.6" layer="1" roundness="50" rot="R90"/>
