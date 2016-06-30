@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="5" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="5" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1923,6 +1923,40 @@ Created by: Idris</description>
 <text x="1.651" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">6</text>
 <text x="2.921" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">7</text>
 <text x="4.191" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">8</text>
+</package>
+<package name="SW-PB-1212-4P-SMD">
+<description>Momentary Push Button - 4 pin&lt;br/&gt;
+Size: 12mm x 12mm&lt;br/&gt;
+&lt;br/&gt;
+Created by: Idris</description>
+<smd name="1" x="-7.25" y="2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
+<smd name="2" x="7.25" y="2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
+<smd name="3" x="-7.25" y="-2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
+<smd name="4" x="7.25" y="-2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
+<wire x1="-5" y1="-6" x2="5" y2="-6" width="0.2032" layer="51"/>
+<wire x1="6" y1="-5" x2="6" y2="5" width="0.2032" layer="51"/>
+<wire x1="5" y1="6" x2="-5" y2="6" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
+<wire x1="-6" y1="5" x2="-6" y2="-5" width="0.2032" layer="51"/>
+<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="51"/>
+<wire x1="5" y1="-6" x2="6" y2="-5" width="0.2032" layer="51"/>
+<wire x1="6" y1="5" x2="5" y2="6" width="0.2032" layer="51"/>
+<wire x1="-5" y1="6" x2="-6" y2="5" width="0.2032" layer="51"/>
+<wire x1="-5" y1="4.5" x2="-5" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-4.5" x2="-4.5" y2="-5" width="0.2032" layer="21" curve="90"/>
+<wire x1="-4.5" y1="-5" x2="4.5" y2="-5" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-5" x2="5" y2="-4.5" width="0.2032" layer="21" curve="90"/>
+<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="4.5" x2="4.5" y2="5" width="0.2032" layer="21" curve="90"/>
+<wire x1="4.5" y1="5" x2="-4.5" y2="5" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="5" x2="-5" y2="4.5" width="0.2032" layer="21" curve="90"/>
+<rectangle x1="-7.9" y1="-3" x2="-6" y2="-2" layer="51"/>
+<rectangle x1="-7.9" y1="2" x2="-6" y2="3" layer="51"/>
+<rectangle x1="6" y1="-3" x2="7.9" y2="-2" layer="51"/>
+<rectangle x1="6" y1="2" x2="7.9" y2="3" layer="51"/>
+<text x="0.127" y="1.246" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0.127" y="0" size="0.762" layer="21" font="vector" ratio="15" align="center">&gt;LABEL</text>
+<text x="0.127" y="0" size="0.762" layer="51" font="vector" ratio="15" align="center">&gt;LABEL</text>
 </package>
 </packages>
 <symbols>
@@ -3930,6 +3964,24 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(1212-4P-SMD)" package="SW-PB-1212-4P-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-SW-" constant="no"/>
+<attribute name="DESC" value="SMD Push Button - 4 Pins (12mm x 12mm)" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PNP-LIB" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="4 Pins" constant="no"/>
 </technology>
 </technologies>
 </device>
