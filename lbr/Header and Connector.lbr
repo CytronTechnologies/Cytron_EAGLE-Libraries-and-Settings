@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7791,7 +7791,6 @@ J8</text>
 <attribute name="CYTRON-PC" value="S8B-PH-SM4-TB" constant="no"/>
 <attribute name="DESC" value="SMD 8 Ways Connector (Right Angle)" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8 Ways" constant="no"/>
 </technology>
@@ -8137,7 +8136,6 @@ J8</text>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="SMD Male Header - 2x3" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3 Ways" constant="no"/>
 </technology>
@@ -8484,7 +8482,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Ways" constant="no"/>
 </technology>
@@ -8505,7 +8502,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Ways" constant="no"/>
 </technology>
@@ -8526,7 +8522,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -8738,7 +8733,6 @@ J8</text>
 <attribute name="DESC" value="RJ9 PCB connector" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4 pins" constant="no"/>
 </technology>
@@ -8766,7 +8760,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4 Pins" constant="no"/>
 </technology>
@@ -8908,7 +8901,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -8927,7 +8919,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -8954,7 +8945,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="MULTICOMP" constant="no"/>
 <attribute name="MPN" value="MJ4435-R" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -9249,7 +9239,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="436500424" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Ways" constant="no"/>
 </technology>
@@ -9276,7 +9265,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="4365003" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3 Ways" constant="no"/>
 </technology>
@@ -9306,7 +9294,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="2020" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="6 Ways" constant="no"/>
 </technology>
@@ -9334,7 +9321,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="2532" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4 Ways" constant="no"/>
 </technology>
@@ -9359,7 +9345,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -9388,7 +9373,6 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -9410,7 +9394,7 @@ J8</text>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="REMARKS" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
@@ -9669,7 +9653,6 @@ SMT header is CONN-09042.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -10081,7 +10064,6 @@ SMT header is CONN-09042.</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="FPC connector" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="Bottom contact" constant="no"/>
 <attribute name="VALUE" value="15 Ways" constant="no"/>
 </technology>
@@ -10110,7 +10092,6 @@ SMT header is CONN-09042.</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="FPC connector" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="Top contact" constant="no"/>
 <attribute name="VALUE" value="15 Ways" constant="no"/>
 </technology>
