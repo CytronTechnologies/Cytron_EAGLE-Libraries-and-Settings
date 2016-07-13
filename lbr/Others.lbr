@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="3" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="5" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="5" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1924,40 +1924,6 @@ Created by: Idris</description>
 <text x="2.921" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">7</text>
 <text x="4.191" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">8</text>
 </package>
-<package name="SW-PB-1212-4P-SMD">
-<description>Momentary Push Button - 4 pin&lt;br/&gt;
-Size: 12mm x 12mm&lt;br/&gt;
-&lt;br/&gt;
-Created by: Idris</description>
-<smd name="1" x="-7.25" y="2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
-<smd name="2" x="7.25" y="2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
-<smd name="3" x="-7.25" y="-2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
-<smd name="4" x="7.25" y="-2.5" dx="2" dy="1.2" layer="1" roundness="50"/>
-<wire x1="-5" y1="-6" x2="5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="6" y1="-5" x2="6" y2="5" width="0.2032" layer="51"/>
-<wire x1="5" y1="6" x2="-5" y2="6" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<wire x1="-6" y1="5" x2="-6" y2="-5" width="0.2032" layer="51"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="51"/>
-<wire x1="5" y1="-6" x2="6" y2="-5" width="0.2032" layer="51"/>
-<wire x1="6" y1="5" x2="5" y2="6" width="0.2032" layer="51"/>
-<wire x1="-5" y1="6" x2="-6" y2="5" width="0.2032" layer="51"/>
-<wire x1="-5" y1="4.5" x2="-5" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-4.5" x2="-4.5" y2="-5" width="0.2032" layer="21" curve="90"/>
-<wire x1="-4.5" y1="-5" x2="4.5" y2="-5" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-5" x2="5" y2="-4.5" width="0.2032" layer="21" curve="90"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="4.5" x2="4.5" y2="5" width="0.2032" layer="21" curve="90"/>
-<wire x1="4.5" y1="5" x2="-4.5" y2="5" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="5" x2="-5" y2="4.5" width="0.2032" layer="21" curve="90"/>
-<rectangle x1="-7.9" y1="-3" x2="-6" y2="-2" layer="51"/>
-<rectangle x1="-7.9" y1="2" x2="-6" y2="3" layer="51"/>
-<rectangle x1="6" y1="-3" x2="7.9" y2="-2" layer="51"/>
-<rectangle x1="6" y1="2" x2="7.9" y2="3" layer="51"/>
-<text x="0.127" y="1.246" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0.127" y="0" size="0.762" layer="21" font="vector" ratio="15" align="center">&gt;LABEL</text>
-<text x="0.127" y="0" size="0.762" layer="51" font="vector" ratio="15" align="center">&gt;LABEL</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -2663,7 +2629,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -2672,7 +2637,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 100K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100K" constant="no"/>
 </technology>
@@ -2681,7 +2645,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 100R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100R" constant="no"/>
 </technology>
@@ -2690,7 +2653,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 10K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
@@ -2699,7 +2661,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 10K 0805 1%" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K 1%" constant="no"/>
 </technology>
@@ -2708,7 +2669,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 10R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10R" constant="no"/>
 </technology>
@@ -2717,7 +2677,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 1K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
@@ -2726,7 +2685,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 1M 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1M" constant="no"/>
 </technology>
@@ -2735,7 +2693,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 1.5M 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1M5" constant="no"/>
 </technology>
@@ -2744,7 +2701,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 220K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="220K" constant="no"/>
 </technology>
@@ -2753,7 +2709,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 22K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="22K" constant="no"/>
 </technology>
@@ -2762,7 +2717,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 22K 0805 1%" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="22K 1%" constant="no"/>
 </technology>
@@ -2771,7 +2725,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 24K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24K" constant="no"/>
 </technology>
@@ -2780,7 +2733,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 2K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2K" constant="no"/>
 </technology>
@@ -2789,7 +2741,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 2.2K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2K2" constant="no"/>
 </technology>
@@ -2798,7 +2749,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 2.7K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2K7" constant="no"/>
 </technology>
@@ -2807,7 +2757,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 330R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="330R" constant="no"/>
 </technology>
@@ -2816,7 +2765,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 33R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33R" constant="no"/>
 </technology>
@@ -2825,7 +2773,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 470R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="470R" constant="no"/>
 </technology>
@@ -2834,7 +2781,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 47K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="47K" constant="no"/>
 </technology>
@@ -2843,7 +2789,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 47R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="47R" constant="no"/>
 </technology>
@@ -2852,7 +2797,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 4.7K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4K7" constant="no"/>
 </technology>
@@ -2861,7 +2805,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 4.7R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4R7" constant="no"/>
 </technology>
@@ -2870,7 +2813,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 560K 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="560K" constant="no"/>
 </technology>
@@ -2879,7 +2821,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 5.1R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5R1" constant="no"/>
 </technology>
@@ -2888,7 +2829,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 680R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="680R" constant="no"/>
 </technology>
@@ -2897,7 +2837,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 820R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS2012" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="820R" constant="no"/>
 </technology>
@@ -2962,7 +2901,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -2971,7 +2909,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
@@ -2980,7 +2917,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="120K" constant="no"/>
 </technology>
@@ -2989,7 +2925,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="160" constant="no"/>
 </technology>
@@ -2998,7 +2933,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
@@ -3007,7 +2941,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2K" constant="no"/>
 </technology>
@@ -3016,7 +2949,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3K9" constant="no"/>
 </technology>
@@ -3025,7 +2957,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3M3" constant="no"/>
 </technology>
@@ -3034,7 +2965,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="47K" constant="no"/>
 </technology>
@@ -3043,7 +2973,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="56K" constant="no"/>
 </technology>
@@ -3052,7 +2981,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="RS1608" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="6K8" constant="no"/>
 </technology>
@@ -3064,7 +2992,15 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="2" pad="1" route="any"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(2512)" package="2512">
@@ -3078,7 +3014,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3087,7 +3022,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="TE CONNECTIVITY" constant="no"/>
 <attribute name="MPN" value="RL73K3AR33JTDF" constant="no"/>
-<attribute name="PNP-LIB" value="RS2512" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="R33" constant="no"/>
 </technology>
@@ -3104,7 +3038,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Resistor 1W 2mR 6432 1%" constant="no"/>
 <attribute name="MF" value="TE Connectivity" constant="no"/>
 <attribute name="MPN" value="TLR3A10DR002FTDG" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2mR 1W 1%" constant="no"/>
 </technology>
@@ -3121,7 +3054,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2mR 5W" constant="no"/>
 </technology>
@@ -3154,7 +3086,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1M5" constant="no"/>
 </technology>
@@ -3179,7 +3110,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T?" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3188,7 +3118,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 0.01uF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T0.7" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.01uF" constant="no"/>
 </technology>
@@ -3197,7 +3126,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 0.1uF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T0.7" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
@@ -3206,7 +3134,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 10uF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T1.2" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
@@ -3215,7 +3142,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 1uF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T1.2" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1uF" constant="no"/>
 </technology>
@@ -3224,7 +3150,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T1.2" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2.2nF" constant="no"/>
 </technology>
@@ -3233,7 +3158,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 250V 4.7nF 0805 " constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="250V 4.7nF" constant="no"/>
 </technology>
@@ -3242,7 +3166,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 270pF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T0.7" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="270pF" constant="no"/>
 </technology>
@@ -3251,7 +3174,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 30pF 0805 " constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T0.7" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30pF" constant="no"/>
 </technology>
@@ -3260,7 +3182,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Ceramic Capacitor 560pF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T0.7" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="560pF" constant="no"/>
 </technology>
@@ -3277,7 +3198,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CC2012-T?" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3286,7 +3206,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.001UF" constant="no"/>
 </technology>
@@ -3295,7 +3214,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.01UF" constant="no"/>
 </technology>
@@ -3304,7 +3222,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.1UF" constant="no"/>
 </technology>
@@ -3313,7 +3230,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1UF" constant="no"/>
 </technology>
@@ -3338,7 +3254,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Inductor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="L5852-T4.5-CYL" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3347,7 +3262,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 250uH 0.3A CD54" constant="no"/>
 <attribute name="MF" value="JinXiangHai" constant="no"/>
 <attribute name="MPN" value="SP54-251-T" constant="no"/>
-<attribute name="PNP-LIB" value="L5852-T4.5-CYL" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="250uH" constant="no"/>
 </technology>
@@ -3356,7 +3270,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Inductor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4.7uH" constant="no"/>
 </technology>
@@ -3365,7 +3278,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 6.8uH 2.5A CD54" constant="no"/>
 <attribute name="MF" value="JinXiangHai" constant="no"/>
 <attribute name="MPN" value="SP54-6R8K-T" constant="no"/>
-<attribute name="PNP-LIB" value="L5852-T4.5-CYL" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="6.8uH" constant="no"/>
 </technology>
@@ -3382,7 +3294,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 100uH 3A JDO5022" constant="no"/>
 <attribute name="MF" value="JinXiangHai" constant="no"/>
 <attribute name="MPN" value="JDO5022-101M" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100uH" constant="no"/>
 </technology>
@@ -3391,7 +3302,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 33uH  5.5A JDO5022" constant="no"/>
 <attribute name="MF" value="JinXiangHai" constant="no"/>
 <attribute name="MPN" value="JDO5022-330M" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33uH" constant="no"/>
 </technology>
@@ -3408,7 +3318,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 68uH 1.68A JDO3340" constant="no"/>
 <attribute name="MF" value="JinXiangHai" constant="no"/>
 <attribute name="MPN" value="JDO3340-680M" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="68uH" constant="no"/>
 </technology>
@@ -3425,7 +3334,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Inductor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3442,7 +3350,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Inductor 330uH 0.25A SDRH5D28" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="SDRH5D28-331M" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="330uH" constant="no"/>
 </technology>
@@ -3469,7 +3376,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="D-SMA" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3478,7 +3384,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="15MQ040N" constant="no"/>
-<attribute name="PNP-LIB" value="D-SMA" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 3A" constant="no"/>
 </technology>
@@ -3487,7 +3392,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="MBRA140T" constant="no"/>
-<attribute name="PNP-LIB" value="D-SMA" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 1A" constant="no"/>
 </technology>
@@ -3504,7 +3408,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="Vishay" constant="no"/>
 <attribute name="MPN" value="SSB44-E3/52T" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 4A" constant="no"/>
 </technology>
@@ -3521,7 +3424,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="MULTICOMP" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 5A" constant="no"/>
 </technology>
@@ -3548,7 +3450,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-F55" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3557,7 +3458,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-F55" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="16V 100uF" constant="no"/>
 </technology>
@@ -3566,7 +3466,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-F55" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="16V 220uF" constant="no"/>
 </technology>
@@ -3575,7 +3474,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-F55" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="25V 47uF" constant="no"/>
 </technology>
@@ -3592,7 +3490,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-JA0" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3601,7 +3498,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Electrolytic Cap 35V 330uF JA0" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-JA0" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="35V 330uF" constant="no"/>
 </technology>
@@ -3610,7 +3506,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Electrolytic Cap 50V 330uF JA0" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-JA0" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="50V 330uF" constant="no"/>
 </technology>
@@ -3619,7 +3514,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Electrolytic Cap 63V 100uF JA0" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CHEMICON-JA0" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="63V 100uF" constant="no"/>
 </technology>
@@ -3741,7 +3635,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="LED3216" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3751,7 +3644,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="LED3216" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Green" constant="no"/>
 </technology>
@@ -3761,7 +3653,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="LED3216" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Orange" constant="no"/>
 </technology>
@@ -3771,7 +3662,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="LED3216" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Red" constant="no"/>
 </technology>
@@ -3822,7 +3712,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Zener Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD123" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3831,7 +3720,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Zener Diode 0.5W 12V SOD123" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD123" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="12V" constant="no"/>
 </technology>
@@ -3840,7 +3728,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Zener Diode 0.5W 3.3V SOD123" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD123" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V3" constant="no"/>
 </technology>
@@ -3857,7 +3744,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3866,7 +3752,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Zener Diode" constant="no"/>
 <attribute name="MF" value="NXP" constant="no"/>
 <attribute name="MPN" value="BZX384-C4V3" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD323" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4v3" constant="no"/>
 </technology>
@@ -3892,7 +3777,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SW6036-T2.4" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3910,7 +3794,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value=""/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3967,24 +3850,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
-<device name="_(1212-4P-SMD)" package="SW-PB-1212-4P-SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CYTRON-PC" value="S-SW-" constant="no"/>
-<attribute name="DESC" value="SMD Push Button - 4 Pins (12mm x 12mm)" constant="no"/>
-<attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="4 Pins" constant="no"/>
-</technology>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="XTAL" prefix="Y" uservalue="yes">
@@ -4006,7 +3871,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Crystal" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4015,7 +3879,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Crystal" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="CR-HC-49S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="20MHz" constant="no"/>
 </technology>
@@ -4032,7 +3895,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="32KHz Crystal" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP_LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="32.768KHz" constant="no"/>
 </technology>
@@ -4049,7 +3911,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="32KHz Crystal" constant="no"/>
 <attribute name="MF" value="FOX ELECTRONICS" constant="no"/>
 <attribute name="MPN" value="FSRLF327" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="32.768KHz" constant="no"/>
 </technology>
@@ -4074,7 +3935,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Tantalum Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="EIA3216-18" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4083,7 +3943,6 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Tantalum Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="EIA3216-18" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10V 22uF" constant="no"/>
 </technology>
@@ -4111,7 +3970,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="18650 Battery Holder - 1S" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3.7V" constant="no"/>
 </technology>
@@ -4128,7 +3986,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="AA Battery Tab - 2S" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V" constant="no"/>
 </technology>
@@ -4145,7 +4002,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="AA Battery Holder - 1S" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1.5V" constant="no"/>
 </technology>
@@ -4162,7 +4018,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="AA Battery Holder - 1S" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1.5V" constant="no"/>
 </technology>
@@ -4188,7 +4043,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="SM6T33CA" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33V 68A" constant="no"/>
 </technology>
@@ -4205,7 +4059,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="SM15T33A" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33V 169A" constant="no"/>
 </technology>
@@ -4214,7 +4067,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="SM15T56A" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="56V 100A" constant="no"/>
 </technology>
@@ -4239,7 +4091,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="DESC" value="SMD NTC Thermistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K@25C" constant="no"/>
 </technology>
@@ -4256,7 +4107,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="DESC" value="SMD NTC Thermistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K@25C" constant="no"/>
 </technology>
@@ -4296,7 +4146,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8 Ways" constant="no"/>
 </technology>
@@ -4328,7 +4177,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8 Ways" constant="no"/>
 </technology>
@@ -4387,7 +4235,6 @@ Size: 5.0 x 5.0mm</description>
 <attribute name="DESC" value="SMD RGB Addressable LED" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MPN" value="WS2812B" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="WS2812B, B means newer version, 4-pin" constant="no"/>
 </technology>
 </technologies>
@@ -4523,7 +4370,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD123" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4532,7 +4378,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Diode 1N4148 SOD123" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="1N4148" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD123" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100V 200mA" constant="no"/>
 </technology>
@@ -4549,7 +4394,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Diode" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="LL4148" constant="no"/>
-<attribute name="PNP-LIB" value="D-SOD80C" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100V 200mA" constant="no"/>
 </technology>
@@ -4566,7 +4410,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="FR107W" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1000V 1A" constant="no"/>
 </technology>
@@ -4593,7 +4436,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4617,14 +4459,21 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 <technology name="_(AYZ0202AGRLC)">
 <attribute name="CYTRON-PC" value="SW-SLIDE-SPDT-SMD" constant="no"/>
 <attribute name="DESC" value="SMD Slide Switch - DPDT" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="AYZ0202AGRLC" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4645,7 +4494,15 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="R" pad="R"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4668,7 +4525,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="8Ohm 2W" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8R2W" constant="no"/>
 </technology>
@@ -4694,7 +4550,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="Trimmer Potentialmeter" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -4725,7 +4580,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="SMD Resistor Network (Isolated)" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
@@ -4733,7 +4587,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="S-RN-1K-1206" constant="no"/>
 <attribute name="DESC" value="SMD Resistor Network (Isolated)" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
@@ -4764,7 +4617,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4 WAYS" constant="no"/>
 </technology>
@@ -4792,7 +4644,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4810,7 +4661,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4894,7 +4744,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Songle SPDT Relay SRD 05V" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 </technology>
 </technologies>

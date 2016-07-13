@@ -2044,45 +2044,6 @@ Created by: Wai Weng</description>
 <text x="0" y="3" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="2" size="0.762" layer="27" font="vector" ratio="15" align="bottom-center">&gt;MPN</text>
 </package>
-<package name="D2PAK-7">
-<description>D2PAK-7 Package&lt;br&gt;
-&lt;br&gt;
-Created by: Idris&lt;br&gt;</description>
-<smd name="G" x="-3.81" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="S1" x="-2.54" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="S2" x="-1.27" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="S3" x="1.27" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="S4" x="2.54" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="S5" x="3.81" y="-5.798" dx="0.889" dy="3.048" layer="1" roundness="50"/>
-<smd name="D" x="0" y="3.2004" dx="10.16" dy="10.922" layer="1" roundness="10"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="6.35" width="0.2032" layer="51"/>
-<wire x1="-5.08" y1="6.35" x2="-2.54" y2="7.62" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="7.62" x2="5.08" y2="6.35" width="0.2032" layer="51"/>
-<wire x1="5.08" y1="6.35" x2="5.08" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="5.08" y1="-1.905" x2="-5.08" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="-5.08" y1="5.08" x2="-4.445" y2="5.08" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="5.08" x2="-4.445" y2="0.365" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="0.365" x2="4.445" y2="0.365" width="0.127" layer="51"/>
-<wire x1="4.445" y1="0.365" x2="4.445" y2="5.08" width="0.127" layer="51"/>
-<wire x1="4.445" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="51"/>
-<rectangle x1="-1.524" y1="-6.985" x2="-1.016" y2="-1.905" layer="51"/>
-<rectangle x1="-2.794" y1="-6.985" x2="-2.286" y2="-1.905" layer="51"/>
-<rectangle x1="-4.064" y1="-6.985" x2="-3.556" y2="-1.905" layer="51"/>
-<rectangle x1="1.016" y1="-6.985" x2="1.524" y2="-1.905" layer="51"/>
-<rectangle x1="2.286" y1="-6.985" x2="2.794" y2="-1.905" layer="51"/>
-<rectangle x1="3.556" y1="-6.985" x2="4.064" y2="-1.905" layer="51"/>
-<rectangle x1="-0.254" y1="-3.683" x2="0.254" y2="-1.905" layer="51"/>
-<rectangle x1="-0.254" y1="-3.683" x2="0.254" y2="-2.54" layer="21"/>
-<rectangle x1="3.556" y1="-4.064" x2="4.064" y2="-2.54" layer="21"/>
-<rectangle x1="-4.064" y1="-4.064" x2="-3.556" y2="-2.54" layer="21"/>
-<rectangle x1="-2.794" y1="-4.064" x2="-2.286" y2="-2.54" layer="21"/>
-<rectangle x1="-1.524" y1="-4.064" x2="-1.016" y2="-2.54" layer="21"/>
-<rectangle x1="1.016" y1="-4.064" x2="1.524" y2="-2.54" layer="21"/>
-<rectangle x1="2.286" y1="-4.064" x2="2.794" y2="-2.54" layer="21"/>
-<text x="-5.08" y="9.144" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-1.397" y="-1.27" size="0.762" layer="27" font="vector" ratio="15">&gt;MPN</text>
-</package>
 </packages>
 <symbols>
 <symbol name="AP34063">
@@ -3569,7 +3530,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD IC - DC/DC Converter" constant="no"/>
 <attribute name="MF" value="Diodes Incorporated" constant="no"/>
 <attribute name="MPN" value="AP34063S8L-13" constant="no"/>
-<attribute name="PNP-LIB" value="SO-08" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3602,7 +3562,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD IC - 3 Axis Accelerometer" constant="no"/>
 <attribute name="MF" value="Analog Devices" constant="no"/>
 <attribute name="MPN" value="ADXL335" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3632,7 +3591,6 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="DESC" value="SMD Voltage Regulator (LDO)" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MCP1825S-3302E/DB" constant="no"/>
-<attribute name="PNP-LIB" value="SOT-223-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V3 500mA" constant="no"/>
 </technology>
@@ -3650,7 +3608,6 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="DESC" value="SMD Voltage Regulator" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="12V" constant="no"/>
 </technology>
@@ -3668,7 +3625,6 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="DESC" value="SMD Voltage Regulator" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -3686,7 +3642,6 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="DESC" value="SMD Voltage Regulator (LDO)" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3.3V 500mA" constant="no"/>
 </technology>
@@ -3704,7 +3659,6 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="DESC" value="1.0 A Low-Dropout Positive Voltage Regulators" constant="no"/>
 <attribute name="MF" value="Diodes" constant="no"/>
 <attribute name="MPN" value="AP1117E33G-13" constant="no"/>
-<attribute name="PNP-LIB" value="SOT-223-3" constant="no"/>
 <attribute name="REMARK" value="High Input Voltage up to 20V" constant="no"/>
 <attribute name="VALUE" value="3V3 1A" constant="no"/>
 </technology>
@@ -3732,7 +3686,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3741,7 +3694,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Mosfet NCE3080K DPAK" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE3080K" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30V 80A" constant="no"/>
 </technology>
@@ -3750,7 +3702,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Mosfet NCE30H12K DPAK" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE30H12K" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30V 120A" constant="no"/>
 </technology>
@@ -3759,7 +3710,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Mosfet NCE4080K DPAK" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE4080K" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 80A" constant="no"/>
 </technology>
@@ -3768,7 +3718,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S Mosfet NCE40H12K DPAK" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE40H12K" constant="no"/>
-<attribute name="PNP-LIB" value="DPAK" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 120A" constant="no"/>
 </technology>
@@ -3803,7 +3752,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="BSS138" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="50V 220mA" constant="no"/>
 </technology>
@@ -3812,7 +3760,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="NCE2302" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="20V 2.9A" constant="no"/>
 </technology>
@@ -3830,20 +3777,9 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE75H21D" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="75V 210A" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="_(D2PAK-7)" package="D2PAK-7">
-<connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S1 S2 S3 S4 S5"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3876,7 +3812,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD MOSFET - P Channel" constant="no"/>
 <attribute name="MF" value="VISHAY_SILICONIX" constant="no"/>
 <attribute name="MPN" value="Si7617DN" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="-30V -35A" constant="no"/>
 </technology>
@@ -3902,7 +3837,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Transistor - NPN" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3911,7 +3845,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S NPN Transistor MMBT2222A SOT-23" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30V 600mA" constant="no"/>
 </technology>
@@ -3920,7 +3853,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S NPN Transistor 3904 SOT23" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 100mA" constant="no"/>
 </technology>
@@ -3963,7 +3895,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -3972,7 +3903,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 500mA" constant="no"/>
 </technology>
@@ -3981,7 +3911,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40V 100mA" constant="no"/>
 </technology>
@@ -4012,7 +3941,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD IC - Half Bridge Driver" constant="no"/>
 <attribute name="MF" value="International Rectifier" constant="no"/>
 <attribute name="MPN" value="IR2184STR" constant="no"/>
-<attribute name="PNP-LIB" value="SO-08" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4043,7 +3971,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD IC - 555 Timer" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="NE555DT" constant="no"/>
-<attribute name="PNP-LIB" value="SO-08" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4084,7 +4011,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1847-I/SS" constant="no"/>
-<attribute name="PNP-LIB" value="SSOP-20" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4125,7 +4051,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1827-I/SO" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4155,7 +4080,6 @@ IC-09995</description>
 <attribute name="DESC" value="SMD IC - LiPo Charger" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MCP73831" constant="no"/>
-<attribute name="PNP-LIB" value="SOT23-5" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4183,7 +4107,6 @@ IC-09995</description>
 <attribute name="DESC" value="SMD Switching Voltage Regulator" constant="no"/>
 <attribute name="MF" value="National Semiconductor" constant="no"/>
 <attribute name="MPN" value="LM2596S-5.0" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -4213,7 +4136,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD Switching Voltage Regulator (High Voltage)" constant="no"/>
 <attribute name="MF" value="National Semiconductor" constant="no"/>
 <attribute name="MPN" value="LM2576HVS-5.0" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -4242,7 +4164,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD IC - Current Shunt Monitor" constant="no"/>
 <attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="INA214" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4285,7 +4206,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD IC - Full Bridge Driver" constant="no"/>
 <attribute name="MF" value="Intersil" constant="no"/>
 <attribute name="MPN" value="HIP4081AIB" constant="no"/>
-<attribute name="PNP-LIB" value="SO-20" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4329,7 +4249,6 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="POWERSO20" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4378,7 +4297,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="FTDI - USB to UART Converter" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="FT232RL" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4478,7 +4396,6 @@ This is the through-hole version of this chip.</description>
 <attribute name="DESC" value="ATMEGA328P" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4531,7 +4448,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1.2A/Channel" constant="no"/>
 </technology>
@@ -4571,7 +4487,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="Dual H-Bridge Motor Driver" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="DRV8833" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4608,7 +4523,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="Quadruple 2-input positive-NAND gate" constant="no"/>
 <attribute name="MF" value="Texas Instrument" constant="no"/>
 <attribute name="MPN" value="SN74HC00D" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4652,7 +4566,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="DIGI" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4684,7 +4597,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="TI" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -4806,7 +4718,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="PIC32MX575F512L" constant="no"/>
 <attribute name="MF" value="Microchip Technology Inc" constant="no"/>
 <attribute name="MPN" value="PIC32MX575F512L" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4845,7 +4756,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="SMD Touch Screen Controller" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="XPT2046" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4875,7 +4785,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="SMD Audio Amplifier" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="CECL2009" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4922,7 +4831,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="IMU MPU6050" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="MPU-6050" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4953,7 +4861,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="Digital Potentiometer" constant="no"/>
 <attribute name="MF" value="Microchip" constant="no"/>
 <attribute name="MPN" value="MCP4131-103E/SN" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
@@ -4984,7 +4891,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="ATTINY85-20PU" constant="no"/>
 <attribute name="MF" value="ATMEL" constant="no"/>
 <attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5007,7 +4913,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="ATTINY85-20SU" constant="no"/>
 <attribute name="MF" value="ATMEL" constant="no"/>
 <attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5038,7 +4943,15 @@ such as CW, CCW, short brake, and stop mode.</description>
 <connect gate="G$1" pin="VCC@4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5097,7 +5010,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="PIC18F4550" constant="no"/>
 <attribute name="MF" value="Microchip" constant="no"/>
 <attribute name="MPN" value="PIC18F4550" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="40 Pins" constant="no"/>
 </technology>
@@ -5124,7 +5036,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="MCP6001U" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Pins" constant="no"/>
 </technology>
@@ -5149,7 +5060,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5201,7 +5111,6 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5244,6 +5153,8 @@ This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interf
 <attribute name="CYTRON-PC" value="SMD-IC-FT231X" constant="no"/>
 <attribute name="DESC" value="USB to UART" constant="no"/>
 <attribute name="MPN" value="FT231X" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5304,7 +5215,6 @@ This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interf
 <attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1937-I/PT" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5343,7 +5253,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD IC - Op Amp" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MCP6004T-I/SL" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5411,6 +5320,11 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="">
 <attribute name="CYTRON-PC" value="NUC140LD2CN" constant="no"/>
 <attribute name="DESC" value="NUC140LD2CN" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5466,7 +5380,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="9DOF absolute IMU"/>
 <attribute name="MF" value="BOSCH"/>
 <attribute name="MPN" value="BNO055"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="MOUSER"/>
 </technology>
 </technologies>
@@ -5493,7 +5406,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="SMD Swithing Voltage Regulator" constant="no"/>
 <attribute name="MF" value="HTCKorea" constant="no"/>
 <attribute name="MPN" value="LM1501AR-5.0-5L" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -5526,7 +5438,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="Synchronous Boost Converter" constant="no"/>
 <attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS61030PWPR" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5554,7 +5465,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="Dual N-Channel MOSFET" constant="no"/>
 <attribute name="MF" value="Fortune Semiconductor" constant="no"/>
 <attribute name="MPN" value="FS8205A" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5583,7 +5493,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="Single Cell LiIo/LiPo Battery Protection IC" constant="no"/>
 <attribute name="MF" value="Fortune Semiconductor" constant="no"/>
 <attribute name="MPN" value="DW01" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5630,7 +5539,6 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 <attribute name="DESC" value="MP3 chipset" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="YX5200-24SS" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5661,7 +5569,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Low Power Dual Schmitt Trigger Inverter" constant="no"/>
 <attribute name="MF" value="NXP" constant="no"/>
 <attribute name="MPN" value="74AUP2G14GW" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5692,7 +5599,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="SMD 3.3V REG710 Charge Pump Regulator" constant="no"/>
 <attribute name="MF" value="Texas Instrument" constant="no"/>
 <attribute name="MPN" value="REG710NA-3.3" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V3" constant="no"/>
 </technology>
@@ -5741,7 +5647,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="DESC" value="S MOSFET Driver DRV8701E QFN-24" constant="no"/>
 <attribute name="MF" value="Texas Instrument" constant="no"/>
 <attribute name="MPN" value="DRV8701E" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5772,7 +5677,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Boost Converter" constant="no"/>
 <attribute name="MF" value="Texas Instrument" constant="no"/>
 <attribute name="MPN" value="TPS61221DCKT" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V3 200mA" constant="no"/>
 </technology>
@@ -5803,7 +5707,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="SMD IC - DC/DC Step-Down Voltage Regulator" constant="no"/>
 <attribute name="MF" value="Infineon Technologies" constant="no"/>
 <attribute name="MPN" value="IFX91041EJV50" constant="no"/>
-<attribute name="PNP-LIB" value="SO-08" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -5848,7 +5751,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="High-Speed MIPI Switch" constant="no"/>
 <attribute name="MF" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MPN" value="FSA642" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5895,7 +5797,6 @@ Created by: Idris</description>
 <attribute name="DESC" value="SMD H-Bridge Gate Driver QFN28" constant="no"/>
 <attribute name="MF" value="Monolithic Power Systems" constant="no"/>
 <attribute name="MPN" value="MP6528GR-Z" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5924,7 +5825,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="S Bridge Rectifier ABS8" constant="no"/>
 <attribute name="MF" value="Multicomp" constant="no"/>
 <attribute name="MPN" value="ABS8" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5955,7 +5855,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="S PWM Controller IW1700 SOT23-6" constant="no"/>
 <attribute name="MF" value="iWatt" constant="no"/>
 <attribute name="MPN" value="iW1700-01" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>

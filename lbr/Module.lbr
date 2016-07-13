@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1375,7 +1375,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="FM Radio Module" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="TEA5767" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1432,7 +1431,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Bluetooth Module" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HC-05" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1481,7 +1479,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Bluetooth Module" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HC-05" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1517,7 +1514,6 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1577,7 +1573,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="240x320, ILI9341 driver, A-Tops Electronics" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="AT032A9341W" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1629,7 +1624,6 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1725,7 +1719,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="Bluetooth LE module" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HM-10" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1764,7 +1757,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="ESP8266 WiFi Module 12" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="ESP12" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1805,7 +1797,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="ESP-WROOM-02 WiFi Module" constant="no"/>
 <attribute name="MF" value="Espressif" constant="no"/>
 <attribute name="MPN" value="ESP-WROOM-02" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1838,7 +1829,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="ESP-WROOM-02 WiFi Module" constant="no"/>
 <attribute name="MF" value="Espressif" constant="no"/>
 <attribute name="MPN" value="ESP-WROOM-02" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -1867,7 +1857,6 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="PIR Sensor - HM412" constant="no"/>
 <attribute name="MF" value="Nanyang Senba" constant="no"/>
 <attribute name="MPN" value="HM412" constant="no"/>
-<attribute name="PNP-LIB" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 </technology>
 </technologies>
