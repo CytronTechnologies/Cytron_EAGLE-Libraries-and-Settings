@@ -1762,14 +1762,14 @@ Created by: Wai Weng</description>
 <description>Transformer - EE10&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
-<pad name="4" x="-3.75" y="5.25" drill="0.8"/>
-<pad name="3" x="-1.25" y="5.25" drill="0.8"/>
-<pad name="2" x="1.25" y="5.25" drill="0.8"/>
-<pad name="1" x="3.75" y="5.25" drill="0.8" shape="square"/>
-<pad name="8" x="3.75" y="-5.25" drill="0.8"/>
-<pad name="7" x="1.25" y="-5.25" drill="0.8"/>
-<pad name="6" x="-1.25" y="-5.25" drill="0.8"/>
-<pad name="5" x="-3.75" y="-5.25" drill="0.8"/>
+<pad name="1" x="-3.75" y="5.25" drill="0.8" shape="square"/>
+<pad name="2" x="-1.25" y="5.25" drill="0.8"/>
+<pad name="3" x="1.25" y="5.25" drill="0.8"/>
+<pad name="4" x="3.75" y="5.25" drill="0.8"/>
+<pad name="5" x="3.75" y="-5.25" drill="0.8"/>
+<pad name="6" x="1.25" y="-5.25" drill="0.8"/>
+<pad name="7" x="-1.25" y="-5.25" drill="0.8"/>
+<pad name="8" x="-3.75" y="-5.25" drill="0.8"/>
 <wire x1="-5.5" y1="6.75" x2="5.5" y2="6.75" width="0.2032" layer="51"/>
 <wire x1="5.5" y1="6.75" x2="5.5" y2="-6.75" width="0.2032" layer="51"/>
 <wire x1="5.5" y1="-6.75" x2="-5.5" y2="-6.75" width="0.2032" layer="51"/>
@@ -2672,6 +2672,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10R" constant="no"/>
 </technology>
+<technology name="_15K">
+<attribute name="CYTRON-PC" value="S-R-15K-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 15K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="15K" constant="no"/>
+</technology>
 <technology name="_1K">
 <attribute name="CYTRON-PC" value="S-R-1K-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 1K 0805" constant="no"/>
@@ -2679,6 +2687,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+<technology name="_1K5">
+<attribute name="CYTRON-PC" value="S-R-1K5-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 1.5K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1K5" constant="no"/>
 </technology>
 <technology name="_1M">
 <attribute name="CYTRON-PC" value="S-R-1M-85" constant="no"/>
@@ -2728,6 +2744,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24K" constant="no"/>
 </technology>
+<technology name="_27R">
+<attribute name="CYTRON-PC" value="S-R-27-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 27R 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="27R" constant="no"/>
+</technology>
 <technology name="_2K">
 <attribute name="CYTRON-PC" value="S-R-2K-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 2K 0805" constant="no"/>
@@ -2760,6 +2784,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="330R" constant="no"/>
 </technology>
+<technology name="_33K">
+<attribute name="CYTRON-PC" value="S-R-33K-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 33K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33K" constant="no"/>
+</technology>
 <technology name="_33R">
 <attribute name="CYTRON-PC" value="S-R-33-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 33R 0805" constant="no"/>
@@ -2767,6 +2799,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33R" constant="no"/>
+</technology>
+<technology name="_470K">
+<attribute name="CYTRON-PC" value="S-R-470K-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 470K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="470K" constant="no"/>
 </technology>
 <technology name="_470R">
 <attribute name="CYTRON-PC" value="S-R-470-85" constant="no"/>
@@ -2785,7 +2825,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="47K" constant="no"/>
 </technology>
 <technology name="_47R">
-<attribute name="CYTRON-PC" value="SMD-RS-47" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-47R-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 47R 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -2831,6 +2871,22 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="680R" constant="no"/>
+</technology>
+<technology name="_68R">
+<attribute name="CYTRON-PC" value="S-R-68-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 68R 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="68R" constant="no"/>
+</technology>
+<technology name="_7K8">
+<attribute name="CYTRON-PC" value="S-R-7K8-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 7.8K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="7K8" constant="no"/>
 </technology>
 <technology name="_820R">
 <attribute name="CYTRON-PC" value="S-R-820-85" constant="no"/>
@@ -2897,23 +2953,47 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-RS-?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-?-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
+<technology name="_100K">
+<attribute name="CYTRON-PC" value="S-R-100K-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100K" constant="no"/>
+</technology>
+<technology name="_100R">
+<attribute name="CYTRON-PC" value="S-R-100R-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
 <technology name="_10K">
-<attribute name="CYTRON-PC" value="SMD-RS-10K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-10K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
+<technology name="_10R">
+<attribute name="CYTRON-PC" value="S-R-10R-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="10R" constant="no"/>
+</technology>
 <technology name="_120K">
-<attribute name="CYTRON-PC" value="SMD-RS-120K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-120K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -2921,31 +3001,95 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="120K" constant="no"/>
 </technology>
 <technology name="_160">
-<attribute name="CYTRON-PC" value="SMD-RS-160" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-160R-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="160" constant="no"/>
+<attribute name="VALUE" value="160R" constant="no"/>
 </technology>
 <technology name="_1K">
-<attribute name="CYTRON-PC" value="SMD-RS-1K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-1K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
+<technology name="_1M">
+<attribute name="CYTRON-PC" value="S-R-1M-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+<technology name="_200K">
+<attribute name="CYTRON-PC" value="S-R-200K-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="200K" constant="no"/>
+</technology>
+<technology name="_220R">
+<attribute name="CYTRON-PC" value="S-R-220R-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="220R" constant="no"/>
+</technology>
+<technology name="_22K">
+<attribute name="CYTRON-PC" value="S-R-22K-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="22K" constant="no"/>
+</technology>
 <technology name="_2K">
-<attribute name="CYTRON-PC" value="SMD-RS-2K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-2K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2K" constant="no"/>
 </technology>
+<technology name="_2K2">
+<attribute name="CYTRON-PC" value="S-R-2K2-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2K2" constant="no"/>
+</technology>
+<technology name="_2K7">
+<attribute name="CYTRON-PC" value="S-R-2K7-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2K7" constant="no"/>
+</technology>
+<technology name="_2M2">
+<attribute name="CYTRON-PC" value="S-R-2M2-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2M2" constant="no"/>
+</technology>
+<technology name="_330R">
+<attribute name="CYTRON-PC" value="S-R-330-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="330R" constant="no"/>
+</technology>
 <technology name="_3K9">
-<attribute name="CYTRON-PC" value="SMD-RS-3K9" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-3K9-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -2953,7 +3097,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="3K9" constant="no"/>
 </technology>
 <technology name="_3M3">
-<attribute name="CYTRON-PC" value="SMD-RS-3M3" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-3M3-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -2961,23 +3105,55 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="3M3" constant="no"/>
 </technology>
 <technology name="_47K">
-<attribute name="CYTRON-PC" value="SMD-RS-47K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-47K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="47K" constant="no"/>
 </technology>
+<technology name="_47R">
+<attribute name="CYTRON-PC" value="S-R-47R-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="47R" constant="no"/>
+</technology>
+<technology name="_4K7">
+<attribute name="CYTRON-PC" value="S-R-4K7-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="4K7" constant="no"/>
+</technology>
 <technology name="_56K">
-<attribute name="CYTRON-PC" value="SMD-RS-56K" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-56K-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="56K" constant="no"/>
 </technology>
+<technology name="_5M1">
+<attribute name="CYTRON-PC" value="S-R-5M1-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="5M1" constant="no"/>
+</technology>
+<technology name="_68K">
+<attribute name="CYTRON-PC" value="S-R-68K-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="68K" constant="no"/>
+</technology>
 <technology name="_6K8">
-<attribute name="CYTRON-PC" value="SMD-RS-6K8" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-6K8-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3129,6 +3305,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
+<technology name="_100V_10NF">
+<attribute name="CYTRON-PC" value="S-CC-100-10N-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 100V 10nF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100V 10nF" constant="no"/>
+</technology>
 <technology name="_10UF">
 <attribute name="CYTRON-PC" value="S-CC-10U-85" constant="no"/>
 <attribute name="DESC" value="S Ceramic Capacitor 10uF 0805" constant="no"/>
@@ -3136,6 +3320,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_15PF">
+<attribute name="CYTRON-PC" value="S-CC-15P-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 15pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="15pF" constant="no"/>
 </technology>
 <technology name="_1UF">
 <attribute name="CYTRON-PC" value="S-CC-1U-85" constant="no"/>
@@ -3153,8 +3345,16 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2.2nF" constant="no"/>
 </technology>
+<technology name="_22PF">
+<attribute name="CYTRON-PC" value="S-CC-22P-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 22pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
+</technology>
 <technology name="_250V_4.7NF">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-4.7N-85" constant="no"/>
 <attribute name="DESC" value="S Ceramic Capacitor 250V 4.7nF 0805 " constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3176,6 +3376,30 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30pF" constant="no"/>
+</technology>
+<technology name="_470NF">
+<attribute name="CYTRON-PC" value="S-CC-470N-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 470nF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="CYTRON-PC" value="S-CC-470P-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 470pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_47PF">
+<attribute name="CYTRON-PC" value="S-CC-47P-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 47pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="47pF" constant="no"/>
 </technology>
 <technology name="_560PF">
 <attribute name="CYTRON-PC" value="S-CC-560P-85" constant="no"/>
@@ -3201,37 +3425,61 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
-<technology name="_0.001UF">
-<attribute name="CYTRON-PC" value="SMD-CP-0.001UF" constant="no"/>
-<attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="0.001UF" constant="no"/>
-</technology>
-<technology name="_0.01UF">
-<attribute name="CYTRON-PC" value="SMD-CP-0.01UF" constant="no"/>
-<attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="0.01UF" constant="no"/>
-</technology>
 <technology name="_0.1UF">
-<attribute name="CYTRON-PC" value="SMD-CP-0.1UF" constant="no"/>
-<attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-100N-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 0.1uF 0603" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="0.1UF" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="CYTRON-PC" value="S-CC-10N-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 10nF 0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_12PF">
+<attribute name="CYTRON-PC" value="S-CC-12P-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 12pF 0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="12pF" constant="no"/>
+</technology>
+<technology name="_1NF">
+<attribute name="CYTRON-PC" value="S-CC-1N-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 1nF 0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
 </technology>
 <technology name="_1UF">
-<attribute name="CYTRON-PC" value="SMD-CP-1UF" constant="no"/>
-<attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-1U-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 1uF 0603" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="1UF" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_30PF">
+<attribute name="CYTRON-PC" value="S-CC-30P-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 30pF 0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="30pF" constant="no"/>
+</technology>
+<technology name="_560PF">
+<attribute name="CYTRON-PC" value="S-CC-560P-63" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 560pF 0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="560pF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3454,7 +3702,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
 <technology name="_16V100UF">
-<attribute name="CYTRON-PC" value="S-EC-16-100U" constant="no"/>
+<attribute name="CYTRON-PC" value="S-EC-16-100U-F55" constant="no"/>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3462,7 +3710,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="16V 100uF" constant="no"/>
 </technology>
 <technology name="_16V220UF">
-<attribute name="CYTRON-PC" value="S-EC-16-220U" constant="no"/>
+<attribute name="CYTRON-PC" value="S-EC-16-220U-F55" constant="no"/>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3470,7 +3718,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="16V 220uF" constant="no"/>
 </technology>
 <technology name="_25V47UF">
-<attribute name="CYTRON-PC" value="S-EC-25-47U" constant="no"/>
+<attribute name="CYTRON-PC" value="S-EC-25-47U-F55" constant="no"/>
 <attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3492,6 +3740,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_16V680UF">
+<attribute name="CYTRON-PC" value="S-EC-16-680U-JA0" constant="no"/>
+<attribute name="DESC" value="S Electrolytic Cap 16V 680uF JA0" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="16V 680uF" constant="no"/>
 </technology>
 <technology name="_35V330UF">
 <attribute name="CYTRON-PC" value="S-EC-35-330U-JA0" constant="no"/>
@@ -3945,6 +4201,14 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10V 22uF" constant="no"/>
+</technology>
+<technology name="_16V1UF">
+<attribute name="CYTRON-PC" value="S-TC-16-1U-3216" constant="no"/>
+<attribute name="DESC" value="S Tantalum Capacitor 16V 1uF 3216" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="16V 1uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4577,7 +4841,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="_10K">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-RN-10K-1206" constant="no"/>
 <attribute name="DESC" value="SMD Resistor Network (Isolated)" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
