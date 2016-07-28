@@ -3587,7 +3587,7 @@ Modified by: Wai Weng&lt;br&gt;
 </connects>
 <technologies>
 <technology name="_MCP1825S-33">
-<attribute name="CYTRON-PC" value="SMD-IC-MCP1825S" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-3.3-MCP1825S" constant="no"/>
 <attribute name="DESC" value="SMD Voltage Regulator (LDO)" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MCP1825S-3302E/DB" constant="no"/>
@@ -3604,9 +3604,9 @@ Modified by: Wai Weng&lt;br&gt;
 </connects>
 <technologies>
 <technology name="_7812">
-<attribute name="CYTRON-PC" value="S-VR-7812" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-7812-DPAK" constant="no"/>
 <attribute name="DESC" value="SMD Voltage Regulator" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="MF" value="ON semiconductor" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="12V" constant="no"/>
@@ -3621,9 +3621,9 @@ Modified by: Wai Weng&lt;br&gt;
 </connects>
 <technologies>
 <technology name="_1117-5.0">
-<attribute name="CYTRON-PC" value="SMD-VR-NCP1117" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-NCP1117-DPAK" constant="no"/>
 <attribute name="DESC" value="SMD Voltage Regulator" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="MF" value="ON Semiconductor" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
@@ -3641,6 +3641,14 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="SMD Voltage Regulator (LDO)" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="3.3V 500mA" constant="no"/>
+</technology>
+<technology name="_RT9013-33GB">
+<attribute name="CYTRON-PC" value="S-VR-RT9013-33GB-SOT23" constant="no"/>
+<attribute name="DESC" value="S 3.3V Regulator RT9013-33GB SOT23-5" constant="no"/>
+<attribute name="MF" value="RICHTEK" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3.3V 500mA" constant="no"/>
@@ -3748,7 +3756,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="_BSS138">
-<attribute name="CYTRON-PC" value="SMD-TR-BSS138" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-BSS138-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="BSS138" constant="no"/>
@@ -3763,6 +3771,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="20V 2.9A" constant="no"/>
 </technology>
+<technology name="_SI2312BDS">
+<attribute name="CYTRON-PC" value="S-Q-SI2312BD-SOT23" constant="no"/>
+<attribute name="DESC" value="S Mosfet SI2312BDS SOT23" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(TO-263)" package="TO-263-2">
@@ -3773,7 +3789,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="_NCE75H21D">
-<attribute name="CYTRON-PC" value="S-TR-NCE75H21D" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-NCE75H21D-TO263" constant="no"/>
 <attribute name="DESC" value="SMD MOSFET - N Channel" constant="no"/>
 <attribute name="MF" value="NCE Power" constant="no"/>
 <attribute name="MPN" value="NCE75H21D" constant="no"/>
@@ -3797,7 +3813,22 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_NCE40P70K_">
+<attribute name="CYTRON-PC" value="S-Q-NCE40P70K-DPAK" constant="no"/>
+<attribute name="DESC" value="S Mosfet NCE40P70K P Channel DPAK" constant="no"/>
+<attribute name="MF" value="NCEPOWER" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="-40V -70A" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="" package="POWERPAK-1212-8-SINGLE">
@@ -3808,8 +3839,16 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-SI7617DN-T1" constant="no"/>
-<attribute name="DESC" value="SMD MOSFET - P Channel" constant="no"/>
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_SI7617DN">
+<attribute name="CYTRON-PC" value="S-Q-SI7617DN-T1" constant="no"/>
+<attribute name="DESC" value="S P Mosfet SI7617DN-T1-GE3 PowerPAK 1212" constant="no"/>
 <attribute name="MF" value="VISHAY_SILICONIX" constant="no"/>
 <attribute name="MPN" value="Si7617DN" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -3899,7 +3938,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
 <technology name="_MMBT2907">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-2907-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3907,7 +3946,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="40V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT3906">
-<attribute name="CYTRON-PC" value="SMD-TR-3906" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-3906-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -4103,7 +4142,7 @@ IC-09995</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-LM2596S-5.0-TO263" constant="no"/>
 <attribute name="DESC" value="SMD Switching Voltage Regulator" constant="no"/>
 <attribute name="MF" value="National Semiconductor" constant="no"/>
 <attribute name="MPN" value="LM2596S-5.0" constant="no"/>
@@ -4132,9 +4171,9 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="HV">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-LM2576HVS-5.0-TO263" constant="no"/>
 <attribute name="DESC" value="SMD Switching Voltage Regulator (High Voltage)" constant="no"/>
-<attribute name="MF" value="National Semiconductor" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LM2576HVS-5.0" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
@@ -5056,9 +5095,9 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-IRLML6402-SOT23" constant="no"/>
+<attribute name="DESC" value="S Mosfet IRLML6402PBF SOT23" constant="no"/>
+<attribute name="MF" value="IR" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
@@ -5434,7 +5473,7 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-5-TPS61032-TSSOP16" constant="no"/>
 <attribute name="DESC" value="Synchronous Boost Converter" constant="no"/>
 <attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS61030PWPR" constant="no"/>
@@ -5461,7 +5500,7 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-Q-FS8205A-SSOP8" constant="no"/>
 <attribute name="DESC" value="Dual N-Channel MOSFET" constant="no"/>
 <attribute name="MF" value="Fortune Semiconductor" constant="no"/>
 <attribute name="MPN" value="FS8205A" constant="no"/>

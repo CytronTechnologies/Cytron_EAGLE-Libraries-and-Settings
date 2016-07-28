@@ -3651,8 +3651,16 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
+<technology name="_MBRS360BT3G">
+<attribute name="CYTRON-PC" value="S-D-MBRS360BT3G-SMB" constant="no"/>
+<attribute name="DESC" value="S Schottky Diode 60V 3A SMB" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="60V 3A" constant="no"/>
+</technology>
 <technology name="_SSB44">
-<attribute name="CYTRON-PC" value="S-DI-SSB44" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-SSB44-SMB" constant="no"/>
 <attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
 <attribute name="MF" value="Vishay" constant="no"/>
 <attribute name="MPN" value="SSB44-E3/52T" constant="no"/>
@@ -3987,6 +3995,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3V3" constant="no"/>
 </technology>
+<technology name="_0.5W3.6V">
+<attribute name="CYTRON-PC" value="S-D-ZD05W3.6V-SOD123" constant="no"/>
+<attribute name="DESC" value="S Zener Diode 0.5W 3.6V SOD123" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="3V6" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(SOD-323)" package="D-SOD-323">
@@ -4303,9 +4319,9 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 </connects>
 <technologies>
 <technology name="_SM6T33CA">
-<attribute name="CYTRON-PC" value="SMD-DI-?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-SM6T33CA-SMB" constant="no"/>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
-<attribute name="MF" value="STMicroelectronics" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
 <attribute name="MPN" value="SM6T33CA" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33V 68A" constant="no"/>
@@ -4319,7 +4335,7 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 </connects>
 <technologies>
 <technology name="_SM15T33A">
-<attribute name="CYTRON-PC" value="SMD-DI-?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-SM15T33A-SMC" constant="no"/>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="SM15T33A" constant="no"/>
@@ -4327,7 +4343,7 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="VALUE" value="33V 169A" constant="no"/>
 </technology>
 <technology name="_SM15T56A">
-<attribute name="CYTRON-PC" value="SMD-DI-?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-SM15T56A-SMC" constant="no"/>
 <attribute name="DESC" value="SMD TVS Diode" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="SM15T56A" constant="no"/>
