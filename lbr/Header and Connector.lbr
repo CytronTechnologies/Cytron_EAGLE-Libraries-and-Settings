@@ -8517,11 +8517,11 @@ J8</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="CN-USB-MH" constant="no"/>
-<attribute name="DESC" value="USB Mini B Socket" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-USB-MH" constant="no"/>
+<attribute name="DESC" value="S USB Connector Mini Horizontal" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="KINSUN" constant="no"/>
+<attribute name="MPN" value="6130A10100" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Ways" constant="no"/>
 </technology>
@@ -8936,11 +8936,11 @@ J8</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-HL2527" constant="no"/>
 <attribute name="DESC" value="DC Power Jack (SMD)" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="LONGFA" constant="no"/>
+<attribute name="MPN" value="DC-050" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>

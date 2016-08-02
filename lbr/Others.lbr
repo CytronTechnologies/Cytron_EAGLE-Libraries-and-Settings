@@ -4146,10 +4146,34 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
+<technology name="_10MHZ">
+<attribute name="CYTRON-PC" value="S-CR-10M-H49S" constant="no"/>
+<attribute name="DESC" value="S Crystal 10Mhz H49S" constant="no"/>
+<attribute name="MF" value="TXC" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="10MHz" constant="no"/>
+</technology>
+<technology name="_12MHZ">
+<attribute name="CYTRON-PC" value="S-CR-12M-H49S" constant="no"/>
+<attribute name="DESC" value="S Crystal 12Mhz H49S" constant="no"/>
+<attribute name="MF" value="SJK" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="12MHz" constant="no"/>
+</technology>
+<technology name="_16MHZ">
+<attribute name="CYTRON-PC" value="S-CR-16M-H49S" constant="no"/>
+<attribute name="DESC" value="S Crystal 16Mhz H49S" constant="no"/>
+<attribute name="MF" value="TXC" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="16MHz" constant="no"/>
+</technology>
 <technology name="_20MHZ">
-<attribute name="CYTRON-PC" value="CR-H49SMD-20M" constant="no"/>
-<attribute name="DESC" value="SMD Crystal" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CR-20M-H49S" constant="no"/>
+<attribute name="DESC" value="S Crystal 20Mhz H49S" constant="no"/>
+<attribute name="MF" value="TXC" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="20MHz" constant="no"/>
@@ -4511,7 +4535,7 @@ Size: 5.0 x 5.0mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-DS-WS2812B-5050" constant="no"/>
 <attribute name="DESC" value="SMD RGB Addressable LED" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MPN" value="WS2812B" constant="no"/>

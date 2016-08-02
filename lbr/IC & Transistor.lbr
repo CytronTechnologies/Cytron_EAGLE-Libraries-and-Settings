@@ -3558,10 +3558,10 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="IC-ADXL335" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-ADXL335-LFCSP-LQ" constant="no"/>
 <attribute name="DESC" value="SMD IC - 3 Axis Accelerometer" constant="no"/>
 <attribute name="MF" value="Analog Devices" constant="no"/>
-<attribute name="MPN" value="ADXL335" constant="no"/>
+<attribute name="MPN" value="ADXL335BCPZ" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
