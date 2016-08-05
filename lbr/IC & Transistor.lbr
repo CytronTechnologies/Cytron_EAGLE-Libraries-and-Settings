@@ -3526,8 +3526,8 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-APS34063" constant="no"/>
-<attribute name="DESC" value="SMD IC - DC/DC Converter" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-APS34063-SO8" constant="no"/>
+<attribute name="DESC" value="S Switching Regulator APS34063 SO8" constant="no"/>
 <attribute name="MF" value="Diodes Incorporated" constant="no"/>
 <attribute name="MPN" value="AP34063S8L-13" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -3976,10 +3976,10 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-IR2184" constant="no"/>
-<attribute name="DESC" value="SMD IC - Half Bridge Driver" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-IR2184-SO8" constant="no"/>
+<attribute name="DESC" value="S Half Bridge Driver IR2148 SO8" constant="no"/>
 <attribute name="MF" value="International Rectifier" constant="no"/>
-<attribute name="MPN" value="IR2184STR" constant="no"/>
+<attribute name="MPN" value="IR2184STRPBF" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4006,8 +4006,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-LM555" constant="no"/>
-<attribute name="DESC" value="SMD IC - 555 Timer" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-LM555-SO8" constant="no"/>
+<attribute name="DESC" value="S Timer LM555 SO8" constant="no"/>
 <attribute name="MF" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="NE555DT" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4046,8 +4046,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-PIC16F1847-ISS" constant="no"/>
-<attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-PIC16F1847-SSOP20" constant="no"/>
+<attribute name="DESC" value="S PIC16F1847-I/SS SSOP-20" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1847-I/SS" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4086,8 +4086,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="IC-PIC-16F1827" constant="no"/>
-<attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-PIC16F1827-SO18" constant="no"/>
+<attribute name="DESC" value="S PIC16F1827-I/SO SO18" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1827-I/SO" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4115,10 +4115,10 @@ IC-09995</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="SMD IC - LiPo Charger" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-MCP73831-SOT235" constant="no"/>
+<attribute name="DESC" value="S Li-ion Charger MCP73831T SOT235" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="MCP73831" constant="no"/>
+<attribute name="MPN" value="MCP73831T-2ACI/OT" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4241,10 +4241,10 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-?" constant="no"/>
-<attribute name="DESC" value="SMD IC - Full Bridge Driver" constant="no"/>
-<attribute name="MF" value="Intersil" constant="no"/>
-<attribute name="MPN" value="HIP4081AIB" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-HIP4081AIB-SO20" constant="no"/>
+<attribute name="DESC" value="S H Bridge HIP4081AIB SO20" constant="no"/>
+<attribute name="MF" value="INTERSIL" constant="no"/>
+<attribute name="MPN" value="HIP4081AIBZT" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4283,11 +4283,11 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="SMD Dual Full-Bridge Driver" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-L298P013TR-PSO20" constant="no"/>
+<attribute name="DESC" value="S Dual Full-Bridge Driver L298P013TR" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="ST" constant="no"/>
+<attribute name="MPN" value="298P013TR" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4332,9 +4332,9 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-FTDI"/>
-<attribute name="DESC" value="FTDI - USB to UART Converter" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-FT232RL-SSOP28"/>
+<attribute name="DESC" value="S USB UART FT232RL SSOP28" constant="no"/>
+<attribute name="MF" value="FTDI" constant="no"/>
 <attribute name="MPN" value="FT232RL" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
@@ -4431,10 +4431,10 @@ This is the through-hole version of this chip.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-ATMEGA328P" constant="no"/>
-<attribute name="DESC" value="ATMEGA328P" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATMEGA328P" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-ATMEGA328-TQFP32" constant="no"/>
+<attribute name="DESC" value="S Microcontroller ATMEGA328P TQFP32" constant="no"/>
+<attribute name="MF" value="ATMEL" constant="no"/>
+<attribute name="MPN" value="ATMEGA328P-AU" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -4631,12 +4631,13 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-IC-74LVC2G241" constant="no"/>
-<attribute name="DESC" value="Dual 3-state buffer" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-74LVC2G241-SSOP8" constant="no"/>
+<attribute name="DESC" value="S Dual 3-state buffer 74LVC2G241 SSOP-8" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="TI" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="SN74LVC2G241DCTR" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4820,9 +4821,9 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-IC-CECL2009" constant="no"/>
-<attribute name="DESC" value="SMD Audio Amplifier" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-CECL2009-SO8" constant="no"/>
+<attribute name="DESC" value="S Audio Amp CECL2009 SO8" constant="no"/>
+<attribute name="MF" value="CHIPKINGDOM" constant="no"/>
 <attribute name="MPN" value="CECL2009" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
@@ -4903,6 +4904,14 @@ such as CW, CCW, short brake, and stop mode.</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
+<technology name="_MCP4131T">
+<attribute name="CYTRON-PC" value="S-IC-MCP4131T-SO8" constant="no"/>
+<attribute name="DESC" value="S Digital POT MCP4131T-503E/SN SO8" constant="no"/>
+<attribute name="MF" value="MICROCHIP" constant="no"/>
+<attribute name="MPN" value="MCP4131T-503E/SN" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4948,8 +4957,8 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-ATTINY85" constant="no"/>
-<attribute name="DESC" value="ATTINY85-20SU" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-ATTINY85-WSO8" constant="no"/>
+<attribute name="DESC" value="S ATTINY85-20SU WSOIC8" constant="no"/>
 <attribute name="MF" value="ATMEL" constant="no"/>
 <attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4983,11 +4992,11 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-TL074CD-SO14" constant="no"/>
+<attribute name="DESC" value="S 4 Ch Op Amps TL074CD SO14" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="ST" constant="no"/>
+<attribute name="MPN" value="TL074CD" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -5071,10 +5080,10 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-MCP6001U" constant="no"/>
-<attribute name="DESC" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="MCP6001U" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-MCP6001-SOT235" constant="no"/>
+<attribute name="DESC" value="S Op Amp MCP6001 SOT23-5" constant="no"/>
+<attribute name="MF" value="MICROCHIP" constant="no"/>
+<attribute name="MPN" value="MCP6001UT-I/OT" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5 Pins" constant="no"/>
 </technology>
@@ -5250,8 +5259,8 @@ This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interf
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="IC-PIC-16F1937" constant="no"/>
-<attribute name="DESC" value="SMD IC - PIC MCU" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-16F1937-TQFP44" constant="no"/>
+<attribute name="DESC" value="S PIC16F1937 TQFP44" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="PIC16F1937-I/PT" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -5574,9 +5583,9 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="YX5200-24SS" constant="no"/>
-<attribute name="DESC" value="MP3 chipset" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-YX5200" constant="no"/>
+<attribute name="DESC" value="S MP3 decoder YX5200-24SS" constant="no"/>
+<attribute name="MF" value="Yeu Xin" constant="no"/>
 <attribute name="MPN" value="YX5200-24SS" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>

@@ -4150,7 +4150,7 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="S-CR-10M-H49S" constant="no"/>
 <attribute name="DESC" value="S Crystal 10Mhz H49S" constant="no"/>
 <attribute name="MF" value="TXC" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="9C-10.000MAAJ-T" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10MHz" constant="no"/>
 </technology>
@@ -4158,7 +4158,7 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="S-CR-12M-H49S" constant="no"/>
 <attribute name="DESC" value="S Crystal 12Mhz H49S" constant="no"/>
 <attribute name="MF" value="SJK" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="SJK-6C-12.000MHZ" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="12MHz" constant="no"/>
 </technology>
@@ -4166,7 +4166,7 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="S-CR-16M-H49S" constant="no"/>
 <attribute name="DESC" value="S Crystal 16Mhz H49S" constant="no"/>
 <attribute name="MF" value="TXC" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="9C16000001" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="16MHz" constant="no"/>
 </technology>
@@ -4174,9 +4174,17 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="CYTRON-PC" value="S-CR-20M-H49S" constant="no"/>
 <attribute name="DESC" value="S Crystal 20Mhz H49S" constant="no"/>
 <attribute name="MF" value="TXC" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="9C-20.000MEEJ-T" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="20MHz" constant="no"/>
+</technology>
+<technology name="_8MHZ">
+<attribute name="CYTRON-PC" value="S-CR-8M-H49S" constant="no"/>
+<attribute name="DESC" value="S Crystal 8Mhz H49S" constant="no"/>
+<attribute name="MF" value="SJK" constant="no"/>
+<attribute name="MPN" value="SJK-6C-8.000MHZ" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="8MHz" constant="no"/>
 </technology>
 </technologies>
 </device>
