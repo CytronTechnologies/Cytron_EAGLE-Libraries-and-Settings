@@ -1924,6 +1924,29 @@ Created by: Idris</description>
 <text x="2.921" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">7</text>
 <text x="4.191" y="-2.032" size="0.762" layer="51" font="vector" ratio="15">8</text>
 </package>
+<package name="LED-RGB-3228">
+<description>SMD LED RGB 3228.&lt;br&gt;
+Dimension: 3.2mm x 2.8mm &lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-1.4" y1="1.6" x2="-1.4" y2="-1.6" width="0.254" layer="51"/>
+<wire x1="-1.4" y1="-1.6" x2="1.4" y2="-1.6" width="0.254" layer="51"/>
+<wire x1="1.4" y1="-1.6" x2="1.4" y2="1.6" width="0.254" layer="51"/>
+<wire x1="1.4" y1="1.6" x2="-1.4" y2="1.6" width="0.254" layer="51"/>
+<smd name="2" x="-0.75" y="1.5" dx="1.1" dy="1.5" layer="1"/>
+<smd name="3" x="0.75" y="1.5" dx="1.1" dy="1.5" layer="1"/>
+<smd name="4" x="0.75" y="-1.5" dx="1.1" dy="1.5" layer="1"/>
+<smd name="1" x="-0.75" y="-1.5" dx="1.1" dy="1.5" layer="1"/>
+<wire x1="-1.3" y1="1.5" x2="1.3" y2="1.5" width="0.254" layer="21"/>
+<wire x1="1.3" y1="1.5" x2="1.3" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="1.3" y1="-1.5" x2="-0.6" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="-1.5" x2="-1.3" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="-1.5" x2="-1.3" y2="-0.8" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="-0.8" x2="-1.3" y2="1.5" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="-0.8" x2="-0.6" y2="-1.5" width="0.254" layer="21"/>
+<text x="0" y="2.8" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8" size="0.8128" layer="27" ratio="15" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -3418,7 +3441,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-CP-?" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-?-63" constant="no"/>
 <attribute name="DESC" value="SMD Ceramic Capacitor" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -3480,6 +3503,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="560pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(3216)" package="3216">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-CC-?-1206" constant="no"/>
+<attribute name="DESC" value="SMD Ceramic Capacitor 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_470NF">
+<attribute name="CYTRON-PC" value="S-CC-470N-1206" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 470nF 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="SAMSUNG" constant="no"/>
+<attribute name="MPN" value="CL31B474KBHNNNE" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4727,6 +4776,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(SMA)" package="D-SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-D-?-SMA" constant="no"/>
+<attribute name="DESC" value="SMD Diode SMA" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_ES1B">
+<attribute name="CYTRON-PC" value="S-D-ES1B-SMA" constant="no"/>
+<attribute name="DESC" value="S Diode 1A 100V SMA" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
+<attribute name="MPN" value="ES1B-E3/61T" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1A 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SW-SLIDE-SPDT" prefix="S">
@@ -4798,7 +4873,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <gate name="G$1" symbol="LED-RGB-SMD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LED-RGB-SMD">
+<device name="_(SMD)" package="LED-RGB-SMD">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="B" pad="B"/>
@@ -4812,6 +4887,25 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(3228)" package="LED-RGB-3228">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="R" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-DS-RGB-3228" constant="no"/>
+<attribute name="DESC" value="S RGB LED Avago ASMB-MTB0-0A3A2 3228" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="AVAGO" constant="no"/>
+<attribute name="MPN" value="ASMB-MTB0-0A3A2" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
