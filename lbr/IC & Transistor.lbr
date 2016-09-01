@@ -4160,6 +4160,40 @@ Created by: OoiBP</description>
 <text x="-15.24" y="30.48" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-30.48" size="1.778" layer="97">&gt;MPN</text>
 </symbol>
+<symbol name="SS39ET">
+<description>SMD Honeywell Linear Hall Sensor SS39ET, 3pins.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="10.16" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC" x="-5.08" y="-10.16" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="5.08" y="-10.16" length="short" rot="R90"/>
+<text x="10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="10.16" y="-2.54" size="1.778" layer="97">&gt;MPN</text>
+</symbol>
+<symbol name="SI4532">
+<description>SMD Half Bridge Mosfet SI4532, 8pins.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-10.16" y1="6.35" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-6.35" x2="10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-6.35" x2="10.16" y2="6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
+<pin name="S1" x="-12.7" y="3.81" length="short"/>
+<pin name="G1" x="-12.7" y="1.27" length="short"/>
+<pin name="S2" x="-12.7" y="-1.27" length="short"/>
+<pin name="G2" x="-12.7" y="-3.81" length="short"/>
+<pin name="D2@5" x="12.7" y="-3.81" length="short" rot="R180"/>
+<pin name="D2@6" x="12.7" y="-1.27" length="short" rot="R180"/>
+<pin name="D1@7" x="12.7" y="1.27" length="short" rot="R180"/>
+<pin name="D1@8" x="12.7" y="3.81" length="short" rot="R180"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -6210,10 +6244,10 @@ Operating Temperature: -40 ~ 85dC&lt;br&gt;&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-DW01AG-SOT23-6" constant="no"/>
 <attribute name="DESC" value="Single Cell LiIo/LiPo Battery Protection IC" constant="no"/>
 <attribute name="MF" value="Fortune Semiconductor" constant="no"/>
-<attribute name="MPN" value="DW01" constant="no"/>
+<attribute name="MPN" value="DW01A-G" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -7199,6 +7233,63 @@ Created by: Idris</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="ST" constant="no"/>
 <attribute name="MPN" value="STA013RL" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS39ET">
+<description>SMD Honeywell Linear Hall Sensor SS39ET</description>
+<gates>
+<gate name="G$1" symbol="SS39ET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(SOT-23)" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-SN-SS39ET-SOT23" constant="no"/>
+<attribute name="DESC" value="S Honeywell Linear Hall Sensor SS39ET" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="HONEYWELL" constant="no"/>
+<attribute name="MPN" value="SS39ET" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="5V 6mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI4532">
+<description>SMD Half Bridge Mosfet SI4532</description>
+<gates>
+<gate name="G$1" symbol="SI4532" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(SOIC-08N)" package="SOIC-08N">
+<connects>
+<connect gate="G$1" pin="D1@7" pad="7"/>
+<connect gate="G$1" pin="D1@8" pad="8"/>
+<connect gate="G$1" pin="D2@5" pad="5"/>
+<connect gate="G$1" pin="D2@6" pad="6"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="4"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-Q-SI4532-SO8" constant="no"/>
+<attribute name="DESC" value="S Half Bridge Mosfet SI4532 SO-8" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="SI4532DY" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
