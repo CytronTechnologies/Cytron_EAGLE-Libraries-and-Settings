@@ -1858,7 +1858,8 @@ Lead Pitch: 0.65mm</description>
 <circle x="-0.6" y="-1.35" radius="0.282840625" width="0.2032" layer="51"/>
 </package>
 <package name="SOT-23-6">
-<description>Small Outline Transistor - 6 Pins (SOT-23-6)</description>
+<description>Small Outline Transistor - 6 Pins (SOT-23-6).&lt;br&gt;
+Size: 2.9 x 1.3mm</description>
 <smd name="4" x="1.25" y="-0.95" dx="0.6" dy="0.9" layer="1" roundness="50" rot="R90"/>
 <smd name="6" x="1.25" y="0.95" dx="0.6" dy="0.9" layer="1" roundness="50" rot="R90"/>
 <smd name="1" x="-1.25" y="0.95" dx="0.6" dy="0.9" layer="1" roundness="50" rot="R90"/>
@@ -2291,6 +2292,36 @@ Created by: OoiBP&lt;br&gt;</description>
 <rectangle x1="4.24" y1="-3" x2="4.65" y2="-1.95" layer="51"/>
 <text x="-6" y="-2" size="0.8128" layer="25" ratio="15" rot="R90" align="top-left">&gt;NAME</text>
 <text x="6" y="-2" size="0.8128" layer="27" ratio="15" rot="R90">&gt;MPN</text>
+</package>
+<package name="SUPERSOT-6">
+<description>Super Small Outline Transistor 6 pins (SuperSOT-6).&lt;br&gt;
+JEDEC MO-193.&lt;br&gt;
+Size: 2.9 x 1.6mm.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.2032" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<smd name="4" x="0.95" y="1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<smd name="5" x="0" y="1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<smd name="6" x="-0.95" y="1.3" dx="0.7" dy="1" layer="1" roundness="50"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-0.7" x2="1.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="-0.7" x2="1.3" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="0.7" x2="-1.3" y2="0.7" width="0.2032" layer="21"/>
+<circle x="-0.9" y="-0.3" radius="0.1" width="0.2032" layer="51"/>
+<rectangle x1="-0.1" y1="0.8" x2="0.1" y2="1.4" layer="51"/>
+<rectangle x1="-1.05" y1="0.8" x2="-0.85" y2="1.4" layer="51"/>
+<rectangle x1="0.85" y1="0.8" x2="1.05" y2="1.4" layer="51"/>
+<rectangle x1="-1.05" y1="-1.4" x2="-0.85" y2="-0.8" layer="51"/>
+<rectangle x1="-0.1" y1="-1.4" x2="0.1" y2="-0.8" layer="51"/>
+<rectangle x1="0.85" y1="-1.4" x2="1.05" y2="-0.8" layer="51"/>
+<text x="-2" y="-2" size="0.8128" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="2" y="-2" size="0.8128" layer="27" ratio="15" rot="R90" align="top-left">&gt;MPN</text>
 </package>
 </packages>
 <symbols>
@@ -4194,6 +4225,23 @@ Created by: OoiBP</description>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="97" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="FDC6420C">
+<description>SMD Mosfet FDC6420C, 6pins.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" length="short"/>
+<pin name="2" x="-7.62" y="0" length="short"/>
+<pin name="3" x="-7.62" y="-2.54" length="short"/>
+<pin name="4" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="5" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="2.54" length="short" rot="R180"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="97">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -5478,7 +5526,7 @@ such as CW, CCW, short brake, and stop mode.</description>
 <gate name="G$1" symbol="XPT2046" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP-16">
+<device name="_(TSSOP-16)" package="TSSOP-16">
 <connects>
 <connect gate="G$1" pin="!CS" pad="15"/>
 <connect gate="G$1" pin="!PENIRQ" pad="11"/>
@@ -5499,9 +5547,9 @@ such as CW, CCW, short brake, and stop mode.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-XPT2046" constant="no"/>
-<attribute name="DESC" value="SMD Touch Screen Controller" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-XPT2046-SSOP16" constant="no"/>
+<attribute name="DESC" value="S Touch Screen Controller XPT2046" constant="no"/>
+<attribute name="MF" value="XPT" constant="no"/>
 <attribute name="MPN" value="XPT2046" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
@@ -5905,9 +5953,9 @@ This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interf
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-IC-FT231X" constant="no"/>
-<attribute name="DESC" value="USB to UART" constant="no"/>
-<attribute name="MPN" value="FT231X" constant="no"/>
+<attribute name="CYTRON-PC" value="S-IC-FT231XS-SSOP20" constant="no"/>
+<attribute name="DESC" value="S USB UART FT231XS SSOP20" constant="no"/>
+<attribute name="MPN" value="FT231XS" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -7292,6 +7340,35 @@ Created by: Idris</description>
 <attribute name="MPN" value="SI4532DY" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDC6420C">
+<description>SMD Mosfet FDC6420C</description>
+<gates>
+<gate name="G$1" symbol="FDC6420C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(SUPERSOT-6)" package="SUPERSOT-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-Q-FDC6420C-SOT23" constant="no"/>
+<attribute name="DESC" value="S Mosfet FDC6420C SOT23" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="FDC6420 C" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="20V" constant="no"/>
 </technology>
 </technologies>
 </device>

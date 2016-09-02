@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1947,6 +1947,26 @@ Created by: OoiBP</description>
 <text x="0" y="2.8" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.8" size="0.8128" layer="27" ratio="15" align="top-center">&gt;VALUE</text>
 </package>
+<package name="7351">
+<description>SMD resistor, capacitor and other devices.&lt;br&gt;
+Size: 7.3 x 5.1mm&lt;br&gt;
+&lt;br&gt;
+Same with size 2920 in inches.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-3.6775" y1="2.56" x2="-3.6775" y2="-2.56" width="0.2032" layer="51"/>
+<wire x1="-3.6775" y1="-2.56" x2="3.6775" y2="-2.56" width="0.2032" layer="51"/>
+<wire x1="3.6775" y1="-2.56" x2="3.6775" y2="2.56" width="0.2032" layer="51"/>
+<wire x1="3.6775" y1="2.56" x2="-3.6775" y2="2.56" width="0.2032" layer="51"/>
+<wire x1="-3.5" y1="2.4" x2="-3.5" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-2.4" x2="3.5" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-2.4" x2="3.5" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="2.4" x2="-3.5" y2="2.4" width="0.2032" layer="21"/>
+<smd name="1" x="-3.3" y="0" dx="2" dy="5.3" layer="1" roundness="50"/>
+<smd name="2" x="3.3" y="0" dx="2" dy="5.3" layer="1" roundness="50"/>
+<text x="-4" y="3" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-4" y="-3" size="0.8128" layer="27" ratio="15" align="top-left">&gt;MPN</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -2633,6 +2653,27 @@ Created by: Wai Weng&lt;br&gt;</description>
 <pin name="NC" x="7.62" y="5.08" visible="off" length="short" rot="R180"/>
 <pin name="COIL1" x="-10.16" y="5.08" visible="off" length="short"/>
 </symbol>
+<symbol name="FERRITE-BEAD">
+<description>SMD Ferrite Bead.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<pin name="1" x="-12.7" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<pin name="2" x="10.922" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="8.382" y2="0" width="0.254" layer="94"/>
+<text x="-12.7" y="-2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-5.08" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-12.7" y="-7.62" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RESISTOR" prefix="R">
@@ -2679,7 +2720,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
-<technology name="_10K_1%">
+<technology name="_10K_1P">
 <attribute name="CYTRON-PC" value="S-R-10K-85-1P" constant="no"/>
 <attribute name="DESC" value="S Resistor 10K 0805 1%" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
@@ -2751,7 +2792,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="22K" constant="no"/>
 </technology>
-<technology name="_22K_1%">
+<technology name="_22K_1P">
 <attribute name="CYTRON-PC" value="S-R-22K-85-1P" constant="no"/>
 <attribute name="DESC" value="S Resistor 22K 0805 1%" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
@@ -2960,8 +3001,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="_0R00025">
-<attribute name="CYTRON-PC" value="SMD-RS-4W-0.25MR" constant="no"/>
-<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-4W-0.25MR-2725" constant="no"/>
+<attribute name="DESC" value="S Resistor 4W 0.25mR 2725" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -3185,23 +3226,6 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
-<device name="_(2010)" package="2010">
-<connects>
-<connect gate="G$1" pin="1" pad="2" route="any"/>
-<connect gate="G$1" pin="2" pad="1" route="any"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="" constant="no"/>
-<attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_(2512)" package="2512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -3232,7 +3256,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="_0R002_1W_1%">
+<technology name="_0R002_1W_1P">
 <attribute name="CYTRON-PC" value="S-R-1W-2MR-6432-1P" constant="no"/>
 <attribute name="DESC" value="S Resistor 1W 2mR 6432 1%" constant="no"/>
 <attribute name="MF" value="TE Connectivity" constant="no"/>
@@ -3280,6 +3304,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="_0R">
+<attribute name="CYTRON-PC" value="S-R-0R-1206" constant="no"/>
+<attribute name="DESC" value="S Resistor 0 ohm 1206" constant="no"/>
+<attribute name="MF" value="UniOhm" constant="no"/>
+<attribute name="MPN" value="1206 J0000T5E" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
 <technology name="_1M5">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
@@ -3649,6 +3681,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="SDRH5D28-331M" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(4532)" package="4532">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_680UH">
+<attribute name="CYTRON-PC" value="S-L-680UH-0.05A" constant="no"/>
+<attribute name="DESC" value="S Inductor 680uH 50mA 1812" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="TDK" constant="no"/>
+<attribute name="MPN" value="NL453232T-681J-PF" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="680uH 50mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4700,13 +4758,74 @@ Size: 5.0 x 5.0mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-PTC-0.5A" constant="no"/>
-<attribute name="DESC" value="Fuse 500mA" constant="no"/>
+<attribute name="CYTRON-PC" value="S-PTC-0.5A-1812" constant="no"/>
+<attribute name="DESC" value="S PTC 0.5A 1812" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="Bourns" constant="no"/>
-<attribute name="MPN" value="MSMF050" constant="no"/>
+<attribute name="MF" value="BOURNS" constant="no"/>
+<attribute name="MPN" value="MF-MSMF050-2" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="500mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(3216)" package="3216">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_0.25A">
+<attribute name="CYTRON-PC" value="S-PTC-0.25A-1206" constant="no"/>
+<attribute name="DESC" value="S PTC 0.25A 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="POLYTRONIC" constant="no"/>
+<attribute name="MPN" value="SMD1206P025TF" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="0.25A" constant="no"/>
+</technology>
+<technology name="_0.35A">
+<attribute name="CYTRON-PC" value="S-PTC-0.35A-1206" constant="no"/>
+<attribute name="DESC" value="S PTC 0.35A 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="0.35A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(7351)" package="7351">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_3A">
+<attribute name="CYTRON-PC" value="S-PTC-3A-2920" constant="no"/>
+<attribute name="DESC" value="S PTC 3A 2920" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="POLYTRONIC" constant="no"/>
+<attribute name="MPN" value="SMD2920P300TS" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="3A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5151,6 +5270,31 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD">
+<description>SMD Ferrite Bead</description>
+<gates>
+<gate name="G$1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(1608)" package="1608">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-FB-600R-63" constant="no"/>
+<attribute name="DESC" value="S Ferrite Bead 600R 0603" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="MURATA" constant="no"/>
+<attribute name="MPN" value="BLM18KG601SN1D" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="600OHM 1300mA" constant="no"/>
 </technology>
 </technologies>
 </device>
