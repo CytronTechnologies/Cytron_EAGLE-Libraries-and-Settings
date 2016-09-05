@@ -1967,6 +1967,137 @@ Created by: OoiBP</description>
 <text x="-4" y="3" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-4" y="-3" size="0.8128" layer="27" ratio="15" align="top-left">&gt;MPN</text>
 </package>
+<package name="S-SP-2N-KAN0441">
+<description>SMD Push Button KAN0441.&lt;br&gt;
+Size: 6.0 x 3.75mm&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-3" y1="1.875" x2="-3" y2="-1.875" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.875" x2="3" y2="-1.875" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.875" x2="3" y2="1.875" width="0.2032" layer="51"/>
+<wire x1="3" y1="1.875" x2="-3" y2="1.875" width="0.2032" layer="51"/>
+<rectangle x1="-4" y1="-0.4" x2="-3" y2="0.4" layer="51"/>
+<rectangle x1="3" y1="-0.4" x2="4" y2="0.4" layer="51"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-3.7" y="0" dx="1.7" dy="1.3" layer="1" roundness="50"/>
+<smd name="2" x="3.7" y="0" dx="1.7" dy="1.3" layer="1" roundness="50"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="-1.5" y2="0.75" width="0.2032" layer="51"/>
+<text x="-3" y="3" size="0.8128" layer="25" ratio="15" align="top-left">&gt;NAME</text>
+<text x="-3" y="-3" size="0.8128" layer="27" ratio="15">&gt;MPN</text>
+</package>
+<package name="S-SP-4N-KAN0641">
+<description>SMD Push Button KAN0641.&lt;br&gt;
+Size: 6.0 x 6.0mm.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2032" layer="51"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.2032" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="51"/>
+<rectangle x1="-5" y1="1.9" x2="-3" y2="2.6" layer="51"/>
+<rectangle x1="-5" y1="-2.6" x2="-3" y2="-1.9" layer="51"/>
+<rectangle x1="3" y1="1.9" x2="5" y2="2.6" layer="51"/>
+<rectangle x1="3" y1="-2.6" x2="5" y2="-1.9" layer="51"/>
+<smd name="4" x="-4.55" y="2.25" dx="2.1" dy="1.4" layer="1" roundness="50"/>
+<smd name="3" x="4.55" y="2.25" dx="2.1" dy="1.4" layer="1" roundness="50"/>
+<smd name="2" x="4.55" y="-2.25" dx="2.1" dy="1.4" layer="1" roundness="50"/>
+<smd name="1" x="-4.55" y="-2.25" dx="2.1" dy="1.4" layer="1" roundness="50"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2" width="0.2032" layer="21"/>
+<text x="-3" y="4" size="0.8128" layer="25" ratio="15" align="top-left">&gt;NAME</text>
+<text x="-3" y="-4" size="0.8128" layer="27" ratio="15">&gt;MPN</text>
+</package>
+<package name="ECAP-EIA-3528">
+<description>SMD Tantalum Electrolytic Capacitor&lt;br&gt;
+Also known as KEMET A&lt;br&gt;
+Size: 3.5 x 2.8mm&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="-0.7" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-1.4" x2="1.75" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="-0.7" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="1.4" x2="-1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="1.3" x2="-1.6" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.3" x2="1.6" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.3" x2="-1.6" y2="1.3" width="0.2032" layer="21"/>
+<rectangle x1="0.95" y1="-1.1" x2="1.75" y2="1.1" layer="51"/>
+<rectangle x1="-1.75" y1="-1.1" x2="-0.95" y2="1.1" layer="51"/>
+<wire x1="-0.7" y1="1.4" x2="-0.7" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="-0.3" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.5" x2="-0.3" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.5" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="-3" y1="0" x2="-2.4" y2="0" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="0.3" x2="-2.7" y2="-0.3" width="0.2032" layer="51"/>
+<smd name="+" x="-1.6" y="0" dx="1.6" dy="2.4" layer="1" roundness="50"/>
+<smd name="-" x="1.6" y="0" dx="1.6" dy="2.4" layer="1" roundness="50"/>
+<text x="-2" y="2" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2" y="-2" size="0.8128" layer="27" ratio="15" align="top-left">&gt;VALUE</text>
+</package>
+<package name="ECAP-EIA-7343">
+<description>SMD Tantalum Electrolytic Capacitor&lt;br&gt;
+Also known as KEMET A&lt;br&gt;
+Size: 7.3 x 4.3mm&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-3.65" y1="2.15" x2="-3.65" y2="-2.15" width="0.2032" layer="51"/>
+<wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.2032" layer="51"/>
+<wire x1="3.65" y1="-2.15" x2="3.65" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="-3.65" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="-3.5" y1="2" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-2" x2="3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-2" x2="3.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="2" x2="-3.5" y2="2" width="0.2032" layer="21"/>
+<rectangle x1="2.35" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="-3.65" y1="-1.2" x2="-2.35" y2="1.2" layer="51"/>
+<wire x1="-2" y1="2.1" x2="-2" y2="-2.1" width="0.2032" layer="51"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<smd name="+" x="-3.4" y="0" dx="2.8" dy="2.6" layer="1" roundness="50"/>
+<smd name="-" x="3.4" y="0" dx="2.8" dy="2.6" layer="1" roundness="50"/>
+<wire x1="-4.4" y1="0" x2="-5" y2="0" width="0.2032" layer="51"/>
+<wire x1="-4.7" y1="0.3" x2="-4.7" y2="-0.3" width="0.2032" layer="51"/>
+<text x="-3" y="3" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-3" y="-3" size="0.8128" layer="27" ratio="15" align="top-left">&gt;VALUE</text>
+</package>
+<package name="LED-1608">
+<description>SMD LED&lt;br&gt;
+Size: 1.6 x 0.8mm&lt;br&gt;
+&lt;br&gt;
+Same with size 0603 in inches.&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="0.4" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.2032" layer="51"/>
+<smd name="A" x="-0.9" y="0" dx="0.8" dy="1" layer="1" roundness="50"/>
+<smd name="C" x="0.9" y="0" dx="0.8" dy="1" layer="1" roundness="50"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.6" y2="0.4" layer="51"/>
+<rectangle x1="0.6" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<text x="0" y="0.7" size="0.762" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7" size="0.762" layer="27" ratio="15" align="top-center">&gt;VALUE</text>
+<wire x1="-0.3" y1="0.2" x2="-0.3" y2="-0.2" width="0.2032" layer="51"/>
+<wire x1="-0.3" y1="-0.2" x2="0.2" y2="0" width="0.2032" layer="51"/>
+<wire x1="0.2" y1="0" x2="-0.3" y2="0.2" width="0.2032" layer="51"/>
+<wire x1="0.3" y1="0.2" x2="0.3" y2="-0.2" width="0.2032" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -4064,6 +4195,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(1608)" package="LED-1608">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-DS-?-63" constant="no"/>
+<attribute name="DESC" value="S LED 0603" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_RED">
+<attribute name="CYTRON-PC" value="S-DS-R-63" constant="no"/>
+<attribute name="DESC" value="S LED Red 0603" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="EVERBRIGHT" constant="no"/>
+<attribute name="MPN" value="EC02-0603QRC/E-AV" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODE-ZENER" prefix="D" uservalue="yes">
@@ -4229,6 +4386,40 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(KAN0441)" package="S-SP-2N-KAN0441">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-SP-2N-KAN0441" constant="no"/>
+<attribute name="DESC" value="S Push Button KAN0441 6x3.75 (White)" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="GANGYUAN" constant="no"/>
+<attribute name="MPN" value="KAN0441B-0252B" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(KAN0641)" package="S-SP-4N-KAN0641">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-SP-4N-KAN0641 " constant="no"/>
+<attribute name="DESC" value="S Push Button KAN0641 6x6mm (Black)" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="GANGYUAN" constant="no"/>
+<attribute name="MPN" value="KAN0641-0501B1" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="XTAL" prefix="Y" uservalue="yes">
@@ -4364,6 +4555,67 @@ Size: 6.2mm(height) x 2.1mm (diameter)&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="16V 1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(EIA-3528)" package="ECAP-EIA-3528">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_16V10UF">
+<attribute name="CYTRON-PC" value="S-TC-16-10U-3528" constant="no"/>
+<attribute name="DESC" value="S Tantalum Capacitor 16V 10uF 3528" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="AVX" constant="no"/>
+<attribute name="MPN" value="TAJB106K016RNJ" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="16V 10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(EIA-7343)" package="ECAP-EIA-7343">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-TC-?-?-7343" constant="no"/>
+<attribute name="DESC" value="S Tantalum Capacitor 7342" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_16V47UF">
+<attribute name="CYTRON-PC" value="S-TC-16-47U-7343" constant="no"/>
+<attribute name="DESC" value="S Tantalum Capacitor 16V 47uF 7342" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="AVX" constant="no"/>
+<attribute name="MPN" value="TAJD476K016RNJ" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="16V 47uF" constant="no"/>
+</technology>
+<technology name="_25V47UF">
+<attribute name="CYTRON-PC" value="S-TC-25-47U-7343" constant="no"/>
+<attribute name="DESC" value="S Tantalum Capacitor 25V 47uF 7342" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="AVX" constant="no"/>
+<attribute name="MPN" value="TAJD476K025RNJ" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="25V 47uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4591,11 +4843,11 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-SW-DIPS-8" constant="no"/>
-<attribute name="DESC" value="SMD DIP Swiitch" constant="no"/>
+<attribute name="CYTRON-PC" value="S-SS-DIP-8" constant="no"/>
+<attribute name="DESC" value="S DIP Switch 8 Ways" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="DIPTRONICS" constant="no"/>
+<attribute name="MPN" value="DMR-08(A)(P)-V" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8 Ways" constant="no"/>
 </technology>
