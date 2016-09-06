@@ -2323,6 +2323,30 @@ Created by: OoiBP</description>
 <text x="-2" y="-2" size="0.8128" layer="25" ratio="15" rot="R90">&gt;NAME</text>
 <text x="2" y="-2" size="0.8128" layer="27" ratio="15" rot="R90" align="top-left">&gt;MPN</text>
 </package>
+<package name="SOT-89-3">
+<description>Small Outline Transistor (SOT-89-3), 3pins.&lt;br&gt;
+Size: 4.5 x 2.5mm&lt;br&gt;
+&lt;br&gt;
+Created by: OoiBP</description>
+<wire x1="-2.25" y1="1.25" x2="-2.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-1.25" x2="2.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-1.25" x2="2.25" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="1.25" x2="-2.25" y2="1.25" width="0.2032" layer="51"/>
+<rectangle x1="-0.225" y1="-2.25" x2="0.225" y2="-1.25" layer="51"/>
+<rectangle x1="1.275" y1="-2.25" x2="1.725" y2="-1.25" layer="51"/>
+<rectangle x1="-1.725" y1="-2.25" x2="-1.275" y2="-1.25" layer="51"/>
+<rectangle x1="-0.8" y1="1.25" x2="0.8" y2="1.75" layer="51"/>
+<wire x1="-2.1" y1="1.1" x2="-2.1" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="-1.1" x2="2.1" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="-1.1" x2="2.1" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="1.1" x2="-2.1" y2="1.1" width="0.2032" layer="21"/>
+<smd name="2" x="0" y="-2" dx="1" dy="1.5" layer="1" roundness="50"/>
+<smd name="1" x="-1.5" y="-2" dx="1" dy="1.5" layer="1" roundness="50"/>
+<smd name="3" x="1.5" y="-2" dx="1" dy="1.5" layer="1" roundness="50"/>
+<smd name="GND" x="0" y="1.6" dx="2" dy="1.5" layer="1" roundness="50"/>
+<text x="0" y="3" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="0.8128" layer="27" ratio="15" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AP34063">
@@ -4406,6 +4430,33 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="MPN" value="AP1117E33G-13" constant="no"/>
 <attribute name="REMARK" value="High Input Voltage up to 20V" constant="no"/>
 <attribute name="VALUE" value="3V3 1A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(SOT-89-3)" package="SOT-89-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 GND"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-VR-?-SOT89" constant="no"/>
+<attribute name="DESC" value="S 5V Linear Regulator SOT-89" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_7805">
+<attribute name="CYTRON-PC" value="S-VR-78L05-SOT89" constant="no"/>
+<attribute name="DESC" value="S 5V Linear Regulator 78L05 SOT-89" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="CHANGJIANG" constant="no"/>
+<attribute name="MPN" value="CJ78L05" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="5V" constant="no"/>
 </technology>
 </technologies>
 </device>
