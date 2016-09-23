@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -114,15 +114,30 @@
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
 <layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -6718,6 +6733,98 @@ Created by: Wai Weng</description>
 <text x="0" y="33.528" size="0.762" layer="27" font="vector" ratio="15">&gt;MPN</text>
 <text x="0" y="34.671" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 </package>
+<package name="RFM95/96/97/98">
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.2032" layer="21"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.2032" layer="21"/>
+<smd name="4" x="-7.5" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="3" x="-7.5" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="2" x="-7.5" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="1" x="-7.5" y="7" dx="3" dy="1.2" layer="1"/>
+<smd name="5" x="-7.5" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="6" x="-7.5" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="7" x="-7.5" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="8" x="-7.5" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="9" x="7.5" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="10" x="7.5" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="11" x="7.5" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="12" x="7.5" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="13" x="7.5" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="14" x="7.5" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="15" x="7.5" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="16" x="7.5" y="7" dx="3" dy="1.2" layer="1"/>
+<wire x1="-4" y1="6" x2="-4" y2="2" width="0.2032" layer="21"/>
+<wire x1="-4" y1="2" x2="0" y2="2" width="0.2032" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="6" width="0.2032" layer="21"/>
+<wire x1="0" y1="6" x2="-4" y2="6" width="0.2032" layer="21"/>
+<text x="-9" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="9" y="9" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
+<text x="-5.485" y="6.35" size="1.27" layer="21" ratio="12">1</text>
+<wire x1="2" y1="3" x2="2" y2="5" width="0.2032" layer="21"/>
+<wire x1="4" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="5" width="0.2032" layer="21"/>
+<wire x1="4" y1="3" x2="2" y2="3" width="0.2032" layer="21"/>
+</package>
+<package name="RN2903">
+<wire x1="-8.89" y1="13.97" x2="-5.06" y2="13.97" width="0.127" layer="21"/>
+<wire x1="8.91" y1="-12.7" x2="-8.89" y2="-12.7" width="0.127" layer="21"/>
+<smd name="GND" x="8.89" y="-11.43" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="UART_TX" x="8.89" y="-5.08" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="UART_RX" x="8.89" y="-3.81" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="GND1" x="8.89" y="-2.54" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="GND2" x="8.89" y="1.27" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="VDD" x="8.89" y="2.54" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="GND3" x="8.89" y="12.7" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="GND4" x="3.81" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="GND5" x="2.54" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="RFH" x="1.27" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="GND6" x="0" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="RFL" x="-1.27" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="GND7" x="-2.54" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="GND8" x="-3.81" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="GND9" x="-8.89" y="12.7" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="RESET" x="-8.89" y="7.62" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GND10" x="-8.89" y="6.35" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="VDD2" x="-8.89" y="5.08" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GND11" x="-8.89" y="-3.81" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GND12" x="-8.89" y="-11.43" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="UART_RTS" x="8.89" y="-10.16" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="UART_CTS" x="8.89" y="-8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO13" x="8.89" y="-1.27" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO12" x="8.89" y="0" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO11" x="8.89" y="3.81" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO10" x="8.89" y="5.08" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO0" x="-8.89" y="3.81" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO1" x="-8.89" y="2.54" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO2" x="-8.89" y="1.27" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO3" x="-8.89" y="0" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO4" x="-8.89" y="-1.27" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO5" x="-8.89" y="-2.54" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO6" x="-8.89" y="-6.35" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO7" x="-8.89" y="-7.62" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO8" x="-8.89" y="-8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="GPIO9" x="-8.89" y="-10.16" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="TEST1" x="-8.89" y="8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="TEST0" x="-8.89" y="10.16" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$3" x="-8.89" y="11.43" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$4" x="8.89" y="11.43" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$5" x="8.89" y="10.16" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$6" x="8.89" y="8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$7" x="8.89" y="7.62" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$8" x="8.89" y="6.35" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$9" x="8.89" y="-6.35" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$10" x="8.89" y="-7.62" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$11" x="-8.89" y="-5.08" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="2.3" layer="51"/>
+<text x="-6.35" y="10.16" size="1.27" layer="25">&gt;Name</text>
+<text x="-6.35" y="8.89" size="1.27" layer="27">&gt;Value</text>
+<wire x1="5.08" y1="13.97" x2="8.91" y2="13.97" width="0.127" layer="21"/>
+<polygon width="0.2032" layer="41">
+<vertex x="-5.08" y="2.54"/>
+<vertex x="-5.08" y="-10.16"/>
+<vertex x="5.08" y="-10.16"/>
+<vertex x="5.08" y="2.54"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="TEA5767">
@@ -7019,6 +7126,83 @@ Created by: Wai Weng</description>
 <pin name="DIR" x="12.7" y="5.08" length="short" rot="R180"/>
 <text x="-10.16" y="8.382" size="1.778" layer="96">&gt;MPN</text>
 <text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="RFM95/96/97/98">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="GND1" x="-17.78" y="7.62" length="middle"/>
+<pin name="MISO" x="-17.78" y="5.08" length="middle"/>
+<pin name="MOSI" x="-17.78" y="2.54" length="middle"/>
+<pin name="SCK" x="-17.78" y="0" length="middle"/>
+<pin name="NSS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="RESET" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DIO5" x="-17.78" y="-7.62" length="middle"/>
+<pin name="GND2" x="-17.78" y="-10.16" length="middle"/>
+<pin name="ANT" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND3" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIO3" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO4" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="3V3" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="DIO0" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="DIO1" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="DIO2" x="20.32" y="7.62" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RN2903">
+<wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-30.48" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-30.48" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
+<pin name="GND" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="UART_TX" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="UART_RX" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="RFH" x="2.54" y="35.56" length="middle" rot="R270"/>
+<pin name="RFL" x="-2.54" y="35.56" length="middle" rot="R270"/>
+<pin name="RESET°" x="-22.86" y="10.16" length="middle"/>
+<text x="-5.08" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="UART_CTS" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="UART_RTS" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="GPIO0" x="-22.86" y="2.54" length="middle"/>
+<pin name="GPIO1" x="-22.86" y="0" length="middle"/>
+<pin name="GPIO2" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GPIO3" x="-22.86" y="-5.08" length="middle"/>
+<pin name="GPIO4" x="-22.86" y="-7.62" length="middle"/>
+<pin name="GPIO5" x="-22.86" y="-10.16" length="middle"/>
+<pin name="GPIO6" x="-22.86" y="-17.78" length="middle"/>
+<pin name="GPIO7" x="-22.86" y="-20.32" length="middle"/>
+<pin name="GPIO8" x="-22.86" y="-22.86" length="middle"/>
+<pin name="GPIO9" x="-22.86" y="-25.4" length="middle"/>
+<pin name="GPIO10" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO11" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO12" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO13" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND9" x="-22.86" y="20.32" length="middle"/>
+<pin name="NC" x="-22.86" y="17.78" length="middle"/>
+<pin name="TEST0" x="-22.86" y="15.24" length="middle"/>
+<pin name="TEST1" x="-22.86" y="12.7" length="middle"/>
+<pin name="GND10" x="-22.86" y="7.62" length="middle"/>
+<pin name="VDD2" x="-22.86" y="5.08" length="middle"/>
+<pin name="GND11" x="-22.86" y="-12.7" length="middle"/>
+<pin name="NC1" x="-22.86" y="-15.24" length="middle"/>
+<pin name="GND12" x="-22.86" y="-27.94" length="middle"/>
+<pin name="NC2" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="NC3" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="NC4" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="NC5" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="NC6" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="RESERVED1" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="RESERVED2" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND1" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND3" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="GND4" x="7.62" y="35.56" length="middle" rot="R270"/>
+<pin name="GND5" x="5.08" y="35.56" length="middle" rot="R270"/>
+<pin name="GND6" x="0" y="35.56" length="middle" rot="R270"/>
+<pin name="GND7" x="-5.08" y="35.56" length="middle" rot="R270"/>
+<pin name="GND8" x="-7.62" y="35.56" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7560,6 +7744,115 @@ Created by: Wai Weng</description>
 <attribute name="MF" value="Cytron" constant="no"/>
 <attribute name="MPN" value="MD13S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFM95/96/97/98">
+<description>Low Cost Low Power Long Range (LoRa) Transceiver Module</description>
+<gates>
+<gate name="G$1" symbol="RFM95/96/97/98" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="RFM95/96/97/98">
+<connects>
+<connect gate="G$1" pin="3V3" pad="13"/>
+<connect gate="G$1" pin="ANT" pad="9"/>
+<connect gate="G$1" pin="DIO0" pad="14"/>
+<connect gate="G$1" pin="DIO1" pad="15"/>
+<connect gate="G$1" pin="DIO2" pad="16"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="7"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="GND3" pad="10"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="NSS" pad="5"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="RFM95/96/97/98" constant="no"/>
+<attribute name="DESC" value="Low Cost Low Power Long Range (LoRa) Transceiver Module" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PNP-LIB" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN2903">
+<description>Microchip RN2903 LoRa Module</description>
+<gates>
+<gate name="G$1" symbol="RN2903" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RN2903">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND10" pad="GND10"/>
+<connect gate="G$1" pin="GND11" pad="GND11"/>
+<connect gate="G$1" pin="GND12" pad="GND12"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="GND4" pad="GND4"/>
+<connect gate="G$1" pin="GND5" pad="GND5"/>
+<connect gate="G$1" pin="GND6" pad="GND6"/>
+<connect gate="G$1" pin="GND7" pad="GND7"/>
+<connect gate="G$1" pin="GND8" pad="GND8"/>
+<connect gate="G$1" pin="GND9" pad="GND9"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO1" pad="GPIO1"/>
+<connect gate="G$1" pin="GPIO10" pad="GPIO10"/>
+<connect gate="G$1" pin="GPIO11" pad="GPIO11"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO3" pad="GPIO3"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="GPIO6" pad="GPIO6"/>
+<connect gate="G$1" pin="GPIO7" pad="GPIO7"/>
+<connect gate="G$1" pin="GPIO8" pad="GPIO8"/>
+<connect gate="G$1" pin="GPIO9" pad="GPIO9"/>
+<connect gate="G$1" pin="NC" pad="P$3"/>
+<connect gate="G$1" pin="NC1" pad="P$4"/>
+<connect gate="G$1" pin="NC2" pad="P$5"/>
+<connect gate="G$1" pin="NC3" pad="P$6"/>
+<connect gate="G$1" pin="NC4" pad="P$7"/>
+<connect gate="G$1" pin="NC5" pad="P$8"/>
+<connect gate="G$1" pin="NC6" pad="P$9"/>
+<connect gate="G$1" pin="RESERVED1" pad="P$10"/>
+<connect gate="G$1" pin="RESERVED2" pad="P$11"/>
+<connect gate="G$1" pin="RESET°" pad="RESET"/>
+<connect gate="G$1" pin="RFH" pad="RFH"/>
+<connect gate="G$1" pin="RFL" pad="RFL"/>
+<connect gate="G$1" pin="TEST0" pad="TEST0"/>
+<connect gate="G$1" pin="TEST1" pad="TEST1"/>
+<connect gate="G$1" pin="UART_CTS" pad="UART_CTS"/>
+<connect gate="G$1" pin="UART_RTS" pad="UART_RTS"/>
+<connect gate="G$1" pin="UART_RX" pad="UART_RX"/>
+<connect gate="G$1" pin="UART_TX" pad="UART_TX"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VDD2" pad="VDD2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="RN2903" constant="no"/>
+<attribute name="DESC" value="Microchip RN2903 LoRa Module" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PNP-LIB" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
