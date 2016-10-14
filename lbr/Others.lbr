@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2104,8 +2104,8 @@ Created by: OoiBP</description>
 &lt;br&gt;
 Created by: Wai Weng</description>
 <smd name="3" x="0" y="0" dx="18" dy="18" layer="1" roundness="100"/>
-<smd name="1" x="-14.2" y="0" dx="7" dy="7" layer="1" roundness="30"/>
-<smd name="2" x="14.2" y="0" dx="7" dy="7" layer="1" roundness="30"/>
+<smd name="1" x="-13.7" y="0" dx="6.3" dy="6" layer="1" roundness="30"/>
+<smd name="2" x="13.7" y="0" dx="6.3" dy="6" layer="1" roundness="30"/>
 <text x="0" y="-12.7" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-13.97" size="0.762" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
 <wire x1="11" y1="6.5" x2="11" y2="3.7" width="0.254" layer="21"/>
@@ -2161,6 +2161,20 @@ Created by: Wai Weng</description>
 <wire x1="-4.5" y1="-2" x2="-4.5" y2="2" width="0.2032" layer="21"/>
 <text x="-4.572" y="3.81" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-4.572" y="2.54" size="0.762" layer="21" font="vector" ratio="15">&gt;LABEL</text>
+</package>
+<package name="LED-5MM-LONGPAD">
+<description>Through Hole LED (Long Pad)&lt;br&gt;
+Size: 5mm x 5mm&lt;br&gt;
+Height: 9mm</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<pad name="A" x="-1.27" y="0" drill="0.762" diameter="1.651" shape="long" rot="R90"/>
+<pad name="K" x="1.27" y="0" drill="0.762" diameter="1.651" shape="long" rot="R90"/>
+<text x="-3.5814" y="-1.651" size="0.762" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
+<text x="3.7084" y="-2.0066" size="0.762" layer="21" font="vector" ratio="15" rot="R90">&gt;LABEL</text>
+<text x="3.7084" y="-2.0066" size="0.762" layer="51" font="vector" ratio="15" rot="R90">&gt;LABEL</text>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="51" curve="-286.260205" cap="flat"/>
 </package>
 </packages>
 <symbols>
@@ -4280,6 +4294,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="EVERBRIGHT" constant="no"/>
 <attribute name="MPN" value="EC02-0603QRC/E-AV" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(TH-5MM-LONGPAD)" package="LED-5MM-LONGPAD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_RED">
+<attribute name="CYTRON-PC" value="DS-LED-5NR" constant="no"/>
+<attribute name="DESC" value="LED" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Red" constant="no"/>
 </technology>
