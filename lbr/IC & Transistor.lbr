@@ -4386,20 +4386,20 @@ Created by: OoiBP</description>
 <description>SMD Op Amp MCP602, 8pins.&lt;br&gt;
 &lt;br&gt;
 Created by: OoiBP</description>
-<wire x1="-10.16" y1="6.35" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-6.35" x2="10.16" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-6.35" x2="10.16" y2="6.35" width="0.254" layer="94"/>
-<wire x1="10.16" y1="6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
-<pin name="VOUTA" x="-12.7" y="3.81" length="short"/>
-<pin name="VINA-" x="-12.7" y="1.27" length="short"/>
-<pin name="VINA+" x="-12.7" y="-1.27" length="short"/>
-<pin name="VSS" x="-12.7" y="-3.81" length="short" direction="pwr"/>
-<pin name="VINB+" x="12.7" y="-3.81" length="short" rot="R180"/>
-<pin name="VINB-" x="12.7" y="-1.27" length="short" rot="R180"/>
-<pin name="VOUTB" x="12.7" y="1.27" length="short" rot="R180"/>
-<pin name="VDD" x="12.7" y="3.81" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VOUTA" x="-12.7" y="5.08" length="short"/>
+<pin name="VINA-" x="-12.7" y="2.54" length="short"/>
+<pin name="VINA+" x="-12.7" y="0" length="short"/>
+<pin name="VSS" x="-12.7" y="-2.54" length="short"/>
+<pin name="VINB+" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VINB-" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="VOUTB" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VDD" x="12.7" y="5.08" length="short" rot="R180"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="97">&gt;MPN</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="97">&gt;MPN</text>
 </symbol>
 <symbol name="SN7407D">
 <description>SMD Hex Buffer SN7407D, 14pins.&lt;br&gt;
@@ -4716,6 +4716,33 @@ Created by: Wai Weng</description>
 <text x="-7.62" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;MPN</text>
 </symbol>
+<symbol name="HX711">
+<description>HX711 Load Cell Amplifier&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pin name="VSUP" x="-12.7" y="7.62" length="short"/>
+<pin name="BASE" x="-12.7" y="5.08" length="short"/>
+<pin name="AVDD" x="-12.7" y="2.54" length="short"/>
+<pin name="VFB" x="-12.7" y="0" length="short"/>
+<pin name="AGND" x="-12.7" y="-2.54" length="short"/>
+<pin name="VBG" x="-12.7" y="-5.08" length="short"/>
+<pin name="INNA" x="-12.7" y="-7.62" length="short"/>
+<pin name="INPA" x="-12.7" y="-10.16" length="short"/>
+<pin name="INNB" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="INPB" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PD_SCK" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="DOUT" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="XO" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="XI" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="RATE" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DVDD" x="12.7" y="7.62" length="short" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -4835,7 +4862,7 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="CYTRON-PC" value="S-VR-NCP1117-DPAK" constant="no"/>
 <attribute name="DESC" value="SMD Voltage Regulator" constant="no"/>
 <attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="NCP1117DT50RKG" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -4877,7 +4904,7 @@ Modified by: Wai Weng&lt;br&gt;
 <attribute name="CYTRON-PC" value="S-VR-3.3-AP1117-SOT223" constant="no"/>
 <attribute name="DESC" value="1.0 A Low-Dropout Positive Voltage Regulators" constant="no"/>
 <attribute name="MF" value="Diodes" constant="no"/>
-<attribute name="MPN" value="AP1117E33G-13" constant="no"/>
+<attribute name="MPN" value="AP1117E33L" constant="no"/>
 <attribute name="REMARK" value="High Input Voltage up to 20V" constant="no"/>
 <attribute name="VALUE" value="3V3 1A" constant="no"/>
 </technology>
@@ -7622,7 +7649,7 @@ Created by: Idris</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP602">
+<deviceset name="MCP602" prefix="U">
 <description>SMD Op Amp MCP602</description>
 <gates>
 <gate name="G$1" symbol="MCP602" x="0" y="0"/>
@@ -8058,7 +8085,7 @@ Created by: Wai Weng</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MFRC522">
+<deviceset name="MFRC522" prefix="U">
 <description>MFRC522 Standard performance MIFARE and NTAG frontend&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
@@ -8115,7 +8142,7 @@ Created by: Wai Weng</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX485">
+<deviceset name="MAX485" prefix="U">
 <description>MAX485 RS-485/RS-422 Transceiver&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
@@ -8141,6 +8168,47 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="Maxim Integrated" constant="no"/>
 <attribute name="MPN" value="MAX485" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HX711" prefix="U">
+<description>HX711 Load Cell Amplifier&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="HX711" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16N">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5"/>
+<connect gate="G$1" pin="AVDD" pad="3"/>
+<connect gate="G$1" pin="BASE" pad="2"/>
+<connect gate="G$1" pin="DOUT" pad="12"/>
+<connect gate="G$1" pin="DVDD" pad="16"/>
+<connect gate="G$1" pin="INNA" pad="7"/>
+<connect gate="G$1" pin="INNB" pad="9"/>
+<connect gate="G$1" pin="INPA" pad="8"/>
+<connect gate="G$1" pin="INPB" pad="10"/>
+<connect gate="G$1" pin="PD_SCK" pad="11"/>
+<connect gate="G$1" pin="RATE" pad="15"/>
+<connect gate="G$1" pin="VBG" pad="6"/>
+<connect gate="G$1" pin="VFB" pad="4"/>
+<connect gate="G$1" pin="VSUP" pad="1"/>
+<connect gate="G$1" pin="XI" pad="14"/>
+<connect gate="G$1" pin="XO" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Load Cell Amplifier" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="AVIA Semiconductor" constant="no"/>
+<attribute name="MPN" value="HX711" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
