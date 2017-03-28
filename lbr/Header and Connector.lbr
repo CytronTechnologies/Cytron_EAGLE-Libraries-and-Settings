@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10771,7 +10771,7 @@ SMT header is CONN-09042.</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-CN-2022PR-02" constant="no"/>
-<attribute name="DESC" value="SMD Connector 2022PR" constant="no"/>
+<attribute name="DESC" value="S Connector 2022PR 2 Pins" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2 Ways" constant="no"/>
@@ -11119,10 +11119,10 @@ SMT header is CONN-09042.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="FPC connector" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-FPC1.0-15-B" constant="no"/>
+<attribute name="DESC" value="S FPC Connector 1.0mm Pitch 15W Bottom" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="REMARK" value="Top contact" constant="no"/>
+<attribute name="REMARK" value="Bottom Contact" constant="no"/>
 <attribute name="VALUE" value="15 Ways" constant="no"/>
 </technology>
 </technologies>
@@ -11309,7 +11309,7 @@ SMT header is CONN-09042.</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-CN-PH-F220S" constant="no"/>
-<attribute name="DESC" value="SMD Female Header - 2x20 Ways" constant="no"/>
+<attribute name="DESC" value="S Straight Female Header 2x20 Ways" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2x20 Ways" constant="no"/>

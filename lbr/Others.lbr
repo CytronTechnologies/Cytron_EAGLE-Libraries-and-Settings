@@ -4179,7 +4179,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-EC-?-?" constant="no"/>
-<attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="S Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4187,7 +4187,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_16V100UF">
 <attribute name="CYTRON-PC" value="S-EC-16-100U-F55" constant="no"/>
-<attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="S Electrolytic Cap 16V 100uF F55" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4195,7 +4195,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_16V220UF">
 <attribute name="CYTRON-PC" value="S-EC-16-220U-F55" constant="no"/>
-<attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="S Electrolytic Cap 16V 220uF F55" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4203,7 +4203,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_25V47UF">
 <attribute name="CYTRON-PC" value="S-EC-25-47U-F55" constant="no"/>
-<attribute name="DESC" value="SMD Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="S Electrolytic Cap 25V 47uF F55" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4708,8 +4708,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value=""/>
-<attribute name="DESC" value="Push Button - Right Angle (6.0 x 6.0mm)"/>
+<attribute name="CYTRON-PC" value="SW-PBM-2N-060610RA"/>
+<attribute name="DESC" value="6x6x10 Push Button 2 Pins (Right Angle)"/>
 <attribute name="LABEL" value=""/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -5890,7 +5890,7 @@ Created by: Wai Weng</description>
 <gate name="G$1" symbol="LED-RGB-INDV" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_(SINGLE-COLOR)" package="LED-5050-INDV">
+<device name="" package="LED-5050-INDV">
 <connects>
 <connect gate="G$1" pin="BA" pad="3"/>
 <connect gate="G$1" pin="BC" pad="4"/>
@@ -5900,14 +5900,14 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="RC" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S LED White 5050" constant="no"/>
+<technology name="_SINGLE-CW">
+<attribute name="CYTRON-PC" value="S-DS-CW-5050-INDV" constant="no"/>
+<attribute name="DESC" value="S Cool White LED 5050-INDV" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="White" constant="no"/>
+<attribute name="VALUE" value="Cool White" constant="no"/>
 </technology>
 </technologies>
 </device>
