@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2234,6 +2234,26 @@ Created by: Wai Weng</description>
 <smd name="2" x="7.6" y="2.5" dx="2.7" dy="1.2" layer="1" roundness="30"/>
 <smd name="3" x="-7.6" y="-2.5" dx="2.7" dy="1.2" layer="1" roundness="30"/>
 <smd name="4" x="7.6" y="-2.5" dx="2.7" dy="1.2" layer="1" roundness="30"/>
+</package>
+<package name="SW-PB-6060-RA-TH">
+<description>Momentary Push Button - Right Angle (Through Hole)&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pad name="P$1" x="-2.25" y="0" drill="0.9" diameter="1.5"/>
+<pad name="P$2" x="2.25" y="0" drill="0.9" diameter="1.5"/>
+<pad name="P$3" x="-3.5" y="-2.3" drill="1.2" diameter="2"/>
+<pad name="P$4" x="3.5" y="-2.3" drill="1.2" diameter="2"/>
+<rectangle x1="-3.7" y1="-3.6" x2="-3.3" y2="1.7" layer="51"/>
+<rectangle x1="3.3" y1="-3.6" x2="3.7" y2="1.7" layer="51"/>
+<wire x1="-3.7" y1="2.5" x2="3.7" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="3.7" y1="2.5" x2="3.7" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="3.7" y1="-1.5" x2="-3.7" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-1.5" x2="-3.7" y2="2.5" width="0.2032" layer="51"/>
+<rectangle x1="-1.7" y1="2.5" x2="1.7" y2="12.5" layer="51"/>
+<wire x1="-3.4" y1="2.2" x2="3.4" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="2.2" x2="3.4" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-1.1" x2="-3.4" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-1.1" x2="-3.4" y2="2.2" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4673,6 +4693,23 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="">
 <attribute name="CYTRON-PC" value=""/>
 <attribute name="DESC" value="Push Button - 4 Pins (12.0 x 12.0mm)"/>
+<attribute name="LABEL" value=""/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="REMARK" value=""/>
+<attribute name="VALUE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="_(6060-RA-TH)" package="SW-PB-6060-RA-TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value=""/>
+<attribute name="DESC" value="Push Button - Right Angle (6.0 x 6.0mm)"/>
 <attribute name="LABEL" value=""/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
