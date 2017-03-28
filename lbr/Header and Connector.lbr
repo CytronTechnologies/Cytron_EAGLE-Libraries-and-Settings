@@ -11308,8 +11308,8 @@ SMT header is CONN-09042.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-CN-PH-F220S" constant="no"/>
-<attribute name="DESC" value="S Straight Female Header 2x20 Ways" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-PH-F220S-ES" constant="no"/>
+<attribute name="DESC" value="S Female Header 2x20 Easy Studio" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2x20 Ways" constant="no"/>
