@@ -46,9 +46,9 @@ if (board) board(B) {
         }
 
        if (wasSmd)
-         printf("%s %5.2f %5.2f %3.0f %s %s\n",
+         printf("%s,%5.2f,%5.2f,%3.0f,%s,%s,%s\n",
          E.name, u2mm((xmin + xmax)/2), u2mm((ymin + ymax)/2),
-         E.angle, E.value, E.package.name);
+         E.angle, E.value, E.package.name,  E.attribute["CYTRON-PC"]);
    }
  }
 
@@ -80,9 +80,9 @@ if (board) board(B) {
          }
 
        if (wasSmd)
-         printf("%s %5.2f %5.2f %3.0f %s %s\n",
+         printf("%s,%5.2f,%5.2f,%3.0f,%s,%s,%s\n",
          E.name, u2mm((xmin + xmax)/2), u2mm((ymin + ymax)/2),
-         E.angle, E.value, E.package.name);
+         E.angle, E.value, E.package.name, E.attribute["CYTRON-PC"]);
    }
  }
 }
