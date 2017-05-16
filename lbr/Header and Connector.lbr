@@ -6718,7 +6718,7 @@ Created by: Wai Weng</description>
 <rectangle x1="8.3" y1="0" x2="9.8" y2="1" layer="51"/>
 </package>
 <package name="RJ12">
-<description>RJ11 6P6C Connector&lt;br&gt;
+<description>RJ12 6P6C Connector&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
 <wire x1="-6.6" y1="9.05" x2="6.6" y2="9.05" width="0.2032" layer="51"/>
@@ -6746,6 +6746,51 @@ Created by: Wai Weng</description>
 <wire x1="6.3" y1="8.75" x2="4" y2="8.75" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-10.3" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
+</package>
+<package name="RJ45">
+<description>RJ45 8P8C Connector&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<smd name="P$1" x="-8.5" y="0" dx="2.62" dy="4.3" layer="1"/>
+<smd name="P$2" x="8.5" y="0" dx="2.62" dy="4.3" layer="1"/>
+<smd name="P$3" x="-8.5" y="0" dx="2.62" dy="4.3" layer="16"/>
+<smd name="P$4" x="8.5" y="0" dx="2.62" dy="4.3" layer="16"/>
+<hole x="-8.5" y="0" drill="1"/>
+<hole x="8.5" y="0" drill="1"/>
+<hole x="-6" y="6.6" drill="1.8"/>
+<hole x="6" y="6.6" drill="1.8"/>
+<smd name="5" x="0.51" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="4" x="-0.51" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="6" x="1.53" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="7" x="2.55" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="8" x="3.57" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="3" x="-1.53" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="2" x="-2.55" y="6.9" dx="0.5" dy="3" layer="1"/>
+<smd name="1" x="-3.57" y="6.9" dx="0.5" dy="3" layer="1"/>
+<wire x1="-6.8" y1="-2.7" x2="-6.8" y2="5" width="0" layer="46"/>
+<wire x1="-6.8" y1="5" x2="6.8" y2="5" width="0" layer="46"/>
+<wire x1="6.8" y1="5" x2="6.8" y2="-2.7" width="0" layer="46"/>
+<wire x1="6.8" y1="-2.7" x2="7.4" y2="-2.7" width="0" layer="46"/>
+<wire x1="7.4" y1="-2.7" x2="7.4" y2="-6" width="0" layer="46"/>
+<wire x1="7.4" y1="-6" x2="-7.4" y2="-6" width="0" layer="46"/>
+<wire x1="-7.4" y1="-6" x2="-7.4" y2="-2.7" width="0" layer="46"/>
+<wire x1="-7.4" y1="-2.7" x2="-6.8" y2="-2.7" width="0" layer="46"/>
+<wire x1="-7.2" y1="7.55" x2="7.2" y2="7.55" width="0.2032" layer="51"/>
+<wire x1="7.2" y1="7.55" x2="7.2" y2="4.2" width="0.2032" layer="51"/>
+<wire x1="7.2" y1="4.2" x2="7.2" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="7.2" y1="-3.8" x2="7.2" y2="-5.65" width="0.2032" layer="51"/>
+<wire x1="7.2" y1="-5.65" x2="-7.2" y2="-5.65" width="0.2032" layer="51"/>
+<wire x1="-7.2" y1="-5.65" x2="-7.2" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-7.2" y1="-3.8" x2="-7.2" y2="4.2" width="0.2032" layer="51"/>
+<wire x1="-7.2" y1="4.2" x2="-7.2" y2="7.55" width="0.2032" layer="51"/>
+<wire x1="7.2" y1="4.2" x2="8.3" y2="4.2" width="0.2032" layer="51"/>
+<wire x1="8.3" y1="4.2" x2="8.3" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="8.3" y1="-3.8" x2="7.2" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-7.2" y1="4.2" x2="-8.3" y2="4.2" width="0.2032" layer="51"/>
+<wire x1="-8.3" y1="4.2" x2="-8.3" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-8.3" y1="-3.8" x2="-7.2" y2="-3.8" width="0.2032" layer="51"/>
+<text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="8.7" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
 </package>
 </packages>
 <symbols>
@@ -11364,7 +11409,7 @@ SMT header is CONN-09042.</description>
 </devices>
 </deviceset>
 <deviceset name="RJ12" prefix="JP">
-<description>RJ11 6P6C Connector&lt;br&gt;
+<description>RJ12 6P6C Connector&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
 <gates>
@@ -11387,6 +11432,37 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="6 Ways" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJ45" prefix="JP">
+<description>RJ45 8P8C Connector&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="1X08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJ45">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="RJ45 8P8C RA" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="8 Ways" constant="no"/>
 </technology>
 </technologies>
 </device>
