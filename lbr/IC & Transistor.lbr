@@ -3472,11 +3472,11 @@ Created by: Wai Weng</description>
 <text x="-40.64" y="-30.48" size="1.778" layer="96">&gt;MPN</text>
 </symbol>
 <symbol name="MCP6001U">
-<pin name="IN+@1" x="10.16" y="-2.54" length="short" rot="R180"/>
-<pin name="V-@2" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="IN-@3" x="10.16" y="2.54" length="short" rot="R180"/>
-<pin name="OUT@4" x="-10.16" y="2.54" length="short"/>
-<pin name="V+@5" x="-10.16" y="-2.54" length="short"/>
+<pin name="IN+" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="V-" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="IN-" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="OUT" x="-10.16" y="2.54" length="short"/>
+<pin name="V+" x="-10.16" y="-2.54" length="short"/>
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -4697,14 +4697,14 @@ Created by: Wai Weng</description>
 <text x="-17.78" y="33.782" size="1.778" layer="95">&gt;NAME</text>
 <text x="-17.78" y="-38.1" size="1.778" layer="96">&gt;MPN</text>
 </symbol>
-<symbol name="MAX485">
-<description>MAX485 RS-485/RS-422 Transceiver&lt;br&gt;
+<symbol name="SN75176B">
+<description>SN75176B RS-485/RS-422 Transceiver&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
-<pin name="RO" x="-10.16" y="5.08" length="short"/>
+<pin name="R" x="-10.16" y="5.08" length="short"/>
 <pin name="!RE" x="-10.16" y="2.54" length="short"/>
 <pin name="DE" x="-10.16" y="0" length="short"/>
-<pin name="DI" x="-10.16" y="-2.54" length="short"/>
+<pin name="D" x="-10.16" y="-2.54" length="short"/>
 <pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
 <pin name="A" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="B" x="10.16" y="2.54" length="short" rot="R180"/>
@@ -6353,13 +6353,13 @@ such as CW, CCW, short brake, and stop mode.</description>
 <gate name="G$1" symbol="MCP6001U" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_(SOT)" package="SOT-23-5">
+<device name="" package="SOT-23-5">
 <connects>
-<connect gate="G$1" pin="IN+@1" pad="1"/>
-<connect gate="G$1" pin="IN-@3" pad="3"/>
-<connect gate="G$1" pin="OUT@4" pad="4"/>
-<connect gate="G$1" pin="V+@5" pad="5"/>
-<connect gate="G$1" pin="V-@2" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -8142,12 +8142,12 @@ Created by: Wai Weng</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX485" prefix="U">
-<description>MAX485 RS-485/RS-422 Transceiver&lt;br&gt;
+<deviceset name="SN75176B" prefix="U">
+<description>SN75176B RS-485/RS-422 Transceiver&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
 <gates>
-<gate name="G$1" symbol="MAX485" x="0" y="0"/>
+<gate name="G$1" symbol="SN75176B" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC-08N">
@@ -8155,10 +8155,10 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="!RE" pad="2"/>
 <connect gate="G$1" pin="A" pad="6"/>
 <connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="D" pad="4"/>
 <connect gate="G$1" pin="DE" pad="3"/>
-<connect gate="G$1" pin="DI" pad="4"/>
 <connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="RO" pad="1"/>
+<connect gate="G$1" pin="R" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
@@ -8166,8 +8166,8 @@ Created by: Wai Weng</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="RS-485/RS-422 Transceiver" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="Maxim Integrated" constant="no"/>
-<attribute name="MPN" value="MAX485" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="SN75176BDR" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
