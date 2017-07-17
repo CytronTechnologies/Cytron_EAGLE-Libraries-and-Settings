@@ -2624,6 +2624,80 @@ Created by: Wai Weng</description>
 <rectangle x1="2.1" y1="1.625" x2="2.5" y2="1.875" layer="51"/>
 <rectangle x1="1.625" y1="2.1" x2="1.875" y2="2.5" layer="51"/>
 </package>
+<package name="FQFN34-24">
+<description>24 Lead FQFN (MIC28512) &lt;br&gt;
+Size: 3x4mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="-2" x2="1.5" y2="2" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="2" x2="-1.5" y2="2" width="0.0508" layer="51"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-2" width="0.0508" layer="51"/>
+<rectangle x1="0.125" y1="-2" x2="0.375" y2="-1.7" layer="51"/>
+<rectangle x1="0.625" y1="-2" x2="0.875" y2="-1.7" layer="51"/>
+<rectangle x1="-0.375" y1="-2" x2="-0.125" y2="-1.7" layer="51"/>
+<rectangle x1="-0.875" y1="-2" x2="-0.625" y2="-1.7" layer="51"/>
+<rectangle x1="-0.875" y1="1.7" x2="-0.625" y2="2" layer="51"/>
+<rectangle x1="0.125" y1="1.7" x2="0.375" y2="2" layer="51"/>
+<rectangle x1="0.625" y1="1.7" x2="0.875" y2="2" layer="51"/>
+<rectangle x1="-0.375" y1="1.7" x2="-0.125" y2="2" layer="51"/>
+<rectangle x1="-1.5" y1="0.125" x2="-1.2" y2="0.375" layer="51"/>
+<rectangle x1="-1.5" y1="-0.375" x2="-1.2" y2="-0.125" layer="51"/>
+<rectangle x1="-1.5" y1="-0.875" x2="-1.2" y2="-0.625" layer="51"/>
+<rectangle x1="-1.5" y1="-1.375" x2="-1.2" y2="-1.125" layer="51"/>
+<rectangle x1="-1.5" y1="-1.875" x2="-1.2" y2="-1.625" layer="51"/>
+<rectangle x1="-1.5" y1="0.625" x2="-1.2" y2="0.875" layer="51"/>
+<rectangle x1="-1.5" y1="1.125" x2="-1.2" y2="1.375" layer="51"/>
+<rectangle x1="-1.5" y1="1.625" x2="-1.1" y2="1.875" layer="51"/>
+<rectangle x1="1.2" y1="0.125" x2="1.5" y2="0.375" layer="51"/>
+<rectangle x1="1.2" y1="-0.375" x2="1.5" y2="-0.125" layer="51"/>
+<rectangle x1="1.2" y1="-0.875" x2="1.5" y2="-0.625" layer="51"/>
+<rectangle x1="1.2" y1="-1.375" x2="1.5" y2="-1.125" layer="51"/>
+<rectangle x1="1.2" y1="-1.875" x2="1.5" y2="-1.625" layer="51"/>
+<rectangle x1="1.2" y1="0.625" x2="1.5" y2="0.875" layer="51"/>
+<rectangle x1="1.2" y1="1.125" x2="1.5" y2="1.375" layer="51"/>
+<rectangle x1="1.2" y1="1.625" x2="1.5" y2="1.875" layer="51"/>
+<smd name="1" x="-1.4" y="1.75" dx="0.6" dy="0.25" layer="1"/>
+<smd name="2" x="-1.45" y="1.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="3" x="-1.45" y="0.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="4" x="-1.45" y="0.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="5" x="-1.45" y="-0.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="6" x="-1.45" y="-0.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="7" x="-1.45" y="-1.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="8" x="-1.45" y="-1.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="9" x="-0.75" y="-1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="-0.25" y="-1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="0.25" y="-1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="12" x="0.75" y="-1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="13" x="1.45" y="-1.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="14" x="1.45" y="-1.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="15" x="1.45" y="-0.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="16" x="1.45" y="-0.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="17" x="1.45" y="0.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="18" x="1.45" y="0.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="19" x="1.45" y="1.25" dx="0.5" dy="0.25" layer="1"/>
+<smd name="20" x="1.45" y="1.75" dx="0.5" dy="0.25" layer="1"/>
+<smd name="21" x="0.75" y="1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="22" x="0.25" y="1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="23" x="-0.25" y="1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="24" x="-0.75" y="1.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="25" x="-0.795" y="-0.41" dx="0.41" dy="2.08" layer="1"/>
+<smd name="26" x="0.065" y="0" dx="0.59" dy="2.9" layer="1"/>
+<smd name="27" x="0.84" y="0" dx="0.32" dy="2.9" layer="1"/>
+<pad name="25-1" x="-0.795" y="0.4" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="25-2" x="-0.795" y="-0.4" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="25-3" x="-0.795" y="-1.2" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="26-1" x="0.065" y="1.2" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="26-2" x="0.065" y="0.4" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="26-3" x="0.065" y="-0.4" drill="0.3" diameter="0.4" shape="square"/>
+<pad name="26-4" x="0.065" y="-1.2" drill="0.3" diameter="0.4" shape="square"/>
+<rectangle x1="0.74" y1="-1.35" x2="0.94" y2="1.35" layer="51"/>
+<rectangle x1="-0.13" y1="-1.35" x2="0.26" y2="1.35" layer="51"/>
+<rectangle x1="-0.925" y1="-1.315" x2="-0.665" y2="0.495" layer="51"/>
+<circle x="-1.4" y="2.3" radius="0.1" width="0.2032" layer="21"/>
+<text x="-2" y="-2" size="0.762" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
+<text x="2" y="-2" size="0.762" layer="27" font="vector" ratio="15" rot="R90" align="top-left">&gt;MPN</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AP34063">
@@ -4743,6 +4817,49 @@ Created by: Wai Weng</description>
 <text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;MPN</text>
 </symbol>
+<symbol name="MIC28512">
+<description>70V, 2A Synchronous Buck Regulator&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pin name="EN" x="-15.24" y="7.62" length="short"/>
+<pin name="PVIN" x="-15.24" y="2.54" length="short"/>
+<pin name="VIN" x="-15.24" y="0" length="short"/>
+<pin name="FREQ" x="-15.24" y="-5.08" length="short"/>
+<pin name="PGND" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="AGND" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="FB" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="LX" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="SW" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="ILIM" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="BST" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="PVDD" x="2.54" y="17.78" length="short" rot="R270"/>
+<pin name="VDD" x="-2.54" y="17.78" length="short" rot="R270"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;MPN</text>
+<pin name="PGOOD" x="-15.24" y="-12.7" length="short"/>
+</symbol>
+<symbol name="INA240">
+<description>High and Low Side, Bidirectional, Zero-Drift, Current-Sense Amplifier with Enhanced PWM Rejection&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pin name="IN+" x="-10.16" y="5.08" length="short"/>
+<pin name="IN-" x="-10.16" y="-5.08" length="short"/>
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
+<pin name="REF1" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="REF2" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="OUT" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VS" x="0" y="10.16" length="short" rot="R270"/>
+<wire x1="-7.62" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="2.54" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.54" y="10.16" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -5483,7 +5600,7 @@ Created by: Wai Weng</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-IC-INA214-SC706" constant="no"/>
-<attribute name="DESC" value="SMD IC - Current Shunt Monitor" constant="no"/>
+<attribute name="DESC" value="S Current Shunt Monitor INA214 SC-70-6" constant="no"/>
 <attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="INA214" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -8209,6 +8326,73 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="AVIA Semiconductor" constant="no"/>
 <attribute name="MPN" value="HX711" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC28512" prefix="U">
+<description>70V, 2A Synchronous Buck Regulator&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="MIC28512" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FQFN34-24">
+<connects>
+<connect gate="G$1" pin="AGND" pad="13"/>
+<connect gate="G$1" pin="BST" pad="6"/>
+<connect gate="G$1" pin="EN" pad="16"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="FREQ" pad="24"/>
+<connect gate="G$1" pin="ILIM" pad="18"/>
+<connect gate="G$1" pin="LX" pad="5"/>
+<connect gate="G$1" pin="PGND" pad="2 10 11 22 23 26 26-1 26-2 26-3 26-4"/>
+<connect gate="G$1" pin="PGOOD" pad="15"/>
+<connect gate="G$1" pin="PVDD" pad="20"/>
+<connect gate="G$1" pin="PVIN" pad="4 7 8 9 25 25-1 25-2 25-3"/>
+<connect gate="G$1" pin="SW" pad="12 21 27"/>
+<connect gate="G$1" pin="VDD" pad="19"/>
+<connect gate="G$1" pin="VIN" pad="17"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="70V 2A Buck Regulator" constant="no"/>
+<attribute name="MF" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MIC28512-1YFL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA240" prefix="U">
+<description>High and Low Side, Bidirectional, Zero-Drift, Current-Sense Amplifier with Enhanced PWM Rejection&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="INA240" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP-08">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN+" pad="2"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+<connect gate="G$1" pin="REF1" pad="7"/>
+<connect gate="G$1" pin="REF2" pad="6"/>
+<connect gate="G$1" pin="VS" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Current Shunt Monitor INA240 SSOP8" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="INA240A1PWR" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
