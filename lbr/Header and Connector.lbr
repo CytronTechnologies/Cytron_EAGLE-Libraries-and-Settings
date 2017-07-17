@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6825,6 +6825,85 @@ Created by: Wai Weng</description>
 <pad name="H3" x="7.62" y="0" drill="0.5"/>
 <pad name="H4" x="11.43" y="0" drill="0.5"/>
 </package>
+<package name="2600-08">
+<description>2600 PCB Connector - 8 Ways&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Created by: Wai Weng&lt;br&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<text x="-1.016" y="2.413" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.397" y="-2.921" size="0.762" layer="21" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
+<text x="-1.397" y="-2.921" size="0.762" layer="51" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
+<wire x1="-1.397" y1="3.556" x2="19.177" y2="3.556" width="0.2032" layer="51"/>
+<wire x1="19.177" y1="3.556" x2="19.177" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="19.177" y1="-2.54" x2="17.78" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="17.78" y1="-2.54" x2="0" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="0" y1="-2.54" x2="-1.397" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-1.397" y1="-2.54" x2="-1.397" y2="3.556" width="0.2032" layer="51"/>
+<rectangle x1="0" y1="-2.54" x2="17.78" y2="-1.905" layer="51"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="51"/>
+<wire x1="0" y1="-1.905" x2="17.78" y2="-1.905" width="0.2032" layer="51"/>
+<wire x1="17.78" y1="-1.905" x2="17.78" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-1.397" y1="3.556" x2="19.177" y2="3.556" width="0.2032" layer="21"/>
+<wire x1="19.177" y1="3.556" x2="19.177" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="19.177" y1="-2.54" x2="17.78" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-2.54" x2="0" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-1.397" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="-2.54" x2="-1.397" y2="3.556" width="0.2032" layer="21"/>
+<rectangle x1="0" y1="-2.54" x2="17.78" y2="-1.905" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="0" y1="-1.905" x2="17.78" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-1.905" x2="17.78" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+</package>
+<package name="2600-08-LOCK">
+<description>2600 PCB Connector - 8 Ways (Pad shifted 5mil to lock the header during soldering)&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Created by: Wai Weng&lt;br&gt;</description>
+<pad name="1" x="0" y="0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="3" x="5.08" y="0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<text x="-1.016" y="2.413" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.397" y="-2.921" size="0.762" layer="51" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
+<wire x1="-1.397" y1="3.556" x2="19.177" y2="3.556" width="0.2032" layer="21"/>
+<wire x1="19.177" y1="3.556" x2="19.177" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="19.177" y1="-2.54" x2="17.78" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-2.54" x2="0" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-1.397" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="-2.54" x2="-1.397" y2="3.556" width="0.2032" layer="21"/>
+<rectangle x1="0" y1="-2.54" x2="17.78" y2="-1.905" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="0" y1="-1.905" x2="17.78" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-1.905" x2="17.78" y2="-2.54" width="0.2032" layer="21"/>
+<rectangle x1="-0.32" y1="-0.32" x2="0.32" y2="0.32" layer="51"/>
+<rectangle x1="2.22" y1="-0.32" x2="2.86" y2="0.32" layer="51"/>
+<rectangle x1="4.76" y1="-0.32" x2="5.4" y2="0.32" layer="51"/>
+<pad name="4" x="7.62" y="-0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="5" x="10.16" y="0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<rectangle x1="7.3" y1="-0.32" x2="7.94" y2="0.32" layer="51"/>
+<rectangle x1="9.84" y1="-0.32" x2="10.48" y2="0.32" layer="51"/>
+<wire x1="-1.397" y1="3.556" x2="19.177" y2="3.556" width="0.2032" layer="51"/>
+<wire x1="19.177" y1="3.556" x2="19.177" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="19.177" y1="-2.54" x2="17.78" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="17.78" y1="-2.54" x2="0" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="0" y1="-2.54" x2="-1.397" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-1.397" y1="-2.54" x2="-1.397" y2="3.556" width="0.2032" layer="51"/>
+<rectangle x1="0" y1="-2.54" x2="17.78" y2="-1.905" layer="51"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="51"/>
+<wire x1="0" y1="-1.905" x2="17.78" y2="-1.905" width="0.2032" layer="51"/>
+<wire x1="17.78" y1="-1.905" x2="17.78" y2="-2.54" width="0.2032" layer="51"/>
+<pad name="6" x="12.7" y="-0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<rectangle x1="12.38" y1="-0.32" x2="13.02" y2="0.32" layer="51"/>
+<pad name="7" x="15.24" y="0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<rectangle x1="14.92" y1="-0.32" x2="15.56" y2="0.32" layer="51"/>
+<pad name="8" x="17.78" y="-0.127" drill="1.016" diameter="1.778" rot="R90"/>
+<rectangle x1="17.46" y1="-0.32" x2="18.1" y2="0.32" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X03">
@@ -11513,6 +11592,58 @@ Created by: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="8 Ways" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2600-08" prefix="JP">
+<description>2600 PCB Connector - 8 Ways&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Created by: Wai Weng&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="1X08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(NORMAL)" package="2600-08">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="CN-2600PS-08" constant="no"/>
+<attribute name="DESC" value="2600 PCB Connector" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="Related Product: CN-2510H-08 (2510 Connector Housing)" constant="no"/>
+<attribute name="VALUE" value="8 ways" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(LOCK)" package="2600-08-LOCK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="CN-2600PS-08" constant="no"/>
+<attribute name="DESC" value="2600 PCB Connector" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="Related Product: CN-2510H-08 (2510 Connector Housing)" constant="no"/>
+<attribute name="VALUE" value="8 ways" constant="no"/>
 </technology>
 </technologies>
 </device>
