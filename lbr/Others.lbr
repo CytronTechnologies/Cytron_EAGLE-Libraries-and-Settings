@@ -2321,6 +2321,22 @@ Created by: Wai Weng</description>
 <text x="0" y="1.905" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.905" size="0.762" layer="27" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;MPN</text>
 </package>
+<package name="ECAP-10MM-TH">
+<description>Aluminium Electrolytic Capacitor&lt;br&gt;
+Diameter: 10mm&lt;br&gt;
+Lead Pitch: 5.0mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pad name="+" x="-2.5" y="0" drill="1" diameter="2.286"/>
+<pad name="-" x="2.5" y="0" drill="1" diameter="2.286"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="4.3" x2="2.54" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.397" x2="2.54" y2="-4.3" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="4.3" x2="2.54" y2="-4.3" width="0.2032" layer="51"/>
+<text x="0" y="2.74" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.54" size="0.762" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -2632,6 +2648,7 @@ Created by: Wai Weng</description>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="DIODE">
 <pin name="A" x="-2.54" y="0" visible="off" length="short"/>
@@ -3518,6 +3535,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.25mR 4W" constant="no"/>
 </technology>
+<technology name="_0R002_4W">
+<attribute name="CYTRON-PC" value="S-R-4W-2MR-2725" constant="no"/>
+<attribute name="DESC" value="S Resistor 4W 2mR 2725" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2mR 4W" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(1608)" package="1608">
@@ -4168,13 +4193,13 @@ Created by: OoiBP</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="SMD Inductor" constant="no"/>
+<technology name="_47UH">
+<attribute name="CYTRON-PC" value="S-L-47UH-1.8A" constant="no"/>
+<attribute name="DESC" value="S Inductor 47uH 1.8A SDRH8D43" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4454,6 +4479,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="63V 2200uF" constant="no"/>
 </technology>
+<technology name="_80V1000UF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="80V 1000uF" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(08MM-TH)" package="ECAP-08MM-TH">
@@ -4509,6 +4542,22 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="50V 330uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(10MM-TH)" package="ECAP-10MM-TH">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="_100V100UF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100V 100uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5511,7 +5560,7 @@ Size: 5.0 x 5.0mm</description>
 <attribute name="MF" value="POLYTRONIC" constant="no"/>
 <attribute name="MPN" value="SMD1206P025TF" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="0.25A" constant="no"/>
+<attribute name="VALUE" value="250mA" constant="no"/>
 </technology>
 <technology name="_0.35A">
 <attribute name="CYTRON-PC" value="S-PTC-0.35A-1206" constant="no"/>
@@ -5520,7 +5569,7 @@ Size: 5.0 x 5.0mm</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="0.35A" constant="no"/>
+<attribute name="VALUE" value="350mA" constant="no"/>
 </technology>
 </technologies>
 </device>
