@@ -4693,8 +4693,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE-ZENER" prefix="D" uservalue="yes">
-<description>Zener Diode</description>
+<deviceset name="DIODE-ZENER/TVS-UNI" prefix="D" uservalue="yes">
+<description>Zener Diode / Unidirectional TVS Diode</description>
 <gates>
 <gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
 </gates>
@@ -4760,6 +4760,54 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="BZX384-C4V3" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="4v3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(SMB)" package="D-SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="_SM6T36A">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S TVS Diode 36V 62A SM6T36A SMB" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
+<attribute name="MPN" value="SM6T36A" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="36V 62A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(SMC)" package="D-SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="_SM15T33A">
+<attribute name="CYTRON-PC" value="S-D-SM15T33A-SMC" constant="no"/>
+<attribute name="DESC" value="S TVS Diode 33V 169A SMC" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
+<attribute name="MPN" value="SM15T33A" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33V 169A" constant="no"/>
+</technology>
+<technology name="_SM15T36A">
+<attribute name="CYTRON-PC" value="S-D-SM15T36A-SMC" constant="no"/>
+<attribute name="DESC" value="S TVS Diode 36V 156A SMC" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
+<attribute name="MPN" value="SM15T36A" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="36V 156A" constant="no"/>
+</technology>
+<technology name="_SM15T56A">
+<attribute name="CYTRON-PC" value="S-D-SM15T56A-SMC" constant="no"/>
+<attribute name="DESC" value="S TVS Diode 56V 100A SMC" constant="no"/>
+<attribute name="MF" value="VISHAY" constant="no"/>
+<attribute name="MPN" value="SM15T56A" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="56V 100A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5214,7 +5262,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE-TVS" prefix="D">
+<deviceset name="DIODE-TVS-BI" prefix="D">
 <description>Bidirectional TVS Diode.&lt;br&gt;
 Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <gates>
@@ -5234,30 +5282,6 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <attribute name="MPN" value="SM6T33CA" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33V 68A" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_(SMC)" package="D-SMC">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="_SM15T33A">
-<attribute name="CYTRON-PC" value="S-D-SM15T33A-SMC" constant="no"/>
-<attribute name="DESC" value="SMD TVS Diode" constant="no"/>
-<attribute name="MF" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="SM15T33A" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="33V 169A" constant="no"/>
-</technology>
-<technology name="_SM15T56A">
-<attribute name="CYTRON-PC" value="S-D-SM15T56A-SMC" constant="no"/>
-<attribute name="DESC" value="SMD TVS Diode" constant="no"/>
-<attribute name="MF" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="SM15T56A" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="56V 100A" constant="no"/>
 </technology>
 </technologies>
 </device>
