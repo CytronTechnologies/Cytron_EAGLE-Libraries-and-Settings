@@ -2337,6 +2337,51 @@ Created by: Wai Weng</description>
 <text x="0" y="2.74" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="1.54" size="0.762" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="FUSE-0154">
+<description>Littlefuse SMD Fuse and Holder 0154 Series &lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="-4.7" y1="2.52" x2="4.7" y2="2.52" width="0.2032" layer="51"/>
+<wire x1="4.7" y1="2.52" x2="4.7" y2="-2.52" width="0.2032" layer="51"/>
+<wire x1="4.7" y1="-2.52" x2="-4.7" y2="-2.52" width="0.2032" layer="51"/>
+<wire x1="-4.7" y1="-2.52" x2="-4.7" y2="2.52" width="0.2032" layer="51"/>
+<rectangle x1="1" y1="-1.5" x2="5" y2="1.5" layer="51"/>
+<rectangle x1="-5" y1="-1.5" x2="-1" y2="1.5" layer="51"/>
+<smd name="1" x="-3.35" y="0" dx="5" dy="3.8" layer="1" roundness="20"/>
+<smd name="2" x="3.35" y="0" dx="5" dy="3.8" layer="1" roundness="20"/>
+<text x="0" y="3" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<wire x1="-4.4" y1="2.2" x2="4.4" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-2.2" x2="4.4" y2="-2.2" width="0.2032" layer="21"/>
+</package>
+<package name="L-120120-SHIELDED">
+<description>SMD Inductor (Shielded)&lt;br&gt;
+Size: 12mm x 12mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="-6" y1="-5" x2="-6" y2="5" width="0.2032" layer="51"/>
+<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="51"/>
+<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="51" curve="-90"/>
+<wire x1="6" y1="5" x2="6" y2="-5" width="0.2032" layer="51"/>
+<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="51" curve="-90"/>
+<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="51" curve="-90"/>
+<smd name="1" x="0" y="5.5" dx="5.4" dy="4" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-5.5" dx="5.4" dy="4" layer="1" roundness="20"/>
+<text x="0" y="1" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<wire x1="3.1" y1="5.6" x2="4.878890625" y2="5.6" width="0.2032" layer="21"/>
+<wire x1="4.878890625" y1="5.6" x2="5.6" y2="4.878890625" width="0.2032" layer="21" curve="-90"/>
+<wire x1="5.6" y1="4.878890625" x2="5.6" y2="-4.878890625" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-4.878890625" x2="4.878890625" y2="-5.6" width="0.2032" layer="21" curve="-90"/>
+<wire x1="4.878890625" y1="-5.6" x2="3.1" y2="-5.6" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-5.6" x2="-4.751471875" y2="-5.6" width="0.2032" layer="21"/>
+<wire x1="-4.751471875" y1="-5.6" x2="-5.6" y2="-4.751471875" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-5.6" y1="-4.751471875" x2="-5.6" y2="4.878890625" width="0.2032" layer="21"/>
+<wire x1="-5.6" y1="4.878890625" x2="-4.878890625" y2="5.6" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-4.878890625" y1="5.6" x2="-3.1" y2="5.6" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -3287,6 +3332,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K5" constant="no"/>
 </technology>
+<technology name="_1K_1P">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 1K 0805 1%" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1K 1%" constant="no"/>
+</technology>
 <technology name="_1M">
 <attribute name="CYTRON-PC" value="S-R-1M-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 1M 0805" constant="no"/>
@@ -3391,6 +3444,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="33R" constant="no"/>
 </technology>
+<technology name="_390R">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 390R 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="390R" constant="no"/>
+</technology>
 <technology name="_470K">
 <attribute name="CYTRON-PC" value="S-R-470K-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 470K 0805" constant="no"/>
@@ -3463,6 +3524,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="680R" constant="no"/>
 </technology>
+<technology name="_68K">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 68K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="68K" constant="no"/>
+</technology>
 <technology name="_68R">
 <attribute name="CYTRON-PC" value="S-R-68-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 68R 0805" constant="no"/>
@@ -3486,6 +3555,14 @@ Created by: OoiBP</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="820R" constant="no"/>
+</technology>
+<technology name="_82K_1P">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 82K 0805 1%" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="82K 1%" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3799,6 +3876,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2mR 1W 1%" constant="no"/>
 </technology>
+<technology name="_0R015_1W_1P">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 1W 15mR 6432 1%" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="15mR 1W 1%" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(5930)" package="5930">
@@ -3911,6 +3996,14 @@ Created by: OoiBP</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
+<technology name="_150PF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 150pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="150pF" constant="no"/>
+</technology>
 <technology name="_15PF">
 <attribute name="CYTRON-PC" value="S-CC-15P-85" constant="no"/>
 <attribute name="DESC" value="S Ceramic Capacitor 15pF 0805" constant="no"/>
@@ -3966,6 +4059,14 @@ Created by: OoiBP</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="30pF" constant="no"/>
+</technology>
+<technology name="_330PF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 330pF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="330pF" constant="no"/>
 </technology>
 <technology name="_470NF">
 <attribute name="CYTRON-PC" value="S-CC-470N-85" constant="no"/>
@@ -4258,6 +4359,22 @@ Created by: OoiBP</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(L-120120-SHIELDED)" package="L-120120-SHIELDED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_22UH">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Inductor 22uH 5.3A 120120-SHIELDED" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5620,6 +5737,23 @@ Size: 5.0 x 5.0mm</description>
 <attribute name="MPN" value="SMD2920P300TS" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="3A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(0154)" package="FUSE-0154">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_10A">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Fuse 10A 0154" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="Littlefuse" constant="no"/>
+<attribute name="MPN" value="0154010." constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="10A" constant="no"/>
 </technology>
 </technologies>
 </device>
