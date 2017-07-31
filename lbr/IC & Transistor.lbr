@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -462,26 +462,21 @@ Lead Pitch: 0.65mm</description>
 </package>
 <package name="TO-263-5">
 <description>TO-263 Package</description>
-<rectangle x1="0.825" y1="-5.3" x2="7.175" y2="5.3" layer="51"/>
-<wire x1="4" y1="5.205" x2="-2.985" y2="5.205" width="0.2032" layer="51"/>
-<wire x1="-2.985" y1="5.205" x2="-2.985" y2="-5.205" width="0.2032" layer="51"/>
-<wire x1="-2.985" y1="-5.205" x2="4" y2="-5.205" width="0.2032" layer="51"/>
-<rectangle x1="-7.175" y1="-0.485" x2="-3" y2="0.485" layer="51"/>
-<rectangle x1="-7.175" y1="1.215" x2="-3" y2="2.185" layer="51"/>
-<rectangle x1="-7.175" y1="2.915" x2="-3" y2="3.885" layer="51"/>
-<rectangle x1="-7.175" y1="-2.185" x2="-3" y2="-1.215" layer="51"/>
-<rectangle x1="-7.175" y1="-3.885" x2="-3" y2="-2.915" layer="51"/>
-<smd name="6" x="2.3" y="0" dx="11" dy="11.2" layer="1" roundness="10"/>
-<smd name="1" x="-6.225" y="3.4" dx="2.3" dy="1.2" layer="1" roundness="30"/>
-<smd name="2" x="-6.225" y="1.7" dx="2.3" dy="1.2" layer="1" roundness="30"/>
-<smd name="3" x="-6.225" y="0" dx="2.3" dy="1.2" layer="1" roundness="30"/>
-<smd name="4" x="-6.225" y="-1.7" dx="2.3" dy="1.2" layer="1" roundness="30"/>
-<smd name="5" x="-6.225" y="-3.4" dx="2.3" dy="1.2" layer="1" roundness="30"/>
-<wire x1="-4.8" y1="3.4" x2="-3.5" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="1.7" x2="-3.5" y2="1.7" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="-1.7" x2="-3.5" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="-3.4" x2="-3.5" y2="-3.4" width="0.2032" layer="21"/>
+<rectangle x1="0.825" y1="-5.3716" x2="7.94" y2="5.3716" layer="51"/>
+<wire x1="4" y1="5.27" x2="-4.63" y2="5.27" width="0.2032" layer="51"/>
+<wire x1="-4.63" y1="5.27" x2="-4.63" y2="-5.27" width="0.2032" layer="51"/>
+<wire x1="-4.63" y1="-5.27" x2="4" y2="-5.27" width="0.2032" layer="51"/>
+<rectangle x1="-7.94" y1="-0.485" x2="-4.63" y2="0.485" layer="51"/>
+<rectangle x1="-7.94" y1="1.215" x2="-4.63" y2="2.185" layer="51"/>
+<rectangle x1="-7.94" y1="2.915" x2="-4.63" y2="3.885" layer="51"/>
+<rectangle x1="-7.94" y1="-2.185" x2="-4.63" y2="-1.215" layer="51"/>
+<rectangle x1="-7.94" y1="-3.885" x2="-4.63" y2="-2.915" layer="51"/>
+<smd name="6" x="3.1" y="0" dx="10.41" dy="10.8" layer="1" roundness="10"/>
+<smd name="1" x="-6.9" y="3.4" dx="3.8" dy="1.2" layer="1" roundness="30"/>
+<smd name="2" x="-6.9" y="1.7" dx="3.8" dy="1.2" layer="1" roundness="30"/>
+<smd name="3" x="-6.9" y="0" dx="3.8" dy="1.2" layer="1" roundness="30"/>
+<smd name="4" x="-6.9" y="-1.7" dx="3.8" dy="1.2" layer="1" roundness="30"/>
+<smd name="5" x="-6.9" y="-3.4" dx="3.8" dy="1.2" layer="1" roundness="30"/>
 <text x="-3" y="6" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-3" y="-6.8" size="0.762" layer="27" font="vector" ratio="15">&gt;MPN</text>
 </package>
@@ -5400,6 +5395,14 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_BC817">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S NPN Transistor BC817 SOT-23" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="45V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT2222">
 <attribute name="CYTRON-PC" value="S-Q-2222-SOT23" constant="no"/>
