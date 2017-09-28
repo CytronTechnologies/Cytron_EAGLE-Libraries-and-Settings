@@ -2457,27 +2457,6 @@ Created by: Wai Weng</description>
 <text x="0" y="0.635" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="S-BUZZER-HXD-8530A-03627">
-<description>SMD Piezo Buzzer (Square)&lt;br&gt;
-Size: 8.5mm x 8.5mm&lt;br&gt;
-&lt;br&gt;
-Created by: Idris</description>
-<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="4.25" width="0.2032" layer="51"/>
-<wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.2032" layer="51"/>
-<wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.2032" layer="51"/>
-<wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.2032" layer="51"/>
-<smd name="1" x="-3.25" y="3.25" dx="2.6" dy="1.7" layer="1" roundness="50" rot="R225"/>
-<smd name="+" x="-3.25" y="-3.25" dx="3" dy="3" layer="1" roundness="50" rot="R90"/>
-<smd name="-" x="3.25" y="-3.25" dx="3" dy="3" layer="1" roundness="50" rot="R90"/>
-<smd name="2" x="3.25" y="3.25" dx="3" dy="3" layer="1" roundness="50" rot="R90"/>
-<wire x1="-2.667" y1="-0.889" x2="-3.429" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="-0.508" x2="-3.048" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-3.996" y1="-1.456" x2="-3.996" y2="1.71" width="0.2032" layer="21"/>
-<wire x1="-1.71" y1="3.996" x2="1.456" y2="3.996" width="0.2032" layer="21"/>
-<wire x1="3.996" y1="1.456" x2="3.996" y2="-1.456" width="0.2032" layer="21"/>
-<wire x1="1.456" y1="-3.996" x2="-1.456" y2="-3.996" width="0.2032" layer="21"/>
-<text x="-2.54" y="1.27" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -6570,15 +6549,6 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="_(8530)" package="S-BUZZER-HXD-8530A-03627">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
