@@ -1958,10 +1958,10 @@ Created by: OoiBP</description>
 <wire x1="-3.6775" y1="-2.56" x2="3.6775" y2="-2.56" width="0.2032" layer="51"/>
 <wire x1="3.6775" y1="-2.56" x2="3.6775" y2="2.56" width="0.2032" layer="51"/>
 <wire x1="3.6775" y1="2.56" x2="-3.6775" y2="2.56" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="2.4" x2="-3.5" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-2.4" x2="3.5" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="-2.4" x2="3.5" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="2.4" x2="-3.5" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-2" y1="2.4" x2="-2" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="2" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2.4" x2="2" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.4" x2="-2" y2="2.4" width="0.2032" layer="21"/>
 <smd name="1" x="-3.3" y="0" dx="2" dy="5.3" layer="1" roundness="50"/>
 <smd name="2" x="3.3" y="0" dx="2" dy="5.3" layer="1" roundness="50"/>
 <text x="-4" y="3" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
@@ -2432,6 +2432,8 @@ Created by: Wai Weng</description>
 <wire x1="-11" y1="0" x2="-11" y2="5" width="0.2032" layer="51"/>
 <wire x1="-11" y1="0" x2="-12.7" y2="0" width="0.2032" layer="51"/>
 <wire x1="11" y1="0" x2="12.7" y2="0" width="0.2032" layer="51"/>
+<text x="0" y="0.127" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;Name</text>
+<text x="0" y="-0.127" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;Value</text>
 </package>
 <package name="RELAY-SPDT-29X13.5MM">
 <description>OMRON Relay - 8 Pins&lt;br&gt;
@@ -6611,7 +6613,7 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="S Relay 24V 2A HFD4-S" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="HFD4/24-S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24V 2A" constant="no"/>
 </technology>
@@ -6620,7 +6622,7 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="S Relay 5V 2A HFD4-S" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="HFD4/5-S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V 2A" constant="no"/>
 </technology>
