@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="3" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="5" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="5" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2391,14 +2391,14 @@ Created by: Wai Weng</description>
 <wire x1="5" y1="3.25" x2="5" y2="-3.25" width="0.2032" layer="51"/>
 <wire x1="5" y1="-3.25" x2="-5" y2="-3.25" width="0.2032" layer="51"/>
 <wire x1="-5" y1="-3.25" x2="-5" y2="3.25" width="0.2032" layer="51"/>
-<smd name="8" x="-3.8" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="7" x="-0.6" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="6" x="1.6" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="5" x="3.8" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="4" x="3.8" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="3" x="1.6" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="2" x="-0.6" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
-<smd name="1" x="-3.8" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="1" x="-3.8" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="2" x="-0.6" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="3" x="1.6" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="4" x="3.8" y="-3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="5" x="3.8" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="6" x="1.6" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="7" x="-0.6" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
+<smd name="8" x="-3.8" y="3.175" dx="2.15" dy="0.8" layer="1" roundness="30" rot="R90"/>
 <wire x1="-4.5" y1="2.9" x2="-4.7" y2="2.9" width="0.2032" layer="21"/>
 <wire x1="-4.7" y1="2.9" x2="-4.7" y2="-2.9" width="0.2032" layer="21"/>
 <wire x1="-4.7" y1="-2.9" x2="-4.5" y2="-2.9" width="0.2032" layer="21"/>
@@ -2435,7 +2435,7 @@ Created by: Wai Weng</description>
 <text x="0" y="0.127" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;Name</text>
 <text x="0" y="-0.127" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;Value</text>
 </package>
-<package name="RELAY-SPDT-29X13.5MM">
+<package name="RELAY-DPDT-29X13.5MM">
 <description>OMRON Relay - 8 Pins&lt;br&gt;
 Size: 29mm x 13.5mm&lt;br&gt;
 &lt;br&gt;
@@ -3383,6 +3383,54 @@ Created by: OoiBP</description>
 <wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RELAY-DPDT-POL">
+<pin name="COM1" x="-2.54" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="NO1" x="-5.08" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="NC1" x="0" y="7.62" visible="off" length="middle" rot="R270"/>
+<wire x1="-2.54" y1="-1.778" x2="-0.254" y2="2.54" width="0.1524" layer="94"/>
+<text x="-15.24" y="-5.08" size="1.778" layer="95" rot="R90" align="top-left">&gt;NAME</text>
+<text x="15.24" y="-5.08" size="1.778" layer="97" rot="R90">&gt;LABEL</text>
+<circle x="-2.54" y="-2.159" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="-5.08" y="2.159" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="0" y="2.159" radius="0.3302" width="0.1524" layer="94"/>
+<pin name="COIL+" x="-10.16" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="COIL-" x="-10.16" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="1.27" x2="-10.16" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-8.636" y1="3.81" x2="-8.636" y2="-3.81" width="0.1524" layer="94"/>
+<pin name="COM2" x="7.62" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="NO2" x="5.08" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="NC2" x="10.16" y="7.62" visible="off" length="middle" rot="R270"/>
+<wire x1="7.62" y1="-1.778" x2="9.906" y2="2.54" width="0.1524" layer="94"/>
+<circle x="7.62" y="-2.159" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="5.08" y="2.159" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="10.16" y="2.159" radius="0.3302" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-5.715" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-4.445" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="4.445" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.715" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.985" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="8.255" y2="0" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<text x="-11.176" y="3.81" size="1.778" layer="94" align="center">+</text>
+<text x="-11.176" y="-3.81" size="1.778" layer="94" align="center">-</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6438,7 +6486,7 @@ Created by: Wai Weng</description>
 </technology>
 </technologies>
 </device>
-<device name="_(29X13.5MM)" package="RELAY-SPDT-29X13.5MM">
+<device name="_(29X13.5MM)" package="RELAY-DPDT-29X13.5MM">
 <connects>
 <connect gate="G$1" pin="COIL1" pad="1"/>
 <connect gate="G$1" pin="COIL2" pad="8"/>
@@ -6626,10 +6674,43 @@ Created by: Wai Weng</description>
 <gate name="G$1" symbol="RELAY-DPDT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_(HFD4-S)" package="RELAY-DPDT-HFD4-S">
+<device name="_(29X13.5MM)" package="RELAY-DPDT-29X13.5MM">
 <connects>
 <connect gate="G$1" pin="COIL1" pad="1"/>
 <connect gate="G$1" pin="COIL2" pad="8"/>
+<connect gate="G$1" pin="COM1" pad="3"/>
+<connect gate="G$1" pin="COM2" pad="6"/>
+<connect gate="G$1" pin="NC1" pad="2"/>
+<connect gate="G$1" pin="NC2" pad="7"/>
+<connect gate="G$1" pin="NO1" pad="4"/>
+<connect gate="G$1" pin="NO2" pad="5"/>
+</connects>
+<technologies>
+<technology name="_24V">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="OMRON DPDT Relay G2R-24-DC24 24V 5A" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="OMRON" constant="no"/>
+<attribute name="MPN" value="G2R-24-DC24" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="24V 5A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RELAY-DPDT-POL">
+<description>Polarized Relay - DPDT&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="RELAY-DPDT-POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(HFD4-S)" package="RELAY-DPDT-HFD4-S">
+<connects>
+<connect gate="G$1" pin="COIL+" pad="1"/>
+<connect gate="G$1" pin="COIL-" pad="8"/>
 <connect gate="G$1" pin="COM1" pad="3"/>
 <connect gate="G$1" pin="COM2" pad="6"/>
 <connect gate="G$1" pin="NC1" pad="2"/>
@@ -6655,29 +6736,6 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="HFD4/5-S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="5V 2A" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_(29X13.5MM)" package="RELAY-SPDT-29X13.5MM">
-<connects>
-<connect gate="G$1" pin="COIL1" pad="1"/>
-<connect gate="G$1" pin="COIL2" pad="8"/>
-<connect gate="G$1" pin="COM1" pad="3"/>
-<connect gate="G$1" pin="COM2" pad="6"/>
-<connect gate="G$1" pin="NC1" pad="2"/>
-<connect gate="G$1" pin="NC2" pad="7"/>
-<connect gate="G$1" pin="NO1" pad="4"/>
-<connect gate="G$1" pin="NO2" pad="5"/>
-</connects>
-<technologies>
-<technology name="_24V">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="OMRON DPDT Relay G2R-24-DC24 24V 5A" constant="no"/>
-<attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="OMRON" constant="no"/>
-<attribute name="MPN" value="G2R-24-DC24" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="24V 5A" constant="no"/>
 </technology>
 </technologies>
 </device>
