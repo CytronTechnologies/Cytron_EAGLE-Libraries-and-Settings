@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7704,6 +7704,8 @@ Created by: Wai Weng</description>
 <wire x1="-8" y1="-2" x2="-8" y2="6.23" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
+<text x="-5.715" y="0" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="5.715" y="0" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-39-28-1043">
 <description>Molex Mini-Fit Jr. 2x2 Ways&lt;br&gt;
@@ -7780,6 +7782,8 @@ Created by: Wai Weng</description>
 <wire x1="-17.1" y1="3.7" x2="-17.1" y2="-1.9" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="4.191" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
+<text x="-16.5" y="-2.72" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="16.5" y="-2.72" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-43045-0412">
 <description>Molex Micro-Fit 3.0 2x2 Ways&lt;br&gt;
@@ -7811,6 +7815,8 @@ Created by: Wai Weng</description>
 <wire x1="-5.075" y1="3.7" x2="-5.075" y2="-1.9" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="4.191" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
+<text x="-4.5" y="-2.7" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="4.5" y="-2.7" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-43045-0612">
 <description>Molex Micro-Fit 3.0 2x3 Ways&lt;br&gt;
@@ -7844,6 +7850,8 @@ Created by: Wai Weng</description>
 <wire x1="-6.575" y1="3.7" x2="-6.575" y2="-1.9" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="4.191" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
+<text x="-6" y="-2.72" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="6" y="-2.72" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-43650-0317">
 <description>Molex Micro-Fit 3.0 1x3 Ways&lt;br&gt;
@@ -7874,6 +7882,8 @@ Created by: Wai Weng</description>
 <wire x1="1.2" y1="-1.1" x2="1.2" y2="-1.9" width="0.2032" layer="21"/>
 <text x="0" y="2.791" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
 <text x="0" y="1.6" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-6" y="1.96" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="6" y="1.96" size="0.254" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-76829-0002">
 <description>Molex Mega-Fit 1x2 Ways&lt;br&gt;
@@ -7915,6 +7925,8 @@ Created by: Wai Weng</description>
 <wire x1="4.18" y1="-2.355" x2="4.18" y2="-3.47" width="0.2032" layer="51"/>
 <text x="0" y="10.16" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;LABEL</text>
 <text x="0" y="2.54" size="0.762" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="-6.096" y="-0.254" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="6.223" y="-0.254" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="MOLEX-76829-0004">
 <description>Molex Mega-Fit 2x2 Ways&lt;br&gt;
@@ -7958,6 +7970,8 @@ Created by: Wai Weng</description>
 <text x="0" y="2.54" size="0.762" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
 <pad name="2" x="2.85" y="5.7" drill="1.8" rot="R180"/>
 <pad name="4" x="2.85" y="0" drill="1.8" rot="R180"/>
+<text x="-8" y="-0.3" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+<text x="8.1" y="-0.3" size="0.762" layer="46" font="vector" ratio="15" align="center">NPTH</text>
 </package>
 <package name="IDC-2X05-LATCH">
 <description>IDC Box Header (Latch) - 2x05 Ways&lt;br&gt;
