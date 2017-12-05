@@ -10734,7 +10734,7 @@ Created by: Wai Weng</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S PIC32MZ0512EFF100 TQFP100" constant="no"/>
 <attribute name="MF" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="PIC32MZ0512EFF100" constant="no"/>
+<attribute name="MPN" value="PIC32MZ0512EFF100-I/PF" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
