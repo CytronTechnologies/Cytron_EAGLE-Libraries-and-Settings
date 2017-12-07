@@ -7031,7 +7031,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <gate name="G$1" symbol="MOSFET-P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DPAK" package="DPAK">
+<device name="_(DPAK)" package="DPAK">
 <connects>
 <connect gate="G$1" pin="D" pad="4"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -7046,17 +7046,17 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
-<technology name="_NCE40P70K_">
+<technology name="_NCE40P70K">
 <attribute name="CYTRON-PC" value="S-Q-NCE40P70K-DPAK" constant="no"/>
 <attribute name="DESC" value="S Mosfet NCE40P70K P Channel DPAK" constant="no"/>
 <attribute name="MF" value="NCEPOWER" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="NCE40P70K" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="-40V -70A" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="" package="POWERPAK-1212-8-SINGLE">
+<device name="_(POWERPAK)" package="POWERPAK-1212-8-SINGLE">
 <connects>
 <connect gate="G$1" pin="D" pad="5 6 7 8 9"/>
 <connect gate="G$1" pin="G" pad="4"/>
@@ -7078,6 +7078,23 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="Si7617DN" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="-30V -35A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(TO-263)" package="TO-263-2">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="_IRF4905SPBF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Mosfet IRF4905SPBF P Channel DPAK" constant="no"/>
+<attribute name="MF" value="International Rectifier" constant="no"/>
+<attribute name="MPN" value="IRF4905SPBF" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="-55V -70A" constant="no"/>
 </technology>
 </technologies>
 </device>
