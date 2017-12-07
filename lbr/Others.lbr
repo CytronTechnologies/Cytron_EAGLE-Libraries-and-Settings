@@ -2511,6 +2511,101 @@ Created by: Idris&lt;br&gt;</description>
 <wire x1="0" y1="-1.397" x2="0" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="0" y1="-0.635" x2="-0.508" y2="0.381" width="0.2032" layer="21"/>
 </package>
+<package name="RELAY-SPDT-OMRON-G5LE">
+<description>SPDT Relay - Omron G5LE&lt;br&gt;
+Size: 21.6 x 15.6mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="11.15" y1="7.45" x2="11.15" y2="-7.45" width="0.2032" layer="21"/>
+<wire x1="11.15" y1="-7.45" x2="-9.75" y2="-7.45" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="-7.45" x2="-9.75" y2="7.45" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="7.45" x2="11.15" y2="7.45" width="0.2032" layer="21"/>
+<pad name="NO" x="6.2" y="-6" drill="1.3"/>
+<pad name="COIL1" x="-6" y="6" drill="1.3"/>
+<pad name="COM" x="-8" y="0" drill="1.3"/>
+<pad name="NC" x="6.2" y="6" drill="1.3"/>
+<pad name="COIL2" x="-6" y="-6" drill="1.3"/>
+<wire x1="-10.55" y1="8.25" x2="11.95" y2="8.25" width="0.2032" layer="51"/>
+<wire x1="11.95" y1="8.25" x2="11.95" y2="-8.25" width="0.2032" layer="51"/>
+<wire x1="11.95" y1="-8.25" x2="-10.55" y2="-8.25" width="0.2032" layer="51"/>
+<wire x1="-10.55" y1="-8.25" x2="-10.55" y2="8.25" width="0.2032" layer="51"/>
+<text x="0" y="1.27" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
+<package name="RELAY-SPDT-PANASONIC-JT-N">
+<description>SPDT Relay - Panasonic JT-N&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pad name="COIL2" x="5.08" y="0" drill="1.1" rot="R180"/>
+<pad name="COIL1" x="-5.08" y="0" drill="1.1" rot="R180"/>
+<pad name="NO" x="8.89" y="15.24" drill="2.1" rot="R180"/>
+<pad name="NC" x="8.89" y="22.86" drill="2.1" rot="R180"/>
+<pad name="COM" x="-8.89" y="12.7" drill="2.1" rot="R180"/>
+<wire x1="-12.86" y1="25.15" x2="14.04" y2="25.15" width="0.2032" layer="51"/>
+<wire x1="14.04" y1="25.15" x2="14.04" y2="12.45" width="0.2032" layer="51"/>
+<wire x1="14.04" y1="12.45" x2="8.89" y2="12.45" width="0.2032" layer="51"/>
+<wire x1="8.89" y1="12.45" x2="8.89" y2="-6.75" width="0.2032" layer="51"/>
+<wire x1="8.89" y1="-6.75" x2="-10.56" y2="-6.75" width="0.2032" layer="51"/>
+<wire x1="-10.56" y1="-6.75" x2="-10.56" y2="7.55" width="0.2032" layer="51"/>
+<wire x1="-10.56" y1="7.55" x2="-12.86" y2="7.55" width="0.2032" layer="51"/>
+<wire x1="-12.86" y1="7.55" x2="-12.86" y2="25.15" width="0.2032" layer="51"/>
+<wire x1="-12.46" y1="24.75" x2="13.64" y2="24.75" width="0.2032" layer="21"/>
+<wire x1="13.64" y1="24.75" x2="13.64" y2="12.85" width="0.2032" layer="21"/>
+<wire x1="13.64" y1="12.85" x2="8.49" y2="12.85" width="0.2032" layer="21"/>
+<wire x1="8.49" y1="12.85" x2="8.49" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="8.49" y1="-6.35" x2="-10.16" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-10.16" y1="-6.35" x2="-10.16" y2="7.95" width="0.2032" layer="21"/>
+<wire x1="-10.16" y1="7.95" x2="-12.46" y2="7.95" width="0.2032" layer="21"/>
+<wire x1="-12.46" y1="7.95" x2="-12.46" y2="24.75" width="0.2032" layer="21"/>
+<text x="0" y="10.27" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="7.73" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
+<package name="RELAY-SPDT-DURAKOOL-DG85B">
+<description>SPDT Relay - Durakool DG85B&lt;br&gt;
+Size: 28 x 28mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pad name="87A" x="0" y="0.4" drill="1.2" diameter="2.3" shape="long" rot="R180"/>
+<wire x1="-1.2" y1="1" x2="1.2" y2="1" width="0" layer="46"/>
+<wire x1="1.2" y1="-0.2" x2="-1.2" y2="-0.2" width="0" layer="46"/>
+<wire x1="-3.15" y1="0.4" x2="3.15" y2="0.4" width="0.8" layer="51"/>
+<wire x1="1.2" y1="1" x2="1.2" y2="-0.2" width="0" layer="46" curve="-180"/>
+<wire x1="-1.2" y1="-0.2" x2="-1.2" y2="1" width="0" layer="46" curve="-180"/>
+<pad name="87" x="0" y="8.4" drill="1.2" diameter="2.3" shape="long" rot="R180"/>
+<wire x1="-1.2" y1="9" x2="1.2" y2="9" width="0" layer="46"/>
+<wire x1="1.2" y1="7.8" x2="-1.2" y2="7.8" width="0" layer="46"/>
+<wire x1="-3.15" y1="8.4" x2="3.15" y2="8.4" width="0.8" layer="51"/>
+<wire x1="1.2" y1="9" x2="1.2" y2="7.8" width="0" layer="46" curve="-180"/>
+<wire x1="-1.2" y1="7.8" x2="-1.2" y2="9" width="0" layer="46" curve="-180"/>
+<pad name="86" x="8.45" y="0" drill="1.2" diameter="2.3" shape="long" rot="R270"/>
+<wire x1="7.85" y1="-1.2" x2="7.85" y2="1.2" width="0" layer="46"/>
+<wire x1="9.05" y1="1.2" x2="9.05" y2="-1.2" width="0" layer="46"/>
+<wire x1="8.45" y1="-3.15" x2="8.45" y2="3.15" width="0.8" layer="51"/>
+<wire x1="7.85" y1="1.2" x2="9.05" y2="1.2" width="0" layer="46" curve="-180"/>
+<wire x1="9.05" y1="-1.2" x2="7.85" y2="-1.2" width="0" layer="46" curve="-180"/>
+<pad name="85" x="-8.45" y="0" drill="1.2" diameter="2.3" shape="long" rot="R270"/>
+<wire x1="-9.05" y1="-1.2" x2="-9.05" y2="1.2" width="0" layer="46"/>
+<wire x1="-7.85" y1="1.2" x2="-7.85" y2="-1.2" width="0" layer="46"/>
+<wire x1="-8.45" y1="-3.15" x2="-8.45" y2="3.15" width="0.8" layer="51"/>
+<wire x1="-9.05" y1="1.2" x2="-7.85" y2="1.2" width="0" layer="46" curve="-180"/>
+<wire x1="-7.85" y1="-1.2" x2="-9.05" y2="-1.2" width="0" layer="46" curve="-180"/>
+<pad name="30" x="0" y="-9.5" drill="1.2" diameter="2.3" shape="long" rot="R270"/>
+<wire x1="-0.6" y1="-10.7" x2="-0.6" y2="-8.3" width="0" layer="46"/>
+<wire x1="0.6" y1="-8.3" x2="0.6" y2="-10.7" width="0" layer="46"/>
+<wire x1="0" y1="-12.65" x2="0" y2="-6.35" width="0.8" layer="51"/>
+<wire x1="-0.6" y1="-8.3" x2="0.6" y2="-8.3" width="0" layer="46" curve="-180"/>
+<wire x1="0.6" y1="-10.7" x2="-0.6" y2="-10.7" width="0" layer="46" curve="-180"/>
+<wire x1="-14" y1="11.8" x2="14" y2="11.8" width="0.2032" layer="51"/>
+<wire x1="14" y1="11.8" x2="14" y2="-16.2" width="0.2032" layer="51"/>
+<wire x1="14" y1="-16.2" x2="-14" y2="-16.2" width="0.2032" layer="51"/>
+<wire x1="-14" y1="-16.2" x2="-14" y2="11.8" width="0.2032" layer="51"/>
+<wire x1="-13.4" y1="11.2" x2="13.4" y2="11.2" width="0.2032" layer="21"/>
+<wire x1="13.4" y1="11.2" x2="13.4" y2="-15.6" width="0.2032" layer="21"/>
+<wire x1="13.4" y1="-15.6" x2="-13.4" y2="-15.6" width="0.2032" layer="21"/>
+<wire x1="-13.4" y1="-15.6" x2="-13.4" y2="11.2" width="0.2032" layer="21"/>
+<text x="0" y="-2.54" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -6525,12 +6620,14 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="NO" pad="NO"/>
 </connects>
 <technologies>
-<technology name="_5V">
+<technology name="_SRD-05VDC-SL-C">
 <attribute name="CYTRON-PC" value="RE-SO-SRD-05" constant="no"/>
 <attribute name="DESC" value="Songle SPDT Relay SRD 05V" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="SONGLE" constant="no"/>
+<attribute name="MPN" value="SRD-05VDC-SL-C" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="5V 10A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6543,14 +6640,74 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="NO" pad="4 5"/>
 </connects>
 <technologies>
-<technology name="_24V">
+<technology name="_G5RL-1-E-HR-DC24">
 <attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="OMRON SPDT Relay G5RL-1-E-HR 24V 16A" constant="no"/>
+<attribute name="DESC" value="OMRON SPDT Relay G5RL-1-E-HR DC24 24V 16A" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="OMRON" constant="no"/>
-<attribute name="MPN" value="G5RL-1-E-HR" constant="no"/>
+<attribute name="MPN" value="G5RL-1-E-HR DC24" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24V 16A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(OMRON-G5LE)" package="RELAY-SPDT-OMRON-G5LE">
+<connects>
+<connect gate="G$1" pin="COIL1" pad="COIL1"/>
+<connect gate="G$1" pin="COIL2" pad="COIL2"/>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name="_G5LE-1-DC24">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="OMRON SPDT Relay G5LE-1 DC24 24V 10A" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="OMRON" constant="no"/>
+<attribute name="MPN" value="G5LE-1 DC24" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="24V 10A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(PANASONIC-JT-N)" package="RELAY-SPDT-PANASONIC-JT-N">
+<connects>
+<connect gate="G$1" pin="COIL1" pad="COIL1"/>
+<connect gate="G$1" pin="COIL2" pad="COIL2"/>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name="_JTN1S-PA-F-DC24V">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Panasonic SPDT Relay JTN1S-PA-F-DC24V 24V 20A" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="JTN1S-PA-F-DC24V" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="24V 20A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(DURAKOOL-DG85B)" package="RELAY-SPDT-DURAKOOL-DG85B">
+<connects>
+<connect gate="G$1" pin="COIL1" pad="85"/>
+<connect gate="G$1" pin="COIL2" pad="86"/>
+<connect gate="G$1" pin="COM" pad="30"/>
+<connect gate="G$1" pin="NC" pad="87A"/>
+<connect gate="G$1" pin="NO" pad="87"/>
+</connects>
+<technologies>
+<technology name="_DG85B-8011-75-1024">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Durakool SPDT Relay DG85B-8011-75-1024 24V 60A" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="Durakool" constant="no"/>
+<attribute name="MPN" value="DG85B-8011-75-1024" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="24V 60A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6734,12 +6891,12 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="NO2" pad="5"/>
 </connects>
 <technologies>
-<technology name="_24V">
+<technology name="_G2R-24-DC24">
 <attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="OMRON DPDT Relay G2R-24-DC24 24V 5A" constant="no"/>
+<attribute name="DESC" value="OMRON DPDT Relay G2R-24 DC24 24V 5A" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="OMRON" constant="no"/>
-<attribute name="MPN" value="G2R-24-DC24" constant="no"/>
+<attribute name="MPN" value="G2R-24 DC24" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24V 5A" constant="no"/>
 </technology>
@@ -6767,18 +6924,18 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="NO2" pad="5"/>
 </connects>
 <technologies>
-<technology name="_24V">
+<technology name="_HFD4/24-S">
 <attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Relay 24V 2A HFD4-S" constant="no"/>
+<attribute name="DESC" value="S HFD4 DPDT Relay HFD4/24-S 24V 2A" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HFD4/24-S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="24V 2A" constant="no"/>
 </technology>
-<technology name="_5V">
+<technology name="_HFD4/5-S">
 <attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Relay 5V 2A HFD4-S" constant="no"/>
+<attribute name="DESC" value="S HFD4 DPDT Relay HFD4/5-S 5V 2A" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HFD4/5-S" constant="no"/>
