@@ -13947,7 +13947,13 @@ Created by: Wai Weng</description>
 <connect gate="G$1" pin="P9@15" pad="15"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-CN-PCIRSM127" constant="no"/>
+<attribute name="DESC" value="Microbit SMD Right Angle Connector" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="40 Ways" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
