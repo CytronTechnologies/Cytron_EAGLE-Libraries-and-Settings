@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8505,10 +8505,10 @@ Created by: Idris</description>
 Created by: Wai Weng</description>
 <pad name="C1" x="10.73" y="0.35" drill="3"/>
 <pad name="C2" x="-10.73" y="0.35" drill="3"/>
-<pad name="1-1" x="5" y="0" drill="2.8"/>
-<pad name="2-1" x="-5" y="0" drill="2.8"/>
-<pad name="1-2" x="5" y="4.4" drill="2.8"/>
-<pad name="2-2" x="-5" y="4.4" drill="2.8"/>
+<pad name="1" x="5" y="0" drill="2.8"/>
+<pad name="2" x="-5" y="0" drill="2.8"/>
+<pad name="3" x="5" y="4.4" drill="2.8"/>
+<pad name="4" x="-5" y="4.4" drill="2.8"/>
 <wire x1="-11.91" y1="5.74" x2="-6.8" y2="5.74" width="0.2032" layer="21"/>
 <wire x1="-3.2" y1="5.74" x2="-1.8" y2="5.74" width="0.2032" layer="21"/>
 <wire x1="-1.8" y1="5.74" x2="1.8" y2="5.74" width="0.2032" layer="21"/>
@@ -8559,10 +8559,10 @@ Created by: Wai Weng</description>
 Created by: Wai Weng</description>
 <pad name="C1" x="15.73" y="0.35" drill="3"/>
 <pad name="C2" x="-15.73" y="0.35" drill="3"/>
-<pad name="1-1" x="10" y="0" drill="2.8"/>
-<pad name="2-1" x="0" y="0" drill="2.8"/>
-<pad name="1-2" x="10" y="4.4" drill="2.8"/>
-<pad name="2-2" x="0" y="4.4" drill="2.8"/>
+<pad name="1" x="10" y="0" drill="2.8"/>
+<pad name="2" x="0" y="0" drill="2.8"/>
+<pad name="4" x="10" y="4.4" drill="2.8"/>
+<pad name="5" x="0" y="4.4" drill="2.8"/>
 <wire x1="-16.91" y1="5.74" x2="-11.8" y2="5.74" width="0.2032" layer="21"/>
 <wire x1="-8.2" y1="5.74" x2="-1.8" y2="5.74" width="0.2032" layer="21"/>
 <wire x1="1.8" y1="5.74" x2="8.2" y2="5.74" width="0.2032" layer="21"/>
@@ -8600,10 +8600,10 @@ Created by: Wai Weng</description>
 <wire x1="1.8" y1="5.74" x2="1.8" y2="7" width="0.2032" layer="21"/>
 <wire x1="1.8" y1="7" x2="-1.8" y2="7" width="0.2032" layer="21"/>
 <wire x1="-1.8" y1="7" x2="-1.8" y2="5.74" width="0.2032" layer="21"/>
-<text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-15.24" y="6.35" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-6.35" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
-<pad name="3-1" x="-10" y="0" drill="2.8"/>
-<pad name="3-2" x="-10" y="4.4" drill="2.8"/>
+<pad name="3" x="-10" y="0" drill="2.8"/>
+<pad name="6" x="-10" y="4.4" drill="2.8"/>
 <wire x1="-1" y1="-3.46" x2="-1" y2="-5.06" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-5.06" x2="1" y2="-5.06" width="0.2032" layer="21"/>
 <wire x1="1" y1="-5.06" x2="1" y2="-3.46" width="0.2032" layer="21"/>
@@ -13930,9 +13930,9 @@ Created by: Wai Weng</description>
 </device>
 <device name="_(MINIFIT-SR-TH)" package="MOLEX-42819-3223">
 <connects>
-<connect gate="G$1" pin="1" pad="1-1 1-2"/>
-<connect gate="G$1" pin="2" pad="2-1 2-2"/>
-<connect gate="G$1" pin="3" pad="3-1 3-2"/>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 5"/>
+<connect gate="G$1" pin="3" pad="3 6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -13975,8 +13975,8 @@ Created by: Wai Weng</description>
 </device>
 <device name="_(MINIFIT-SR-TH)" package="MOLEX-42819-2223">
 <connects>
-<connect gate="G$1" pin="1" pad="1-1 1-2"/>
-<connect gate="G$1" pin="2" pad="2-1 2-2"/>
+<connect gate="G$1" pin="1" pad="1 3"/>
+<connect gate="G$1" pin="2" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
