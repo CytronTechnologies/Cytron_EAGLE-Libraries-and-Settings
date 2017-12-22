@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8490,10 +8490,7 @@ Created by: Idris</description>
 <wire x1="-27.3" y1="4.25" x2="-27.3" y2="-7.25" width="0.2032" layer="51"/>
 <wire x1="27.3" y1="-7.25" x2="26" y2="-7.25" width="0.2032" layer="51"/>
 <wire x1="-26" y1="-7.25" x2="-27.3" y2="-7.25" width="0.2032" layer="51"/>
-<wire x1="26.924" y1="3.937" x2="-26.924" y2="3.937" width="0.2032" layer="21"/>
-<wire x1="26.924" y1="3.937" x2="26.924" y2="-6.985" width="0.2032" layer="21"/>
 <wire x1="26.924" y1="-6.985" x2="26.035" y2="-6.985" width="0.2032" layer="21"/>
-<wire x1="-26.924" y1="3.937" x2="-26.924" y2="-6.985" width="0.2032" layer="21"/>
 <wire x1="-26.924" y1="-6.985" x2="-26.035" y2="-6.985" width="0.2032" layer="21"/>
 <text x="-2.54" y="0" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.762" layer="51" font="vector" ratio="15">&gt;LABEL</text>
@@ -8512,6 +8509,9 @@ Created by: Idris</description>
 <wire x1="26.85" y1="3" x2="26.85" y2="1.8" width="0" layer="46"/>
 <wire x1="26.85" y1="1.8" x2="26.15" y2="1.1" width="0" layer="46" curve="-90"/>
 <wire x1="26.15" y1="1.1" x2="25.45" y2="1.8" width="0" layer="46" curve="-90"/>
+<wire x1="-26.924" y1="0.127" x2="-26.924" y2="-6.985" width="0.2032" layer="21"/>
+<wire x1="24.765" y1="3.937" x2="-24.765" y2="3.937" width="0.2032" layer="21"/>
+<wire x1="26.924" y1="0.127" x2="26.924" y2="-6.985" width="0.2032" layer="21"/>
 </package>
 <package name="MOLEX-42819-2223">
 <description>Molex Mini-Fit Sr 1x2 Ways&lt;br&gt;
