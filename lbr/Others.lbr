@@ -2678,6 +2678,106 @@ Created by: Wai Weng</description>
 <text x="0" y="2.921" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-2.794" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
+<package name="BATT-HOLDER-18650-1S-SMD">
+<description>18650 Battery Holder (SMT) - single cell&lt;br&gt;
+&lt;br&gt;
+- Based on Keystone Electronics Corp PC Battery Holder Part 1042&lt;br&gt;
+- Compatible with Blossom Electronics 18650 SMT Battery Holder&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<wire x1="-38.4" y1="-10.3" x2="-2.2" y2="-10.3" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="-10.3" x2="2.2" y2="-10.3" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="-10.3" x2="38.4" y2="-10.3" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="-10.3" x2="38.4" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="-3.2" x2="38.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="-1.7" x2="38.4" y2="1.7" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="1.7" x2="38.4" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="3.2" x2="38.4" y2="10.3" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="10.3" x2="2.2" y2="10.3" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="10.3" x2="-2.2" y2="10.3" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="10.3" x2="-38.4" y2="10.3" width="0.2032" layer="51"/>
+<wire x1="-38.4" y1="10.3" x2="-38.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-38.4" y1="-1.7" x2="-38.4" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-38.4" y1="-3.2" x2="-38.4" y2="-10.3" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="-10.3" x2="-2.2" y2="-9.5" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="-9.5" x2="2.2" y2="-9.5" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="-9.5" x2="2.2" y2="-10.3" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="10.3" x2="-2.2" y2="9.5" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="9.5" x2="2.2" y2="9.5" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="9.5" x2="2.2" y2="10.3" width="0.2032" layer="51"/>
+<smd name="+" x="-40.2" y="0" dx="8.4" dy="7.44" layer="1"/>
+<smd name="-" x="40.2" y="0" dx="8.4" dy="7.44" layer="1"/>
+<wire x1="-33.3" y1="4" x2="33.3" y2="4" width="0.2032" layer="51"/>
+<wire x1="33.3" y1="4" x2="33.3" y2="-4" width="0.2032" layer="51"/>
+<wire x1="33.3" y1="-4" x2="-33.3" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-33.3" y1="-4" x2="-33.3" y2="4" width="0.2032" layer="51"/>
+<circle x="-20" y="0" radius="3.2" width="0.6096" layer="21"/>
+<hole x="-35.82" y="8" drill="2"/>
+<hole x="27.6" y="8" drill="3.5"/>
+<hole x="-27.6" y="-8" drill="3.5"/>
+<circle x="20" y="0" radius="3.2" width="0.6096" layer="21"/>
+<wire x1="-21.5" y1="0" x2="-18.5" y2="0" width="0.8128" layer="21"/>
+<wire x1="-20" y1="1.5" x2="-20" y2="-1.5" width="0.8128" layer="51"/>
+<text x="-6.3" y="-1.9" size="1.524" layer="21" font="vector" ratio="15">3.7V Li-ion
+  18650</text>
+<wire x1="-43" y1="3.2" x2="-43" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-43" y1="-3.2" x2="-38.4" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-43" y1="3.2" x2="-38.4" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="-38.3" y1="1.7" x2="-36.2" y2="1.7" width="0.2032" layer="51"/>
+<wire x1="-36.2" y1="1.7" x2="-36.2" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-36.2" y1="-1.7" x2="-38.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="3.2" x2="43" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="43" y1="3.2" x2="43" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="43" y1="-3.2" x2="38.4" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="38.4" y1="1.7" x2="36.2" y2="1.7" width="0.2032" layer="51"/>
+<wire x1="36.2" y1="1.7" x2="36.2" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="36.2" y1="-1.7" x2="38.4" y2="-1.7" width="0.2032" layer="51"/>
+<rectangle x1="-38.4" y1="-1.7" x2="-36.2" y2="1.7" layer="51"/>
+<rectangle x1="-43" y1="-3.2" x2="-38.4" y2="3.2" layer="51"/>
+<rectangle x1="38.4" y1="-3.2" x2="43" y2="3.2" layer="51"/>
+<rectangle x1="36.2" y1="-1.7" x2="38.4" y2="1.7" layer="51"/>
+<wire x1="-37.7" y1="9.7" x2="-37.7" y2="-9.7" width="0.2032" layer="21"/>
+<wire x1="-37.7" y1="-9.7" x2="-2.2" y2="-9.7" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-9.7" x2="2.2" y2="-9.7" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-9.7" x2="37.7" y2="-9.7" width="0.2032" layer="21"/>
+<wire x1="37.7" y1="-9.7" x2="37.7" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="37.7" y1="9.7" x2="2.2" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="9.7" x2="-2.2" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="9.7" x2="-37.7" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="9.7" x2="-2.2" y2="9" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="9" x2="2.2" y2="9" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="9" x2="2.2" y2="9.7" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-9.7" x2="-2.2" y2="-9" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-9" x2="2.2" y2="-9" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-9" x2="2.2" y2="-9.7" width="0.2032" layer="21"/>
+<wire x1="-34" y1="4.7" x2="-34" y2="-4.7" width="0.2032" layer="21"/>
+<wire x1="-34" y1="-4.7" x2="34" y2="-4.7" width="0.2032" layer="21"/>
+<wire x1="34" y1="-4.7" x2="34" y2="4.7" width="0.2032" layer="21"/>
+<wire x1="34" y1="4.7" x2="-34" y2="4.7" width="0.2032" layer="21"/>
+<wire x1="-13" y1="2" x2="-13" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-13" y1="-2" x2="-12.6" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-12.6" y1="2" x2="-13" y2="2" width="0.2032" layer="21"/>
+<wire x1="-12.6" y1="3.2" x2="-12.6" y2="-3.2" width="0.2032" layer="21" style="longdash"/>
+<wire x1="-12.4" y1="-3.4" x2="-11.6" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-10.6" y1="-3.4" x2="13" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="13" y1="-3.4" x2="13" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="13" y1="3.4" x2="-10.6" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="-11.6" y1="3.4" x2="-12.4" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="-11.6" y1="3.4" x2="-10.6" y2="3.4" width="0.2032" layer="21" curve="60"/>
+<wire x1="-10.6" y1="-3.4" x2="-11.6" y2="-3.4" width="0.2032" layer="21" curve="60"/>
+<wire x1="-12.4" y1="3.4" x2="-12.6" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-12.4" y1="-3.4" x2="-12.6" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="-11.6" y1="3.4" x2="-11.6" y2="-3.4" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="-10.6" y1="3.4" x2="-10.6" y2="-3.4" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="-20" y1="1.5" x2="-20" y2="-1.5" width="0.8128" layer="21"/>
+<wire x1="-21.5" y1="0" x2="-18.5" y2="0" width="0.8128" layer="51"/>
+<wire x1="18.5" y1="0" x2="21.5" y2="0" width="0.8128" layer="21"/>
+<wire x1="18.5" y1="0" x2="21.5" y2="0" width="0.8128" layer="51"/>
+<circle x="20" y="0" radius="3.2" width="0.6096" layer="51"/>
+<circle x="-20" y="0" radius="3.2" width="0.6096" layer="51"/>
+<text x="-33.02" y="8.02" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-33.02" y="6.35" size="0.762" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -2826,8 +2926,8 @@ Created by: Wai Weng</description>
 <wire x1="-0.762" y1="-1.27" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" rot="R270"/>
-<pin name="-" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="-" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
 <wire x1="0" y1="-3.81" x2="0.762" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
 <text x="-3.302" y="-5.08" size="1.778" layer="94" rot="R90">&gt;NAME</text>
@@ -5901,6 +6001,22 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(HOLDER-18650-1S-SMD)" package="BATT-HOLDER-18650-1S-SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="_18650">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="18650 Battery Holder (SMD) - 1S" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="3.7V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODE-TVS-BI" prefix="D">
@@ -7145,4 +7261,10 @@ Created by: Wai Weng</description>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
