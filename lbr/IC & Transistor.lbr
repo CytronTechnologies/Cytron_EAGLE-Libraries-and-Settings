@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="5" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="5" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -6747,6 +6747,33 @@ Created by: SC Lim</description>
 <text x="-10" y="10.5" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10" y="8.2" size="1.778" layer="97">&gt;MPN</text>
 </symbol>
+<symbol name="CT2105">
+<description>&lt;strong&gt;1-cell Li-Ion/Li-Polymer Battery Protection IC&lt;/strong&gt;&lt;br&gt;
+Battery polarity protection&lt;br&gt;
+Charger polarity protection&lt;br&gt;
+Load short circuit protection&lt;br&gt;
+Overcharge (voltage) protection: 4.275V&lt;br&gt;
+Over-discharge (voltage) protection: 2.5V&lt;br&gt;
+Charge overcurrent protection: 3A at 3.5VDD&lt;br&gt;
+Discharge overcurrent protection: 3.5A (stage 1) and 6A (stage 2) at 3.5VDD&lt;br&gt;
+Over temperature protection&lt;br&gt;
+Typical operating current 4.0uA (max)&lt;br&gt;
+Current consumption during sleep: 0.1uA&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="97">&gt;MPN</text>
+<pin name="VM" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="GND@2" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="TIN" x="-12.7" y="-2.54" length="short"/>
+<pin name="VCC" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@5" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -11254,7 +11281,7 @@ Created by: SC Lim</description>
 <gate name="U1" symbol="ETA9640" x="0" y="0"/>
 </gates>
 <devices>
-<device name="ESOP" package="ESOP-8">
+<device name="_(ESOP-8)" package="ESOP-8">
 <connects>
 <connect gate="U1" pin="BATT" pad="2"/>
 <connect gate="U1" pin="EN" pad="3"/>
@@ -11272,6 +11299,46 @@ Created by: SC Lim</description>
 <attribute name="DESC" value="S Li-ion Booster &amp; Charger ETA9640" constant="no"/>
 <attribute name="MF" value="ETA Solutions" constant="no"/>
 <attribute name="MPN" value="ETA9640" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CT2105" prefix="U">
+<description>&lt;strong&gt;1-cell Li-Ion/Li-Polymer Battery Protection IC&lt;/strong&gt;&lt;br&gt;
+Battery polarity protection&lt;br&gt;
+Charger polarity protection&lt;br&gt;
+Load short circuit protection&lt;br&gt;
+Overcharge (voltage) protection: 4.275V&lt;br&gt;
+Over-discharge (voltage) protection: 2.5V&lt;br&gt;
+Charge overcurrent protection: 3A at 3.5VDD&lt;br&gt;
+Discharge overcurrent protection: 3.5A (stage 1) and 6A (stage 2) at 3.5VDD&lt;br&gt;
+Over temperature protection&lt;br&gt;
+Typical operating current 4.0uA (max)&lt;br&gt;
+Current consumption during sleep: 0.1uA&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<gates>
+<gate name="U1" symbol="CT2105" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(SOT23-6)" package="SOT-23-6">
+<connects>
+<connect gate="U1" pin="GND@2" pad="2"/>
+<connect gate="U1" pin="GND@5" pad="5"/>
+<connect gate="U1" pin="TIN" pad="3"/>
+<connect gate="U1" pin="VCC" pad="4"/>
+<connect gate="U1" pin="VDD" pad="6"/>
+<connect gate="U1" pin="VM" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-IC-CT2105-SOT23-6" constant="no"/>
+<attribute name="DESC" value="S Li-Ion/Li-Polymer Battery Protection IC CT2105" constant="no"/>
+<attribute name="MF" value="Creatic" constant="no"/>
+<attribute name="MPN" value="CT2105" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
