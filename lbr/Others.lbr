@@ -2778,6 +2778,20 @@ Created by: SC Lim</description>
 <text x="-33.02" y="8.02" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-33.02" y="6.35" size="0.762" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
+<package name="XTAL-3215">
+<smd name="1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<wire x1="-2.1" y1="1.2" x2="2.1" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="1.2" x2="2.1" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="1.2" x2="2.1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="1.2" x2="2.1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2032" layer="51"/>
+<text x="0" y="1.778" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.762" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -5809,6 +5823,22 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(SMD-3215)" package="XTAL-3215">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="32.768k Crystal" constant="no"/>
+<attribute name="MF" value="Abracon" constant="no"/>
+<attribute name="MPN" value="ABS07-32.768KHZ-7-T" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="32.768k" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAP-E-TANTALUM" prefix="C" uservalue="yes">
@@ -6727,6 +6757,13 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
+<technology name="_33R">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="SMD Resistor Network (Isolated)" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33R" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7122,6 +7159,14 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="27.12MHz" constant="no"/>
+</technology>
+<technology name="_32MHZ">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Crystal 32MHz 3225" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="32MHz" constant="no"/>
 </technology>
 </technologies>
 </device>
