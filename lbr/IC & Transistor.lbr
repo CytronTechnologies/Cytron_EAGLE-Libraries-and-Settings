@@ -3511,6 +3511,66 @@ Created by: SC Lim</description>
 <circle x="-1.2" y="1.7" radius="0.127" width="0.254" layer="51"/>
 <smd name="9" x="0" y="0" dx="2.8" dy="4" layer="1"/>
 </package>
+<package name="WSON-12">
+<description>&lt;h4&gt;WSON-12&lt;/h4&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 12&lt;/li&gt;
+&lt;li&gt;Area:2mmx3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.ti.com/lit/ds/symlink/drv8835.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Adapted from Sparkfun Eagle Libraries&lt;br&gt;
+by SC Lim&lt;/p&gt;</description>
+<circle x="-1.790275" y="-0.746" radius="0.1" width="0" layer="21"/>
+<circle x="0.5" y="0" radius="0.4" width="0" layer="31"/>
+<circle x="-0.5" y="0" radius="0.4" width="0" layer="31"/>
+<wire x1="-1.5625" y1="-1" x2="1.5625" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5625" y1="-1" x2="1.5625" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5625" y1="1" x2="-1.5625" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.5625" y1="1" x2="-1.5625" y2="-1" width="0.127" layer="51"/>
+<rectangle x1="0.125" y1="0.8125" x2="0.375" y2="1.375" layer="31"/>
+<rectangle x1="-1.375" y1="0.8125" x2="-1.125" y2="1.375" layer="31"/>
+<rectangle x1="-0.875" y1="0.8125" x2="-0.625" y2="1.375" layer="31"/>
+<rectangle x1="-0.375" y1="0.8125" x2="-0.125" y2="1.375" layer="31"/>
+<rectangle x1="1.125" y1="0.8125" x2="1.375" y2="1.375" layer="31"/>
+<rectangle x1="0.625" y1="0.8125" x2="0.875" y2="1.375" layer="31"/>
+<rectangle x1="-1.375" y1="-1.375" x2="-1.125" y2="-0.8125" layer="31"/>
+<rectangle x1="-0.875" y1="-1.375" x2="-0.625" y2="-0.8125" layer="31"/>
+<rectangle x1="-0.375" y1="-1.375" x2="-0.125" y2="-0.8125" layer="31"/>
+<rectangle x1="0.125" y1="-1.375" x2="0.375" y2="-0.8125" layer="31"/>
+<rectangle x1="1.125" y1="-1.375" x2="1.375" y2="-0.8125" layer="31"/>
+<rectangle x1="-1.375" y1="0.6875" x2="-1.125" y2="1" layer="51"/>
+<rectangle x1="-0.875" y1="0.6875" x2="-0.625" y2="1" layer="51"/>
+<rectangle x1="-0.375" y1="0.6875" x2="-0.125" y2="1" layer="51"/>
+<rectangle x1="0.125" y1="0.6875" x2="0.375" y2="1" layer="51"/>
+<rectangle x1="0.625" y1="0.6875" x2="0.875" y2="1" layer="51"/>
+<rectangle x1="1.125" y1="0.6875" x2="1.375" y2="1" layer="51"/>
+<rectangle x1="-1.375" y1="-1" x2="-1.125" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="-0.875" y1="-1" x2="-0.625" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="-0.375" y1="-1" x2="-0.125" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="0.125" y1="-1" x2="0.375" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="0.625" y1="-1" x2="0.875" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="1.125" y1="-1" x2="1.375" y2="-0.6875" layer="51" rot="R180"/>
+<rectangle x1="0.625" y1="-1.375" x2="0.875" y2="-0.8125" layer="31"/>
+<smd name="1" x="-1.25" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="2" x="-0.75" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="3" x="-0.25" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="4" x="0.25" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="5" x="0.75" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="6" x="1.25" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="7" x="1.25" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0.75" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="0.25" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="10" x="-0.25" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="11" x="-0.75" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="12" x="-1.25" y="1.05" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="13" x="0" y="0" dx="2" dy="0.9" layer="1" thermals="no" cream="no"/>
+<text x="-1.51" y="1.7" size="0.6096" layer="25" font="vector" ratio="20" distance="15">&gt;Name</text>
+<text x="-1.51" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" distance="15" align="top-left">&gt;MPN</text>
+<wire x1="-1.524" y1="0.5842" x2="1.524" y2="0.5842" width="0.127" layer="21"/>
+<wire x1="1.524" y1="0.5842" x2="1.524" y2="-0.5842" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.5842" x2="-1.524" y2="-0.5842" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-0.5842" x2="-1.524" y2="0.5842" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AP34063">
@@ -6773,6 +6833,33 @@ Created by: SC Lim</description>
 <pin name="VCC" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="GND@5" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
 <pin name="VDD" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="DRV8835">
+<description>DRV8835 Dual Channel Motor Driver&lt;br&gt;
+Vcc = 2V - 7V&lt;br&gt;
+Vm = 0V - 11V&lt;br&gt;
+Iout = 1.5A&lt;br&gt;
+&lt;br&gt;
+Adapted from Sparkfun Eagle Libraries&lt;br&gt;
+by SC Lim</description>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="AIN1/PH" x="-15.24" y="2.54" length="short"/>
+<pin name="AIN2/EN" x="-15.24" y="0" length="short"/>
+<pin name="AOUT1" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="AOUT2" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="BIN1/PH" x="-15.24" y="-2.54" length="short"/>
+<pin name="BIN2/EN" x="-15.24" y="-5.08" length="short"/>
+<pin name="BOUT1" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="BOUT2" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="MODE" x="-15.24" y="7.62" length="short"/>
+<pin name="VCC" x="-15.24" y="10.16" length="short" direction="pwr"/>
+<pin name="VM" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS" x="-15.24" y="-10.16" length="short" direction="pwr"/>
+<text x="-12.7" y="-13.508" size="1.778" layer="96" font="vector" align="top-left">&gt;MPN</text>
+<text x="-12.646" y="13.508" size="1.778" layer="95" font="vector">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -11339,6 +11426,46 @@ Created by: SC Lim</description>
 <attribute name="DESC" value="S Li-Ion/Li-Polymer Battery Protection IC CT2105" constant="no"/>
 <attribute name="MF" value="Creatic" constant="no"/>
 <attribute name="MPN" value="CT2105" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV8835" prefix="U">
+<description>&lt;p&gt;DRV8835 Dual Channel Motor Driver&lt;/p&gt;
+
+&lt;p&gt;Vcc = 2V - 7V&lt;br&gt;
+Vm = 0V - 11V&lt;br&gt;
+Iout = 1.5A&lt;/p&gt;
+
+&lt;p&gt;Created by: SC Lim&lt;\p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRV8835" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(WSON-12)" package="WSON-12">
+<connects>
+<connect gate="G$1" pin="AIN1/PH" pad="10"/>
+<connect gate="G$1" pin="AIN2/EN" pad="9"/>
+<connect gate="G$1" pin="AOUT1" pad="2"/>
+<connect gate="G$1" pin="AOUT2" pad="3"/>
+<connect gate="G$1" pin="BIN1/PH" pad="8"/>
+<connect gate="G$1" pin="BIN2/EN" pad="7"/>
+<connect gate="G$1" pin="BOUT1" pad="4"/>
+<connect gate="G$1" pin="BOUT2" pad="5"/>
+<connect gate="G$1" pin="MODE" pad="11"/>
+<connect gate="G$1" pin="VCC" pad="12"/>
+<connect gate="G$1" pin="VM" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="6 13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-IC-DRV8835-WSON-12" constant="no"/>
+<attribute name="DESC" value="S Dual Channel Motor Driver DRV8835" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="DRV8835" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
