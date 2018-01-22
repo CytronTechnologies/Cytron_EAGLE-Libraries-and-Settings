@@ -11566,7 +11566,6 @@ Created by: SC Lim</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
 <deviceset name="DRV8835" prefix="U">
 <description>&lt;p&gt;DRV8835 Dual Channel Motor Driver&lt;/p&gt;
 &lt;p&gt;Vcc = 2V - 7V&lt;br&gt;
