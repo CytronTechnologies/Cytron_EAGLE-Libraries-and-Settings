@@ -7124,26 +7124,26 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="_BC817">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor BC817 SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MPN" value="BC817" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="45V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT2222">
 <attribute name="CYTRON-PC" value="S-Q-2222-SOT23" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor MMBT2222A SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="CHANGJIANG" constant="no"/>
+<attribute name="MPN" value="MMBT2222A" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="30V 600mA" constant="no"/>
+<attribute name="VALUE" value="40V 600mA" constant="no"/>
 </technology>
 <technology name="_MMBT3904">
 <attribute name="CYTRON-PC" value="S-Q-3904-SOT23" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor 3904 SOT23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="MMBT3904" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 100mA" constant="no"/>
+<attribute name="VALUE" value="40V 200mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7190,26 +7190,26 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="_BC807">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S PNP Transistor BC807 SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MPN" value="BC807" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="45V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT2907">
 <attribute name="CYTRON-PC" value="S-Q-2907-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="CHANGJIANG" constant="no"/>
+<attribute name="MPN" value="MMBT2907A" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 500mA" constant="no"/>
+<attribute name="VALUE" value="60V 600mA" constant="no"/>
 </technology>
 <technology name="_MMBT3906">
 <attribute name="CYTRON-PC" value="S-Q-3906-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="MMBT3906" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 100mA" constant="no"/>
+<attribute name="VALUE" value="40V 200mA" constant="no"/>
 </technology>
 </technologies>
 </device>
