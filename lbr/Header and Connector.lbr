@@ -362,9 +362,9 @@
 </package>
 <package name="HDR-F1X12">
 <description>Female Header - 1X12</description>
-<pad name="1" x="0" y="0" drill="1" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.778" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.778" rot="R90"/>
 <text x="-1.27" y="1.651" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <wire x1="-1.27" y1="1.27" x2="29.21" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="29.21" y1="1.27" x2="29.21" y2="-1.27" width="0.2032" layer="21"/>
@@ -372,15 +372,15 @@
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
 <text x="-1.27" y="-1.651" size="0.762" layer="21" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
 <text x="-1.27" y="-1.651" size="0.762" layer="51" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
-<pad name="4" x="7.62" y="0" drill="1" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="1" rot="R90"/>
-<pad name="8" x="17.78" y="0" drill="1" rot="R90"/>
-<pad name="9" x="20.32" y="0" drill="1" rot="R90"/>
-<pad name="10" x="22.86" y="0" drill="1" rot="R90"/>
-<pad name="11" x="25.4" y="0" drill="1" rot="R90"/>
-<pad name="12" x="27.94" y="0" drill="1" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="9" x="20.32" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="10" x="22.86" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="11" x="25.4" y="0" drill="1" diameter="1.778" rot="R90"/>
+<pad name="12" x="27.94" y="0" drill="1" diameter="1.778" rot="R90"/>
 <wire x1="-1.27" y1="1.27" x2="29.21" y2="1.27" width="0.2032" layer="51"/>
 <wire x1="29.21" y1="1.27" x2="29.21" y2="-1.27" width="0.2032" layer="51"/>
 <wire x1="29.21" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="51"/>
@@ -6629,8 +6629,8 @@ Created by: OoiBP</description>
 <hole x="16.002" y="24.511" drill="1.2"/>
 </package>
 <package name="HDR-F2X12">
-<pad name="1" x="-13.97" y="-1.27" drill="1" shape="square" rot="R90"/>
-<pad name="2" x="-13.97" y="1.27" drill="1" rot="R90"/>
+<pad name="1" x="-13.97" y="-1.27" drill="1" diameter="1.778" shape="square" rot="R90"/>
+<pad name="2" x="-13.97" y="1.27" drill="1" diameter="1.778" rot="R90"/>
 <text x="-15.24" y="2.921" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <wire x1="-15.24" y1="2.54" x2="15.24" y2="2.54" width="0.2032" layer="21"/>
 <wire x1="15.24" y1="2.54" x2="15.24" y2="-2.54" width="0.2032" layer="21"/>
@@ -6638,32 +6638,32 @@ Created by: OoiBP</description>
 <wire x1="-15.24" y1="-2.54" x2="-15.24" y2="2.54" width="0.2032" layer="21"/>
 <text x="-15.24" y="-2.921" size="0.762" layer="21" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
 <text x="-15.24" y="-2.921" size="0.762" layer="51" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
-<pad name="3" x="-11.43" y="-1.27" drill="1" rot="R90"/>
-<pad name="4" x="-11.43" y="1.27" drill="1" rot="R90"/>
-<pad name="5" x="-8.89" y="-1.27" drill="1" rot="R90"/>
-<pad name="6" x="-8.89" y="1.27" drill="1" rot="R90"/>
-<pad name="7" x="-6.35" y="-1.27" drill="1" rot="R90"/>
-<pad name="8" x="-6.35" y="1.27" drill="1" rot="R90"/>
-<pad name="9" x="-3.81" y="-1.27" drill="1" rot="R90"/>
-<pad name="10" x="-3.81" y="1.27" drill="1" rot="R90"/>
-<pad name="11" x="-1.27" y="-1.27" drill="1" rot="R90"/>
-<pad name="12" x="-1.27" y="1.27" drill="1" rot="R90"/>
-<pad name="13" x="1.27" y="-1.27" drill="1" rot="R90"/>
-<pad name="14" x="1.27" y="1.27" drill="1" rot="R90"/>
-<pad name="15" x="3.81" y="-1.27" drill="1" rot="R90"/>
-<pad name="16" x="3.81" y="1.27" drill="1" rot="R90"/>
-<pad name="17" x="6.35" y="-1.27" drill="1" rot="R90"/>
-<pad name="18" x="6.35" y="1.27" drill="1" rot="R90"/>
-<pad name="19" x="8.89" y="-1.27" drill="1" rot="R90"/>
-<pad name="20" x="8.89" y="1.27" drill="1" rot="R90"/>
+<pad name="3" x="-11.43" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="4" x="-11.43" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="5" x="-8.89" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="6" x="-8.89" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="7" x="-6.35" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="8" x="-6.35" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="10" x="-3.81" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="11" x="-1.27" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="12" x="-1.27" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="13" x="1.27" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="14" x="1.27" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="15" x="3.81" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="16" x="3.81" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="17" x="6.35" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="18" x="6.35" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="19" x="8.89" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="20" x="8.89" y="1.27" drill="1" diameter="1.778" rot="R90"/>
 <wire x1="-15.24" y1="2.54" x2="15.24" y2="2.54" width="0.2032" layer="51"/>
 <wire x1="15.24" y1="2.54" x2="15.24" y2="-2.54" width="0.2032" layer="51"/>
 <wire x1="15.24" y1="-2.54" x2="-15.24" y2="-2.54" width="0.2032" layer="51"/>
 <wire x1="-15.24" y1="-2.54" x2="-15.24" y2="2.54" width="0.2032" layer="51"/>
-<pad name="21" x="11.43" y="-1.27" drill="1" rot="R90"/>
-<pad name="22" x="11.43" y="1.27" drill="1" rot="R90"/>
-<pad name="23" x="13.97" y="-1.27" drill="1" rot="R90"/>
-<pad name="24" x="13.97" y="1.27" drill="1" rot="R90"/>
+<pad name="21" x="11.43" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="22" x="11.43" y="1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="23" x="13.97" y="-1.27" drill="1" diameter="1.778" rot="R90"/>
+<pad name="24" x="13.97" y="1.27" drill="1" diameter="1.778" rot="R90"/>
 </package>
 <package name="FPC-RA-B-1X15-1MM-UP">
 <description>FPC connector for Raspberry Pi CSI camera (Open Up)&lt;br&gt;
@@ -8611,6 +8611,31 @@ Created by: Wai Weng</description>
 <wire x1="-1" y1="-5.06" x2="1" y2="-5.06" width="0.2032" layer="51"/>
 <wire x1="1" y1="-5.06" x2="1" y2="-3.46" width="0.2032" layer="51"/>
 </package>
+<package name="AUDIO-JACK-MJ-074N">
+<description>Audio Jack - MJ-074N&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<circle x="0" y="0" radius="4" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.2032" layer="51"/>
+<pad name="2" x="2.6" y="0" drill="1.2" shape="long" rot="R90"/>
+<pad name="3" x="-0.4" y="2.55" drill="0.9" shape="long" rot="R180"/>
+<wire x1="-1.1" y1="3" x2="1.1" y2="3" width="0" layer="46"/>
+<wire x1="1.1" y1="2.1" x2="-1.1" y2="2.1" width="0" layer="46"/>
+<wire x1="1.1" y1="3" x2="1.1" y2="2.1" width="0" layer="46" curve="-180"/>
+<wire x1="-1.1" y1="2.1" x2="-1.1" y2="3" width="0" layer="46" curve="-180"/>
+<pad name="4" x="0.4" y="2.55" drill="0.9" shape="long" rot="R180"/>
+<wire x1="3" y1="1" x2="3" y2="-1" width="0" layer="46"/>
+<wire x1="2.2" y1="-1" x2="2.2" y2="1" width="0" layer="46"/>
+<wire x1="3" y1="-1" x2="2.2" y2="-1" width="0" layer="46" curve="-180"/>
+<wire x1="2.2" y1="1" x2="3" y2="1" width="0" layer="46" curve="-180"/>
+<pad name="1" x="-2.6" y="0" drill="1.2" shape="long" rot="R90"/>
+<wire x1="-2.2" y1="1" x2="-2.2" y2="-1" width="0" layer="46"/>
+<wire x1="-3" y1="-1" x2="-3" y2="1" width="0" layer="46"/>
+<wire x1="-2.2" y1="-1" x2="-3" y2="-1" width="0" layer="46" curve="-180"/>
+<wire x1="-3" y1="1" x2="-2.2" y2="1" width="0" layer="46" curve="-180"/>
+<text x="0" y="0" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="0.762" layer="21" font="vector" ratio="15" align="center">&gt;LABEL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X03">
@@ -9328,9 +9353,9 @@ Created by: Wai Weng</description>
 <text x="-5.08" y="3.048" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;LABEL</text>
 <rectangle x1="-7.62" y1="-0.762" x2="-2.54" y2="0.762" layer="94" rot="R90"/>
-<pin name="3" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="R" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="T" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="S" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="BAR_CONNECTOR-1X02">
 <wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
@@ -12089,11 +12114,11 @@ Created By: Wai Weng</description>
 <gate name="G$1" symbol="AUDIO_JACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="AUDIO_JACK">
+<device name="_(SMD)" package="AUDIO_JACK">
 <connects>
-<connect gate="G$1" pin="1" pad="1 4"/>
-<connect gate="G$1" pin="2" pad="2 5"/>
-<connect gate="G$1" pin="3" pad="3 6"/>
+<connect gate="G$1" pin="R" pad="2 5"/>
+<connect gate="G$1" pin="S" pad="1 4"/>
+<connect gate="G$1" pin="T" pad="3 6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -12102,6 +12127,24 @@ Created By: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(STRAIGHT-TH)" package="AUDIO-JACK-MJ-074N">
+<connects>
+<connect gate="G$1" pin="R" pad="2"/>
+<connect gate="G$1" pin="S" pad="3 4"/>
+<connect gate="G$1" pin="T" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="3.5mm Audio Jack MJ-074N" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="multicomp" constant="no"/>
+<attribute name="MPN" value="MJ-074N" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
@@ -13752,6 +13795,8 @@ Created By: Wai Weng</description>
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="RJ45 Magnetics LED 2CT" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="Han Run" constant="no"/>
+<attribute name="MPN" value="HY951180A" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
