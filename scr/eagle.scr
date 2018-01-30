@@ -48,16 +48,21 @@ Set color_layer 52 6;  #Set bDocu to dark yellow
 BRD:
 
 # Assign.
-Assign F6   'display none; display Pads Unrouted Dimension tPlace tNames tValues tCream tDocu;'
-Assign A+F6 'display none; display Pads Unrouted Dimension bPlace bNames bValues bCream bDocu;'
+Assign F6   'display none; display Pads Unrouted Dimension tPlace tNames tValues tDocu;'
+Assign A+F6 'display none; display Pads Unrouted Dimension bPlace bNames bValues bDocu;'
 Assign F7   'display none; display Top Pads Vias Unrouted Dimension tPlace tOrigins tStop Holes Milling;'
 Assign A+F7 'display none; display Bottom Pads Vias Unrouted Dimension bPlace bOrigins bStop Holes Milling;'
-Assign F8   'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'				
+Assign F8   'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'
+Assign A+F8 'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tNames bNames tValues bValues tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'
 
 Assign F9    Route;
 Assign A+F9  Ripup;
 Assign F10   Ratsnest;
 Assign A+F10 DRC;
+
+Assign A+V   Via;
+Assign A+P   Polygon;
+Assign A+M   Miter;
 
 Assign F11   'Grid mil 50 on; Grid alt mil 5;';
 Assign A+F11 'Grid mil 5 on; Grid alt mil 1;';
@@ -91,6 +96,7 @@ SCH:
 
 # Assign.
 Assign F9   Net;
+Assign A+F9 Delete;
 Assign F10  Label;
 
 Grid Default;

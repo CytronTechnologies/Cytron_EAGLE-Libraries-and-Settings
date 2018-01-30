@@ -3642,6 +3642,138 @@ by SC Lim&lt;/p&gt;</description>
 <wire x1="1.524" y1="-0.5842" x2="-1.524" y2="-0.5842" width="0.127" layer="21"/>
 <wire x1="-1.524" y1="-0.5842" x2="-1.524" y2="0.5842" width="0.127" layer="21"/>
 </package>
+<package name="HTSSOP-56">
+<description>Heatsink Thin Shrink Small-Outline Package.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<smd name="1" x="-6.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<wire x1="-7" y1="3.1" x2="7" y2="3.1" width="0.2032" layer="51"/>
+<wire x1="7" y1="3.1" x2="7" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="7" y1="-3.1" x2="-7" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="-7" y1="-3.1" x2="-7" y2="3.1" width="0.2032" layer="51"/>
+<smd name="2" x="-6.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="3" x="-5.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="4" x="-5.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="5" x="-4.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="6" x="-4.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="7" x="-3.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="8" x="-3.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="9" x="-2.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="10" x="-2.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="11" x="-1.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="12" x="-1.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="13" x="-0.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="14" x="-0.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="15" x="0.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="16" x="0.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="17" x="1.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="18" x="1.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="19" x="2.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="20" x="2.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="21" x="3.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="22" x="3.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="23" x="4.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="24" x="4.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="25" x="5.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="26" x="5.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="27" x="6.25" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="28" x="6.75" y="-3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="29" x="6.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="30" x="6.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="31" x="5.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="32" x="5.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="33" x="4.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="34" x="4.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="35" x="3.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="36" x="3.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="37" x="2.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="38" x="2.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="39" x="1.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="40" x="1.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="41" x="0.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="42" x="0.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="43" x="-0.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="44" x="-0.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="45" x="-1.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="46" x="-1.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="47" x="-2.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="48" x="-2.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="49" x="-3.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="50" x="-3.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="51" x="-4.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="52" x="-4.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="53" x="-5.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="54" x="-5.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="55" x="-6.25" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="56" x="-6.75" y="3.75" dx="1.6" dy="0.3" layer="1" roundness="30" rot="R90"/>
+<smd name="57" x="0" y="0" dx="6.35" dy="3.61" layer="1"/>
+<rectangle x1="-3.175" y1="-1.805" x2="3.175" y2="1.805" layer="51"/>
+<rectangle x1="3.175" y1="-0.3" x2="3.555" y2="0.3" layer="51"/>
+<rectangle x1="-3.555" y1="-0.3" x2="-3.175" y2="0.3" layer="51"/>
+<rectangle x1="0.115" y1="-4.1" x2="0.385" y2="-3.1" layer="51"/>
+<rectangle x1="0.615" y1="-4.1" x2="0.885" y2="-3.1" layer="51"/>
+<rectangle x1="1.115" y1="-4.1" x2="1.385" y2="-3.1" layer="51"/>
+<rectangle x1="2.115" y1="-4.1" x2="2.385" y2="-3.1" layer="51"/>
+<rectangle x1="1.615" y1="-4.1" x2="1.885" y2="-3.1" layer="51"/>
+<rectangle x1="2.615" y1="-4.1" x2="2.885" y2="-3.1" layer="51"/>
+<rectangle x1="3.115" y1="-4.1" x2="3.385" y2="-3.1" layer="51"/>
+<rectangle x1="3.615" y1="-4.1" x2="3.885" y2="-3.1" layer="51"/>
+<rectangle x1="4.115" y1="-4.1" x2="4.385" y2="-3.1" layer="51"/>
+<rectangle x1="4.615" y1="-4.1" x2="4.885" y2="-3.1" layer="51"/>
+<rectangle x1="5.115" y1="-4.1" x2="5.385" y2="-3.1" layer="51"/>
+<rectangle x1="5.615" y1="-4.1" x2="5.885" y2="-3.1" layer="51"/>
+<rectangle x1="6.115" y1="-4.1" x2="6.385" y2="-3.1" layer="51"/>
+<rectangle x1="6.615" y1="-4.1" x2="6.885" y2="-3.1" layer="51"/>
+<rectangle x1="-0.385" y1="-4.1" x2="-0.115" y2="-3.1" layer="51"/>
+<rectangle x1="-0.885" y1="-4.1" x2="-0.615" y2="-3.1" layer="51"/>
+<rectangle x1="-1.385" y1="-4.1" x2="-1.115" y2="-3.1" layer="51"/>
+<rectangle x1="-1.885" y1="-4.1" x2="-1.615" y2="-3.1" layer="51"/>
+<rectangle x1="-2.385" y1="-4.1" x2="-2.115" y2="-3.1" layer="51"/>
+<rectangle x1="-2.885" y1="-4.1" x2="-2.615" y2="-3.1" layer="51"/>
+<rectangle x1="-3.385" y1="-4.1" x2="-3.115" y2="-3.1" layer="51"/>
+<rectangle x1="-3.885" y1="-4.1" x2="-3.615" y2="-3.1" layer="51"/>
+<rectangle x1="-4.385" y1="-4.1" x2="-4.115" y2="-3.1" layer="51"/>
+<rectangle x1="-4.885" y1="-4.1" x2="-4.615" y2="-3.1" layer="51"/>
+<rectangle x1="-5.385" y1="-4.1" x2="-5.115" y2="-3.1" layer="51"/>
+<rectangle x1="-5.885" y1="-4.1" x2="-5.615" y2="-3.1" layer="51"/>
+<rectangle x1="-6.385" y1="-4.1" x2="-6.115" y2="-3.1" layer="51"/>
+<rectangle x1="-6.885" y1="-4.1" x2="-6.615" y2="-3.1" layer="51"/>
+<rectangle x1="6.615" y1="3.1" x2="6.885" y2="4.1" layer="51"/>
+<rectangle x1="6.115" y1="3.1" x2="6.385" y2="4.1" layer="51"/>
+<rectangle x1="5.615" y1="3.1" x2="5.885" y2="4.1" layer="51"/>
+<rectangle x1="5.115" y1="3.1" x2="5.385" y2="4.1" layer="51"/>
+<rectangle x1="4.615" y1="3.1" x2="4.885" y2="4.1" layer="51"/>
+<rectangle x1="4.115" y1="3.1" x2="4.385" y2="4.1" layer="51"/>
+<rectangle x1="3.615" y1="3.1" x2="3.885" y2="4.1" layer="51"/>
+<rectangle x1="3.115" y1="3.1" x2="3.385" y2="4.1" layer="51"/>
+<rectangle x1="2.615" y1="3.1" x2="2.885" y2="4.1" layer="51"/>
+<rectangle x1="2.115" y1="3.1" x2="2.385" y2="4.1" layer="51"/>
+<rectangle x1="1.615" y1="3.1" x2="1.885" y2="4.1" layer="51"/>
+<rectangle x1="1.115" y1="3.1" x2="1.385" y2="4.1" layer="51"/>
+<rectangle x1="0.615" y1="3.1" x2="0.885" y2="4.1" layer="51"/>
+<rectangle x1="0.115" y1="3.1" x2="0.385" y2="4.1" layer="51"/>
+<rectangle x1="-0.385" y1="3.1" x2="-0.115" y2="4.1" layer="51"/>
+<rectangle x1="-0.885" y1="3.1" x2="-0.615" y2="4.1" layer="51"/>
+<rectangle x1="-1.385" y1="3.1" x2="-1.115" y2="4.1" layer="51"/>
+<rectangle x1="-1.885" y1="3.1" x2="-1.615" y2="4.1" layer="51"/>
+<rectangle x1="-2.385" y1="3.1" x2="-2.115" y2="4.1" layer="51"/>
+<rectangle x1="-2.885" y1="3.1" x2="-2.615" y2="4.1" layer="51"/>
+<rectangle x1="-3.385" y1="3.1" x2="-3.115" y2="4.1" layer="51"/>
+<rectangle x1="-3.885" y1="3.1" x2="-3.615" y2="4.1" layer="51"/>
+<rectangle x1="-4.385" y1="3.1" x2="-4.115" y2="4.1" layer="51"/>
+<rectangle x1="-4.885" y1="3.1" x2="-4.615" y2="4.1" layer="51"/>
+<rectangle x1="-5.385" y1="3.1" x2="-5.115" y2="4.1" layer="51"/>
+<rectangle x1="-5.885" y1="3.1" x2="-5.615" y2="4.1" layer="51"/>
+<rectangle x1="-6.385" y1="3.1" x2="-6.115" y2="4.1" layer="51"/>
+<rectangle x1="-6.885" y1="3.1" x2="-6.615" y2="4.1" layer="51"/>
+<wire x1="-6.6" y1="2.6" x2="6.6" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="6.6" y1="2.6" x2="6.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="6.6" y1="-2.6" x2="-6.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-6.6" y1="-2.6" x2="-6.6" y2="2.6" width="0.2032" layer="21"/>
+<circle x="-5.8" y="-1.8" radius="0.14141875" width="0.3048" layer="21"/>
+<text x="-7.747" y="0" size="0.762" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<text x="7.747" y="0" size="0.762" layer="27" font="vector" ratio="15" rot="R90" align="center">MPN</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AP34063">
@@ -6943,6 +7075,72 @@ by SC Lim</description>
 <text x="-12.7" y="-13.508" size="1.778" layer="96" font="vector" align="top-left">&gt;MPN</text>
 <text x="-12.646" y="13.508" size="1.778" layer="95" font="vector">&gt;Name</text>
 </symbol>
+<symbol name="DRV8302">
+<description>DRV8302 Three Phase Gate Driver With Dual Current Shunt Amplifiers and Buck Regulator.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng&lt;br&gt;</description>
+<pin name="EN_BUCK" x="-15.24" y="33.02" length="short"/>
+<pin name="PWRGD" x="-15.24" y="30.48" length="short"/>
+<pin name="COMP" x="-15.24" y="27.94" length="short"/>
+<pin name="SS_TR" x="-15.24" y="25.4" length="short"/>
+<pin name="RT_CLK" x="-15.24" y="22.86" length="short"/>
+<pin name="DVDD" x="-15.24" y="17.78" length="short"/>
+<pin name="AVDD" x="-15.24" y="15.24" length="short"/>
+<pin name="AGND" x="-15.24" y="12.7" length="short"/>
+<pin name="NOCTW" x="-15.24" y="7.62" length="short"/>
+<pin name="NFAULT" x="-15.24" y="5.08" length="short"/>
+<pin name="M_PWM" x="-15.24" y="2.54" length="short"/>
+<pin name="M_OC" x="-15.24" y="0" length="short"/>
+<pin name="GAIN" x="-15.24" y="-2.54" length="short"/>
+<pin name="OC_ADJ" x="-15.24" y="-5.08" length="short"/>
+<pin name="BIAS" x="-15.24" y="-7.62" length="short"/>
+<pin name="EN_GATE" x="-15.24" y="-12.7" length="short"/>
+<pin name="INH_A" x="-15.24" y="-15.24" length="short"/>
+<pin name="INL_A" x="-15.24" y="-17.78" length="short"/>
+<pin name="INH_B" x="-15.24" y="-20.32" length="short"/>
+<pin name="INL_B" x="-15.24" y="-22.86" length="short"/>
+<pin name="INH_C" x="-15.24" y="-25.4" length="short"/>
+<pin name="INL_C" x="-15.24" y="-27.94" length="short"/>
+<pin name="DTC" x="-15.24" y="-30.48" length="short"/>
+<pin name="REF" x="-15.24" y="-38.1" length="short"/>
+<pin name="SO1" x="-15.24" y="-40.64" length="short"/>
+<pin name="DC_CAL" x="-15.24" y="-43.18" length="short"/>
+<pin name="SO2" x="-15.24" y="-45.72" length="short"/>
+<pin name="GND" x="0" y="-50.8" length="short" rot="R90"/>
+<pin name="PVDD2" x="15.24" y="33.02" length="short" rot="R180"/>
+<pin name="VSENSE" x="15.24" y="30.48" length="short" rot="R180"/>
+<pin name="BST_BK" x="15.24" y="27.94" length="short" rot="R180"/>
+<pin name="PH" x="15.24" y="25.4" length="short" rot="R180"/>
+<pin name="GVDD" x="15.24" y="20.32" length="short" rot="R180"/>
+<pin name="CP1" x="15.24" y="17.78" length="short" rot="R180"/>
+<pin name="CP2" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="PVDD1" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="BST_A" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="GH_A" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="SH_A" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="GL_A" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="SL_A" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="BST_B" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="GH_B" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="SH_B" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="GL_B" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="SL_B" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="BST_C" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="GH_C" x="15.24" y="-25.4" length="short" rot="R180"/>
+<pin name="SH_C" x="15.24" y="-27.94" length="short" rot="R180"/>
+<pin name="GL_C" x="15.24" y="-30.48" length="short" rot="R180"/>
+<pin name="SL_C" x="15.24" y="-33.02" length="short" rot="R180"/>
+<pin name="SN1" x="15.24" y="-38.1" length="short" rot="R180"/>
+<pin name="SP1" x="15.24" y="-40.64" length="short" rot="R180"/>
+<pin name="SN2" x="15.24" y="-43.18" length="short" rot="R180"/>
+<pin name="SP2" x="15.24" y="-45.72" length="short" rot="R180"/>
+<wire x1="-12.7" y1="35.56" x2="12.7" y2="35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="35.56" x2="12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-48.26" x2="-12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-48.26" x2="-12.7" y2="35.56" width="0.254" layer="94"/>
+<text x="-12.7" y="40.64" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="38.1" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -7416,26 +7614,26 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="_BC817">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor BC817 SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MPN" value="BC817" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="45V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT2222">
 <attribute name="CYTRON-PC" value="S-Q-2222-SOT23" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor MMBT2222A SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="CHANGJIANG" constant="no"/>
+<attribute name="MPN" value="MMBT2222A" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="30V 600mA" constant="no"/>
+<attribute name="VALUE" value="40V 600mA" constant="no"/>
 </technology>
 <technology name="_MMBT3904">
 <attribute name="CYTRON-PC" value="S-Q-3904-SOT23" constant="no"/>
 <attribute name="DESC" value="S NPN Transistor 3904 SOT23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="MMBT3904" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 100mA" constant="no"/>
+<attribute name="VALUE" value="40V 200mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7482,26 +7680,26 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technology name="_BC807">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S PNP Transistor BC807 SOT-23" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MPN" value="BC807" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="45V 500mA" constant="no"/>
 </technology>
 <technology name="_MMBT2907">
 <attribute name="CYTRON-PC" value="S-Q-2907-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="CHANGJIANG" constant="no"/>
+<attribute name="MPN" value="MMBT2907A" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 500mA" constant="no"/>
+<attribute name="VALUE" value="60V 600mA" constant="no"/>
 </technology>
 <technology name="_MMBT3906">
 <attribute name="CYTRON-PC" value="S-Q-3906-SOT23" constant="no"/>
 <attribute name="DESC" value="SMD Transistor - PNP" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MF" value="FAIRCHILD" constant="no"/>
+<attribute name="MPN" value="MMBT3906" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="40V 100mA" constant="no"/>
+<attribute name="VALUE" value="40V 200mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -11597,6 +11795,85 @@ Iout = 1.5A&lt;/p&gt;
 <attribute name="DESC" value="S Dual Channel Motor Driver DRV8835" constant="no"/>
 <attribute name="MF" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="DRV8835" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV8302" prefix="U">
+<description>DRV8302 Three Phase Gate Driver With Dual Current Shunt Amplifiers and Buck Regulator.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRV8302" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HTSSOP-56">
+<connects>
+<connect gate="G$1" pin="AGND" pad="28"/>
+<connect gate="G$1" pin="AVDD" pad="27"/>
+<connect gate="G$1" pin="BIAS" pad="49"/>
+<connect gate="G$1" pin="BST_A" pad="48"/>
+<connect gate="G$1" pin="BST_B" pad="43"/>
+<connect gate="G$1" pin="BST_BK" pad="52"/>
+<connect gate="G$1" pin="BST_C" pad="38"/>
+<connect gate="G$1" pin="COMP" pad="2"/>
+<connect gate="G$1" pin="CP1" pad="14"/>
+<connect gate="G$1" pin="CP2" pad="15"/>
+<connect gate="G$1" pin="DC_CAL" pad="12"/>
+<connect gate="G$1" pin="DTC" pad="7"/>
+<connect gate="G$1" pin="DVDD" pad="23"/>
+<connect gate="G$1" pin="EN_BUCK" pad="55"/>
+<connect gate="G$1" pin="EN_GATE" pad="16"/>
+<connect gate="G$1" pin="GAIN" pad="10"/>
+<connect gate="G$1" pin="GH_A" pad="47"/>
+<connect gate="G$1" pin="GH_B" pad="42"/>
+<connect gate="G$1" pin="GH_C" pad="37"/>
+<connect gate="G$1" pin="GL_A" pad="45"/>
+<connect gate="G$1" pin="GL_B" pad="40"/>
+<connect gate="G$1" pin="GL_C" pad="35"/>
+<connect gate="G$1" pin="GND" pad="57"/>
+<connect gate="G$1" pin="GVDD" pad="13"/>
+<connect gate="G$1" pin="INH_A" pad="17"/>
+<connect gate="G$1" pin="INH_B" pad="19"/>
+<connect gate="G$1" pin="INH_C" pad="21"/>
+<connect gate="G$1" pin="INL_A" pad="18"/>
+<connect gate="G$1" pin="INL_B" pad="20"/>
+<connect gate="G$1" pin="INL_C" pad="22"/>
+<connect gate="G$1" pin="M_OC" pad="9"/>
+<connect gate="G$1" pin="M_PWM" pad="8"/>
+<connect gate="G$1" pin="NFAULT" pad="6"/>
+<connect gate="G$1" pin="NOCTW" pad="5"/>
+<connect gate="G$1" pin="OC_ADJ" pad="11"/>
+<connect gate="G$1" pin="PH" pad="50 51"/>
+<connect gate="G$1" pin="PVDD1" pad="29"/>
+<connect gate="G$1" pin="PVDD2" pad="53 54"/>
+<connect gate="G$1" pin="PWRGD" pad="4"/>
+<connect gate="G$1" pin="REF" pad="24"/>
+<connect gate="G$1" pin="RT_CLK" pad="1"/>
+<connect gate="G$1" pin="SH_A" pad="46"/>
+<connect gate="G$1" pin="SH_B" pad="41"/>
+<connect gate="G$1" pin="SH_C" pad="36"/>
+<connect gate="G$1" pin="SL_A" pad="44"/>
+<connect gate="G$1" pin="SL_B" pad="39"/>
+<connect gate="G$1" pin="SL_C" pad="34"/>
+<connect gate="G$1" pin="SN1" pad="33"/>
+<connect gate="G$1" pin="SN2" pad="31"/>
+<connect gate="G$1" pin="SO1" pad="25"/>
+<connect gate="G$1" pin="SO2" pad="26"/>
+<connect gate="G$1" pin="SP1" pad="32"/>
+<connect gate="G$1" pin="SP2" pad="30"/>
+<connect gate="G$1" pin="SS_TR" pad="56"/>
+<connect gate="G$1" pin="VSENSE" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Three Phase Gate Driver DRV8302" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="DRV8302" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
