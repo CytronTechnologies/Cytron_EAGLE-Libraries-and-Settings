@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26797,6 +26797,13 @@ Created by: Wai Weng</description>
 <circle x="0" y="0" radius="1.5" width="3" layer="41"/>
 <pad name="1" x="0" y="0" drill="3" diameter="4.6"/>
 </package>
+<package name="TP-1.5MM">
+<description>Test Point - 1.5mm&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<smd name="P$1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" thermals="no" cream="no"/>
+<text x="1.016" y="0" size="0.762" layer="21" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BORDER-A4">
@@ -30239,6 +30246,11 @@ Created by: Wai Weng</description>
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="TESTPOINT">
+<pin name="P$1" x="0" y="0" visible="off" length="point"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="0" y="1.27" size="0.8128" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A4" prefix="FRAME">
@@ -30422,6 +30434,24 @@ Created by: Wai Weng</description>
 <device name="" package="HOLE-CONNECT-M3">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPOINT" prefix="TP">
+<description>Test Point&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_(1.5MM)" package="TP-1.5MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
