@@ -5585,13 +5585,21 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
+<technology name="_100V100UF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100V100uF" constant="no"/>
+</technology>
 <technology name="_50V330UF">
 <attribute name="CYTRON-PC" value="CP-EC-50-330" constant="no"/>
 <attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="50V 330uF" constant="no"/>
+<attribute name="VALUE" value="50V330uF" constant="no"/>
 </technology>
 </technologies>
 </device>
