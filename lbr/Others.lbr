@@ -4487,6 +4487,14 @@ Created by SC Lim</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100K" constant="no"/>
 </technology>
+<technology name="_100M">
+<attribute name="CYTRON-PC" value="S-R-100M-63" constant="no"/>
+<attribute name="DESC" value="SMD Resistor" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100M" constant="no"/>
+</technology>
 <technology name="_100R">
 <attribute name="CYTRON-PC" value="S-R-100R-63" constant="no"/>
 <attribute name="DESC" value="SMD Resistor" constant="no"/>
