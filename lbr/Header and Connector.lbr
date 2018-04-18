@@ -9640,6 +9640,31 @@ Created by: Wai Weng</description>
 <wire x1="3.048" y1="-3.81" x2="2.54" y2="-3.302" width="0.2032" layer="51"/>
 <wire x1="5.08" y1="-1.778" x2="5.08" y2="-3.302" width="0.2032" layer="51"/>
 </package>
+<package name="HDR-F1X04-1R">
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="2" x="2.54" y="-2.54" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="3" x="5.08" y="2.54" drill="1.016" diameter="1.778" rot="R90"/>
+<text x="-1.016" y="0.254" size="0.762" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-1.143" y1="1.143" x2="8.763" y2="1.143" width="0.2032" layer="21"/>
+<wire x1="8.763" y1="1.143" x2="8.763" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="8.763" y1="-1.143" x2="-1.143" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-1.143" y2="1.143" width="0.2032" layer="21"/>
+<text x="-1.016" y="-0.254" size="0.762" layer="21" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
+<text x="-1.016" y="-0.254" size="0.762" layer="51" font="vector" ratio="15" align="top-left">&gt;LABEL</text>
+<pad name="4" x="7.62" y="-2.54" drill="1.016" diameter="1.778" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="8.89" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="8.89" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="51"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.254" y2="2.54" layer="51"/>
+<rectangle x1="4.826" y1="1.27" x2="5.334" y2="2.54" layer="51"/>
+<rectangle x1="2.286" y1="-2.54" x2="2.794" y2="-1.27" layer="51"/>
+<rectangle x1="7.366" y1="-2.54" x2="7.874" y2="-1.27" layer="51"/>
+<hole x="0" y="0" drill="1"/>
+<hole x="2.54" y="0" drill="1"/>
+<hole x="5.08" y="0" drill="1"/>
+<hole x="7.62" y="0" drill="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X03">
@@ -11491,6 +11516,23 @@ Created By: Wai Weng</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(1R)" package="HDR-F1X04-1R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="HDR-F1X04-1R" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="4 Ways" constant="no"/>
 </technology>
 </technologies>
 </device>
