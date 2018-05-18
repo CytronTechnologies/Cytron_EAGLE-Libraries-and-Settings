@@ -8441,7 +8441,7 @@ Created by: Idris</description>
 <text x="-1.27" y="-2.413" size="0.762" layer="51" font="vector" ratio="15">&gt;LABEL</text>
 <text x="-1.27" y="-2.413" size="0.762" layer="21" font="vector" ratio="15">&gt;LABEL</text>
 </package>
-<package name="S-CN-MICROBIT-RA">
+<package name="S-CN-PCIRSM127">
 <description>Microbit SMD connector&lt;br&gt;
 &lt;br&gt;
 Part No: PCIRSM127-40SG-LK&lt;br&gt;
@@ -15344,7 +15344,7 @@ Created by: Wai Weng</description>
 </technology>
 </technologies>
 </device>
-<device name="_(PCIRSM127)" package="S-CN-MICROBIT-RA">
+<device name="_(PCIRSM127)" package="S-CN-PCIRSM127">
 <connects>
 <connect gate="G$1" pin="3V3@27" pad="27"/>
 <connect gate="G$1" pin="3V3@28" pad="28"/>
@@ -15389,7 +15389,7 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-CN-MICROBIT-RA" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-PCIRSM127" constant="no"/>
 <attribute name="DESC" value="Microbit SMD Right Angle Connector" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
