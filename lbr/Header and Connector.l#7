@@ -9665,97 +9665,6 @@ Created by: Wai Weng</description>
 <hole x="5.08" y="0" drill="1"/>
 <hole x="7.62" y="0" drill="1"/>
 </package>
-<package name="S-RASPBERRYPI-NOSILK">
-<text x="-20.32" y="0" size="0.762" layer="25" ratio="16" rot="SR0" align="center-left">&gt;NAME</text>
-<hole x="-1.27" y="1.27" drill="1.143"/>
-<hole x="-1.27" y="-1.27" drill="1.143"/>
-<hole x="-3.81" y="1.27" drill="1.143"/>
-<hole x="-3.81" y="-1.27" drill="1.143"/>
-<hole x="-6.35" y="1.27" drill="1.143"/>
-<hole x="-6.35" y="-1.27" drill="1.143"/>
-<hole x="-8.89" y="1.27" drill="1.143"/>
-<hole x="-8.89" y="-1.27" drill="1.143"/>
-<hole x="-11.43" y="1.27" drill="1.143"/>
-<hole x="-11.43" y="-1.27" drill="1.143"/>
-<hole x="-13.97" y="1.27" drill="1.143"/>
-<hole x="-13.97" y="-1.27" drill="1.143"/>
-<hole x="-16.51" y="1.27" drill="1.143"/>
-<hole x="-16.51" y="-1.27" drill="1.143"/>
-<hole x="-19.05" y="1.27" drill="1.143"/>
-<hole x="-19.05" y="-1.27" drill="1.143"/>
-<hole x="-21.59" y="1.27" drill="1.143"/>
-<hole x="-21.59" y="-1.27" drill="1.143"/>
-<hole x="-24.13" y="1.27" drill="1.143"/>
-<hole x="-24.13" y="-1.27" drill="1.143"/>
-<hole x="11.43" y="1.27" drill="1.143"/>
-<hole x="11.43" y="-1.27" drill="1.143"/>
-<hole x="8.89" y="1.27" drill="1.143"/>
-<hole x="8.89" y="-1.27" drill="1.143"/>
-<hole x="6.35" y="1.27" drill="1.143"/>
-<hole x="6.35" y="-1.27" drill="1.143"/>
-<hole x="3.81" y="1.27" drill="1.143"/>
-<hole x="3.81" y="-1.27" drill="1.143"/>
-<hole x="1.27" y="1.27" drill="1.143"/>
-<hole x="1.27" y="-1.27" drill="1.143"/>
-<hole x="24.13" y="1.27" drill="1.143"/>
-<hole x="24.13" y="-1.27" drill="1.143"/>
-<hole x="21.59" y="1.27" drill="1.143"/>
-<hole x="21.59" y="-1.27" drill="1.143"/>
-<hole x="19.05" y="1.27" drill="1.143"/>
-<hole x="19.05" y="-1.27" drill="1.143"/>
-<hole x="16.51" y="1.27" drill="1.143"/>
-<hole x="16.51" y="-1.27" drill="1.143"/>
-<hole x="13.97" y="1.27" drill="1.143"/>
-<hole x="13.97" y="-1.27" drill="1.143"/>
-<hole x="-22.86" y="0" drill="1.778"/>
-<hole x="22.86" y="0" drill="1.778"/>
-<smd name="1" x="-24.13" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="25.4" y1="-2.54" x2="25.4" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-25.4" y1="2.54" x2="25.4" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-25.4" y1="-2.54" x2="25.4" y2="-2.54" width="0.2032" layer="51"/>
-<smd name="2" x="-24.13" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="3" x="-21.59" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="4" x="-21.59" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="5" x="-19.05" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="6" x="-19.05" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="7" x="-16.51" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="8" x="-16.51" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="9" x="-13.97" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="10" x="-13.97" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="11" x="-11.43" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="12" x="-11.43" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="13" x="-8.89" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="14" x="-8.89" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="15" x="-6.35" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="16" x="-6.35" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="17" x="-3.81" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="18" x="-3.81" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="19" x="-1.27" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="20" x="-1.27" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="21" x="1.27" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="22" x="1.27" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="23" x="3.81" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="24" x="3.81" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="25" x="6.35" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="26" x="6.35" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="27" x="8.89" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="28" x="8.89" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="29" x="11.43" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="30" x="11.43" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="31" x="13.97" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="32" x="13.97" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="33" x="16.51" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="34" x="16.51" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="35" x="19.05" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="36" x="19.05" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="37" x="21.59" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="38" x="21.59" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="39" x="24.13" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<smd name="40" x="24.13" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
-<text x="20.32" y="0" size="0.762" layer="51" ratio="16" rot="SR0" align="center-right">&gt;LABEL</text>
-<text x="20.32" y="0" size="0.762" layer="21" ratio="16" rot="SR0" align="center-right">&gt;LABEL</text>
-</package>
 </packages>
 <symbols>
 <symbol name="1X03">
@@ -14631,11 +14540,6 @@ SMT header is CONN-09042.</description>
 </technology>
 </technologies>
 </device>
-<device name="" package="S-RASPBERRYPI-NOSILK">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="FPC-1X15" prefix="JP">
@@ -15485,7 +15389,7 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="S-CN-MICROBIT-RA" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-PCIRSM127" constant="no"/>
 <attribute name="DESC" value="Microbit SMD Right Angle Connector" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>

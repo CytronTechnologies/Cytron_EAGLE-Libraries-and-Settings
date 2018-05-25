@@ -9665,6 +9665,97 @@ Created by: Wai Weng</description>
 <hole x="5.08" y="0" drill="1"/>
 <hole x="7.62" y="0" drill="1"/>
 </package>
+<package name="S-RASPBERRYPI-NOSILK">
+<text x="-20.32" y="0" size="0.762" layer="25" ratio="16" rot="SR0" align="center-left">&gt;NAME</text>
+<hole x="-1.27" y="1.27" drill="1.143"/>
+<hole x="-1.27" y="-1.27" drill="1.143"/>
+<hole x="-3.81" y="1.27" drill="1.143"/>
+<hole x="-3.81" y="-1.27" drill="1.143"/>
+<hole x="-6.35" y="1.27" drill="1.143"/>
+<hole x="-6.35" y="-1.27" drill="1.143"/>
+<hole x="-8.89" y="1.27" drill="1.143"/>
+<hole x="-8.89" y="-1.27" drill="1.143"/>
+<hole x="-11.43" y="1.27" drill="1.143"/>
+<hole x="-11.43" y="-1.27" drill="1.143"/>
+<hole x="-13.97" y="1.27" drill="1.143"/>
+<hole x="-13.97" y="-1.27" drill="1.143"/>
+<hole x="-16.51" y="1.27" drill="1.143"/>
+<hole x="-16.51" y="-1.27" drill="1.143"/>
+<hole x="-19.05" y="1.27" drill="1.143"/>
+<hole x="-19.05" y="-1.27" drill="1.143"/>
+<hole x="-21.59" y="1.27" drill="1.143"/>
+<hole x="-21.59" y="-1.27" drill="1.143"/>
+<hole x="-24.13" y="1.27" drill="1.143"/>
+<hole x="-24.13" y="-1.27" drill="1.143"/>
+<hole x="11.43" y="1.27" drill="1.143"/>
+<hole x="11.43" y="-1.27" drill="1.143"/>
+<hole x="8.89" y="1.27" drill="1.143"/>
+<hole x="8.89" y="-1.27" drill="1.143"/>
+<hole x="6.35" y="1.27" drill="1.143"/>
+<hole x="6.35" y="-1.27" drill="1.143"/>
+<hole x="3.81" y="1.27" drill="1.143"/>
+<hole x="3.81" y="-1.27" drill="1.143"/>
+<hole x="1.27" y="1.27" drill="1.143"/>
+<hole x="1.27" y="-1.27" drill="1.143"/>
+<hole x="24.13" y="1.27" drill="1.143"/>
+<hole x="24.13" y="-1.27" drill="1.143"/>
+<hole x="21.59" y="1.27" drill="1.143"/>
+<hole x="21.59" y="-1.27" drill="1.143"/>
+<hole x="19.05" y="1.27" drill="1.143"/>
+<hole x="19.05" y="-1.27" drill="1.143"/>
+<hole x="16.51" y="1.27" drill="1.143"/>
+<hole x="16.51" y="-1.27" drill="1.143"/>
+<hole x="13.97" y="1.27" drill="1.143"/>
+<hole x="13.97" y="-1.27" drill="1.143"/>
+<hole x="-22.86" y="0" drill="1.778"/>
+<hole x="22.86" y="0" drill="1.778"/>
+<smd name="1" x="-24.13" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-25.4" y1="2.54" x2="25.4" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-25.4" y1="-2.54" x2="25.4" y2="-2.54" width="0.2032" layer="51"/>
+<smd name="2" x="-24.13" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="3" x="-21.59" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="4" x="-21.59" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="5" x="-19.05" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="6" x="-19.05" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="7" x="-16.51" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="8" x="-16.51" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="9" x="-13.97" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="10" x="-13.97" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="11" x="-11.43" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="12" x="-11.43" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="13" x="-8.89" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="14" x="-8.89" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="15" x="-6.35" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="16" x="-6.35" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="17" x="-3.81" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="18" x="-3.81" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="19" x="-1.27" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="20" x="-1.27" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="21" x="1.27" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="22" x="1.27" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="3.81" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="24" x="3.81" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="25" x="6.35" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="26" x="6.35" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="27" x="8.89" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="28" x="8.89" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="29" x="11.43" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="30" x="11.43" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="31" x="13.97" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="32" x="13.97" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="33" x="16.51" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="34" x="16.51" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="35" x="19.05" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="36" x="19.05" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="37" x="21.59" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="38" x="21.59" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="39" x="24.13" y="-3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<smd name="40" x="24.13" y="3.048" dx="1.778" dy="1.016" layer="1" roundness="50" rot="R270"/>
+<text x="20.32" y="0" size="0.762" layer="51" ratio="16" rot="SR0" align="center-right">&gt;LABEL</text>
+<text x="20.32" y="0" size="0.762" layer="21" ratio="16" rot="SR0" align="center-right">&gt;LABEL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X03">
@@ -14537,6 +14628,59 @@ SMT header is CONN-09042.</description>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(NOSILK)" package="S-RASPBERRYPI-NOSILK">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@30" pad="30"/>
+<connect gate="G$1" pin="GND@34" pad="34"/>
+<connect gate="G$1" pin="GND@39" pad="39"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GPIO10/MOSI@19" pad="19"/>
+<connect gate="G$1" pin="GPIO11/CLK@23" pad="23"/>
+<connect gate="G$1" pin="GPIO12@32" pad="32"/>
+<connect gate="G$1" pin="GPIO13@33" pad="33"/>
+<connect gate="G$1" pin="GPIO16@36" pad="36"/>
+<connect gate="G$1" pin="GPIO17@11" pad="11"/>
+<connect gate="G$1" pin="GPIO18@12" pad="12"/>
+<connect gate="G$1" pin="GPIO19@35" pad="35"/>
+<connect gate="G$1" pin="GPIO2/SDA@3" pad="3"/>
+<connect gate="G$1" pin="GPIO20@38" pad="38"/>
+<connect gate="G$1" pin="GPIO21@40" pad="40"/>
+<connect gate="G$1" pin="GPIO22@15" pad="15"/>
+<connect gate="G$1" pin="GPIO23@16" pad="16"/>
+<connect gate="G$1" pin="GPIO24@18" pad="18"/>
+<connect gate="G$1" pin="GPIO25@22" pad="22"/>
+<connect gate="G$1" pin="GPIO26@37" pad="37"/>
+<connect gate="G$1" pin="GPIO27@13" pad="13"/>
+<connect gate="G$1" pin="GPIO3/SCL@5" pad="5"/>
+<connect gate="G$1" pin="GPIO4@7" pad="7"/>
+<connect gate="G$1" pin="GPIO5@29" pad="29"/>
+<connect gate="G$1" pin="GPIO6@31" pad="31"/>
+<connect gate="G$1" pin="GPIO7@26" pad="26"/>
+<connect gate="G$1" pin="GPIO8@24" pad="24"/>
+<connect gate="G$1" pin="GPIO9/MISO@21" pad="21"/>
+<connect gate="G$1" pin="ID_SC@28" pad="28"/>
+<connect gate="G$1" pin="ID_SD@27" pad="27"/>
+<connect gate="G$1" pin="RXD/GPIO15@10" pad="10"/>
+<connect gate="G$1" pin="TXD/GPIO14@8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-RASPBERRYPI" constant="no"/>
+<attribute name="DESC" value="Raspberry Pi Pinout 2x20 Ways" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2x20" constant="no"/>
 </technology>
 </technologies>
 </device>
