@@ -185,7 +185,7 @@ Same with size 0805 in inches.</description>
 <rectangle x1="0.5" y1="-0.6" x2="1" y2="0.6" layer="51"/>
 <wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.55" layer="21"/>
 </package>
-<package name="L-5852-CYL">
+<package name="CD54">
 <description>SMD Inductor&lt;br&gt;
 Diameter: 5.8mm</description>
 <smd name="1" x="-1.95" y="0" dx="5.5" dy="2.2" layer="1" roundness="30" rot="R90"/>
@@ -378,7 +378,7 @@ Size: 3.7 x 1.6mm</description>
 <wire x1="-0.5" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="21"/>
 <wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.2032" layer="21"/>
 <text x="0" y="1.2" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;MPN</text>
 <rectangle x1="-1.9" y1="-0.3" x2="-1.35" y2="0.3" layer="51"/>
 <rectangle x1="1.35" y1="-0.3" x2="1.9" y2="0.3" layer="51"/>
 <wire x1="-1.35" y1="0.8" x2="-1.35" y2="-0.8" width="0.2032" layer="51"/>
@@ -984,7 +984,7 @@ Modification:&lt;br&gt;
 <wire x1="-0.373" y1="-0.5" x2="0.873" y2="-0.5" width="0.2032" layer="21"/>
 <wire x1="-0.373" y1="0.5" x2="-0.373" y2="-0.5" width="0.2032" layer="21"/>
 <text x="0" y="1.2" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;MPN</text>
 <rectangle x1="-1.85" y1="-0.75" x2="-1.35" y2="0.75" layer="51"/>
 <rectangle x1="1.35" y1="-0.75" x2="1.85" y2="0.75" layer="51"/>
 <wire x1="-1.35" y1="0.7" x2="-1.35" y2="-0.7" width="0.2032" layer="51"/>
@@ -1640,7 +1640,7 @@ Created by: Wai Weng</description>
 <wire x1="-0.85" y1="-0.6" x2="-0.85" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="0.85" y1="-0.6" x2="0.85" y2="-0.5" width="0.127" layer="21"/>
 <text x="0" y="1.2" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;MPN</text>
 <wire x1="0.391" y1="-0.596" x2="0.391" y2="0.596" width="0.127" layer="21"/>
 </package>
 <package name="ECAP-13MM-TH">
@@ -1853,7 +1853,7 @@ Created by: Wai Weng</description>
 <wire x1="-0.35" y1="-0.6" x2="0.7" y2="-0.6" width="0.2032" layer="21"/>
 <wire x1="-0.35" y1="0.6" x2="-0.35" y2="-0.6" width="0.2032" layer="21"/>
 <text x="0" y="1.2" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.2" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;MPN</text>
 <rectangle x1="-1.85" y1="-0.5" x2="-1.05" y2="0.5" layer="51"/>
 <rectangle x1="1.05" y1="-0.5" x2="1.85" y2="0.5" layer="51"/>
 <wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.2032" layer="51"/>
@@ -4313,6 +4313,14 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="15K" constant="no"/>
 </technology>
+<technology name="_18K">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 18K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="18K" constant="no"/>
+</technology>
 <technology name="_1K">
 <attribute name="CYTRON-PC" value="S-R-1K-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 1K 0805" constant="no"/>
@@ -4513,6 +4521,14 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="53K6" constant="no"/>
 </technology>
+<technology name="_54K9">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 54K9 0805 1%" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="54K9" constant="no"/>
+</technology>
 <technology name="_560K">
 <attribute name="CYTRON-PC" value="S-R-560K-85" constant="no"/>
 <attribute name="DESC" value="S Resistor 560K 0805" constant="no"/>
@@ -4552,6 +4568,14 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="68R" constant="no"/>
+</technology>
+<technology name="_75K">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 75K 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="75K" constant="no"/>
 </technology>
 <technology name="_7K8">
 <attribute name="CYTRON-PC" value="S-R-7K8-85" constant="no"/>
@@ -4913,6 +4937,14 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100R 1W 1%" constant="no"/>
 </technology>
+<technology name="_1K_1W_1P">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 1W 1K 6432 1%" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1K 1W 1%" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_(5930)" package="5930">
@@ -5025,6 +5057,14 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
+<technology name="_100V_0.1UF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 100V 0.1uF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100V0.1uF" constant="no"/>
+</technology>
 <technology name="_100V_10NF">
 <attribute name="CYTRON-PC" value="S-CC-100-10N-85" constant="no"/>
 <attribute name="DESC" value="S Ceramic Capacitor 100V 10nF 0805" constant="no"/>
@@ -5040,6 +5080,14 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100V22nF" constant="no"/>
+</technology>
+<technology name="_100V_47NF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 100V 47nF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="100V47nF" constant="no"/>
 </technology>
 <technology name="_10UF">
 <attribute name="CYTRON-PC" value="S-CC-10U-85" constant="no"/>
@@ -5319,7 +5367,7 @@ Created by: Wai Weng</description>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_(L-5852-CYL)" package="L-5852-CYL">
+<device name="_(CD54)" package="CD54">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
