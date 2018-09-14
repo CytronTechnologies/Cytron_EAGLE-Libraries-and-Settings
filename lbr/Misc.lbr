@@ -13575,23 +13575,23 @@ Length: 30mm</description>
 </package>
 <package name="SJ-1.6">
 <description>Solder jumper - 1.6mm</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-1.778" y1="-0.762" x2="-1.397" y2="-1.143" width="0.2032" layer="21" curve="90"/>
+<wire x1="-1.397" y1="-1.143" x2="1.397" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="-1.143" x2="1.778" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.778" y1="-0.762" x2="1.778" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="1.778" y1="0.762" x2="1.397" y2="1.143" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.397" y1="1.143" x2="-1.397" y2="1.143" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="1.143" x2="-1.778" y2="0.762" width="0.2032" layer="21" curve="90"/>
 <wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.2" dy="1.6" layer="1" cream="no"/>
-<smd name="2" x="0.762" y="0" dx="1.2" dy="1.6" layer="1" cream="no"/>
-<text x="0" y="1.651" size="0.762" layer="25" ratio="16" align="center">&gt;NAME</text>
+<smd name="1" x="-0.762" y="0" dx="1.2" dy="1.6" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="0.762" y="0" dx="1.2" dy="1.6" layer="1" roundness="30" cream="no"/>
+<text x="0" y="1.778" size="0.762" layer="25" ratio="16" align="center">&gt;NAME</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-<text x="0" y="-1.651" size="0.762" layer="21" ratio="16" align="center">&gt;LABEL</text>
+<text x="0" y="-1.778" size="0.762" layer="21" ratio="16" align="center">&gt;LABEL</text>
 </package>
 <package name="SJ-NC">
 <description>SMD Solder Joint Normally Closed&lt;br&gt;
