@@ -5303,7 +5303,7 @@ CASTOR</text>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
 </technology>
 <technology name="_250V_4.7NF">
 <attribute name="CYTRON-PC" value="S-CC-4.7N-85" constant="no"/>
