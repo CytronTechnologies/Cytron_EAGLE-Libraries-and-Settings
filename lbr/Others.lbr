@@ -5282,7 +5282,7 @@ CASTOR</text>
 <attribute name="VALUE" value="16V2.2uF" constant="no"/>
 </technology>
 <technology name="_22NF">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-22N-85" constant="no"/>
 <attribute name="DESC" value="S Ceramic Capacitor 22nF 0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -5296,6 +5296,14 @@ CASTOR</text>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="22pF" constant="no"/>
+</technology>
+<technology name="_22UF">
+<attribute name="CYTRON-PC" value="S-CC-22U-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Capacitor 22uF 0805" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 <technology name="_250V_4.7NF">
 <attribute name="CYTRON-PC" value="S-CC-4.7N-85" constant="no"/>
@@ -5613,6 +5621,14 @@ CASTOR</text>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="_2.2UH">
+<attribute name="CYTRON-PC" value="S-L-2.2UH-2.6A" constant="no"/>
+<attribute name="DESC" value="S Inductor 2.2uH 2.6A SDRH5D28-2R2M" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="SDRH5D28-2R2M" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
 <technology name="_330UH">
 <attribute name="CYTRON-PC" value="S-L-330UH-0.25A" constant="no"/>
 <attribute name="DESC" value="S Inductor 330uH 0.25A SDRH5D28" constant="no"/>
@@ -6011,6 +6027,15 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_BLUE">
+<attribute name="CYTRON-PC" value="S-DS-B-1206" constant="no"/>
+<attribute name="DESC" value="S LED Blue 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
 </technology>
 <technology name="_GREEN">
 <attribute name="CYTRON-PC" value="S-DS-G-1206" constant="no"/>
@@ -7319,7 +7344,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-SS-MSS22D18" constant="no"/>
 <attribute name="DESC" value="SMD DPDT Slide Switch - MSS22D18" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
@@ -8107,7 +8132,7 @@ Created by SC Lim</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="SN-IRS-ITR20001T" constant="no"/>
 <attribute name="DESC" value="Opto Reflective Sensor" constant="no"/>
 <attribute name="MF" value="Everlight" constant="no"/>
 <attribute name="MPN" value="ITR20001/T" constant="no"/>

@@ -8710,7 +8710,7 @@ Created by SC Lim</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="SN-HC-SR04" constant="no"/>
 <attribute name="DESC" value="HC-SR04 Ultrasonic Sensor Module" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="HC-SR04" constant="no"/>
