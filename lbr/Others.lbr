@@ -3236,6 +3236,29 @@ Created by: SC Lim</description>
 <wire x1="-2.1" y1="-1" x2="-2.1" y2="1" width="0.2032" layer="21"/>
 <rectangle x1="-1.8" y1="-0.7" x2="-0.4" y2="0.7" layer="21"/>
 </package>
+<package name="LED-2012">
+<description>SMD LED&lt;br&gt;
+Size: 2.0 x 1.25mm&lt;br&gt;
+&lt;br&gt;
+Same with size 0805 in inches.&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<smd name="A" x="-1" y="0" dx="1.2" dy="1.6" layer="1" roundness="75"/>
+<smd name="C" x="1" y="0" dx="1.2" dy="1.6" layer="1" roundness="75"/>
+<text x="0" y="1.95" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0.95" size="0.762" layer="27" font="vector" ratio="15" rot="R180" align="top-center">&gt;VALUE</text>
+<wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="1" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.6" x2="1" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.6" x2="-1" y2="0.6" width="0.2032" layer="51"/>
+<rectangle x1="-1" y1="-0.6" x2="-0.5" y2="0.6" layer="51"/>
+<rectangle x1="0.5" y1="-0.6" x2="1" y2="0.6" layer="51"/>
+<wire x1="-0.2" y1="-0.3" x2="-0.2" y2="0.3" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="0.3" x2="0.2" y2="0" width="0.127" layer="51"/>
+<wire x1="0.2" y1="0" x2="-0.2" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.19" y1="0.3" x2="0.19" y2="-0.3" width="0.127" layer="51"/>
+<text x="0" y="-0.95" size="0.762" layer="51" font="vector" ratio="15" align="top-center">&gt;LABEL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -6020,8 +6043,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SMD-LED-?" constant="no"/>
-<attribute name="DESC" value="SMD LED" constant="no"/>
+<attribute name="CYTRON-PC" value="S-DS-?-1206" constant="no"/>
+<attribute name="DESC" value="S LED 1206" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -6141,6 +6164,41 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_(2012)" package="LED-2012">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-DS-?-0805" constant="no"/>
+<attribute name="DESC" value="S LED 0805" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_BLUE">
+<attribute name="CYTRON-PC" value="S-DS-B-0805" constant="no"/>
+<attribute name="DESC" value="S LED Blue 0805" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="EVERBRIGHT" constant="no"/>
+<attribute name="MPN" value="EC04-0805QBD/E" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+<technology name="_GREEN">
+<attribute name="CYTRON-PC" value="S-DS-G-0805" constant="no"/>
+<attribute name="DESC" value="S LED Green 0805" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="EVERBRIGHT" constant="no"/>
+<attribute name="MPN" value="EC04-0805QGD/E" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
 </technology>
 </technologies>
 </device>
