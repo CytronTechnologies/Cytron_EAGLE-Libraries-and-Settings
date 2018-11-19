@@ -3253,6 +3253,8 @@ Created by: SC Lim</description>
 <wire x1="2.1" y1="-1" x2="-2.1" y2="-1" width="0.2032" layer="21"/>
 <wire x1="-2.1" y1="-1" x2="-2.1" y2="1" width="0.2032" layer="21"/>
 <rectangle x1="-1.8" y1="-0.7" x2="-0.4" y2="0.7" layer="21"/>
+<text x="-2.54" y="4.318" size="0.762" layer="25" font="vector" ratio="15">&gt;Name</text>
+<text x="-2.54" y="-5.08" size="0.762" layer="51" font="vector" ratio="15">&gt;Label</text>
 </package>
 <package name="LED-2012">
 <description>SMD LED&lt;br&gt;
