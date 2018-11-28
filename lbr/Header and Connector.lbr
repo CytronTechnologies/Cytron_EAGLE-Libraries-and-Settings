@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3677,8 +3677,8 @@ Modified by: Idris&lt;br&gt;
 <description>Screw Terminal Block HB9500 - 2 Ways
 &lt;br&gt;&lt;br&gt;
 Owner: Wai Weng</description>
-<pad name="1" x="-4.75" y="0" drill="1.7"/>
-<pad name="2" x="4.75" y="0" drill="1.7"/>
+<pad name="1" x="-4.75" y="0" drill="1.7" diameter="3.048"/>
+<pad name="2" x="4.75" y="0" drill="1.7" diameter="3.048"/>
 <wire x1="-10.4" y1="4" x2="0" y2="4" width="0.2032" layer="51"/>
 <wire x1="0" y1="4" x2="10.4" y2="4" width="0.2032" layer="51"/>
 <wire x1="10.4" y1="4" x2="10.4" y2="-12.2" width="0.2032" layer="51"/>
