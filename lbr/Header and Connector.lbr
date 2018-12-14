@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5183,34 +5183,34 @@ Pads are shifted 5mil to lock the connector in place during soldering.</descript
 <package name="TERMINAL-KF127-3P">
 <pad name="2" x="0" y="0" drill="1.1" diameter="2.5"/>
 <pad name="3" x="5.08" y="0" drill="1.1" diameter="2.5"/>
-<wire x1="-7.54" y1="3.81" x2="7.54" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="7.54" y1="3.81" x2="7.54" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="7.54" y1="-4.191" x2="6.35" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-4.191" x2="3.81" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-4.191" x2="-1.27" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-4.191" x2="-7.54" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-4.191" x2="-1.27" y2="-3.302" width="0.2032" layer="21"/>
+<wire x1="-7.54" y1="4" x2="7.54" y2="4" width="0.2032" layer="21"/>
+<wire x1="7.54" y1="4" x2="7.54" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="7.54" y1="-4.2" x2="6.35" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-4.2" x2="3.81" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-4.2" x2="-1.27" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-4.2" x2="-7.54" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-4.2" x2="-1.27" y2="-3.302" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-3.302" x2="1.27" y2="-3.302" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-3.302" x2="1.27" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-4.191" x2="3.81" y2="-3.302" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-3.302" x2="1.27" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-4.2" x2="3.81" y2="-3.302" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-3.302" x2="6.35" y2="-3.302" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-3.302" x2="6.35" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="-7.54" y1="-4.191" x2="-7.54" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="-7.54" y1="-4.191" x2="-7.54" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="-7.54" y1="3.81" x2="7.54" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="7.54" y1="3.81" x2="7.54" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="7.54" y1="-4.191" x2="6.35" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="6.35" y1="-4.191" x2="3.81" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="-4.191" x2="-1.27" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="-1.27" y1="-4.191" x2="-7.54" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="-1.27" y1="-4.191" x2="-1.27" y2="-3.302" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-3.302" x2="6.35" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-7.54" y1="-4.2" x2="-7.54" y2="4" width="0.2032" layer="21"/>
+<wire x1="-7.54" y1="-4.2" x2="-7.54" y2="4" width="0.2032" layer="51"/>
+<wire x1="-7.54" y1="4" x2="7.54" y2="4" width="0.2032" layer="51"/>
+<wire x1="7.54" y1="4" x2="7.54" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="7.54" y1="-4.2" x2="6.35" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-4.2" x2="3.81" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="1.27" y1="-4.2" x2="-1.27" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="-1.27" y1="-4.2" x2="-7.54" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="-1.27" y1="-4.2" x2="-1.27" y2="-3.302" width="0.2032" layer="51"/>
 <wire x1="-1.27" y1="-3.302" x2="1.27" y2="-3.302" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="-3.302" x2="1.27" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="3.81" y1="-4.191" x2="3.81" y2="-3.302" width="0.2032" layer="51"/>
+<wire x1="1.27" y1="-3.302" x2="1.27" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="3.81" y1="-4.2" x2="3.81" y2="-3.302" width="0.2032" layer="51"/>
 <wire x1="3.81" y1="-3.302" x2="6.35" y2="-3.302" width="0.2032" layer="51"/>
-<wire x1="6.35" y1="-3.302" x2="6.35" y2="-4.191" width="0.2032" layer="51"/>
-<wire x1="3.81" y1="-4.191" x2="1.27" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-4.191" x2="1.27" y2="-4.191" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-3.302" x2="6.35" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="3.81" y1="-4.2" x2="1.27" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-4.2" x2="1.27" y2="-4.2" width="0.2032" layer="51"/>
 <text x="0" y="2.54" size="0.762" layer="25" font="vector" ratio="15" align="top-center">&gt;NAME</text>
 <text x="0" y="-5.334" size="0.762" layer="51" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
 <text x="0" y="-5.334" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">&gt;LABEL</text>
@@ -13429,8 +13429,8 @@ Created By: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="CN-TB-HB9500" constant="no"/>
-<attribute name="DESC" value="Terminal Block - HB9500" constant="no"/>
+<attribute name="CYTRON-PC" value="CN-TB-9502" constant="no"/>
+<attribute name="DESC" value="Screw Board Terminal Block-2 Ways" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2 Ways" constant="no"/>
