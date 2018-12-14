@@ -700,16 +700,16 @@ Size: 5.5 x 3.6mm</description>
 Size: 6.81mm x 6.45mm&lt;br&gt;
 &lt;br&gt;
 Same with size 2725 in inches.</description>
-<smd name="1" x="-2.5" y="0" dx="3.5" dy="7" layer="1" roundness="10"/>
-<smd name="2" x="2.5" y="0" dx="3.5" dy="7" layer="1" roundness="10"/>
+<smd name="1" x="-2.5" y="0" dx="2.9" dy="6.86" layer="1" roundness="10"/>
+<smd name="2" x="2.5" y="0" dx="2.9" dy="6.86" layer="1" roundness="10"/>
 <text x="0" y="3.99" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.99" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
 <wire x1="-3.405" y1="3.225" x2="-3.405" y2="-3.225" width="0.2032" layer="51"/>
 <wire x1="-3.405" y1="-3.225" x2="3.405" y2="-3.225" width="0.2032" layer="51"/>
 <wire x1="3.405" y1="-3.225" x2="3.405" y2="3.225" width="0.2032" layer="51"/>
 <wire x1="3.405" y1="3.225" x2="-3.405" y2="3.225" width="0.2032" layer="51"/>
-<rectangle x1="-3.405" y1="-3.225" x2="-1" y2="3.225" layer="51"/>
-<rectangle x1="1" y1="-3.225" x2="3.405" y2="3.225" layer="51"/>
+<rectangle x1="-3.405" y1="-3.225" x2="-1.245" y2="3.225" layer="51"/>
+<rectangle x1="1.245" y1="-3.225" x2="3.405" y2="3.225" layer="51"/>
 <wire x1="0" y1="2.5" x2="0" y2="-2.5" width="0.55" layer="21"/>
 </package>
 <package name="SW-DIP-8-TH">
@@ -5492,6 +5492,15 @@ CASTOR</text>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
+<technology name="_10UF">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Ceramic Cap 10uF 10% 50V X7R 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="SAMSUNG" constant="no"/>
+<attribute name="MPN" value="CL31A106KBHNNNE" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="50V10uF" constant="no"/>
+</technology>
 <technology name="_470NF">
 <attribute name="CYTRON-PC" value="S-CC-470N-1206" constant="no"/>
 <attribute name="DESC" value="S Ceramic Cap 470nF 10% 50V X7R 1206" constant="no"/>
@@ -5499,7 +5508,7 @@ CASTOR</text>
 <attribute name="MF" value="SAMSUNG" constant="no"/>
 <attribute name="MPN" value="CL31B474KBHNNNE" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="470nF" constant="no"/>
+<attribute name="VALUE" value="50V470nF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6494,7 +6503,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-SP-4N-KAN3246" constant="no"/>
-<attribute name="DESC" value="SMD Push Button - 4 Pins" constant="no"/>
+<attribute name="DESC" value="S Push Button KAN3246 4.2x3.3mm" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
