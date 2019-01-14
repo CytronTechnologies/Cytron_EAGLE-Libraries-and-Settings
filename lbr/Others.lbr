@@ -2112,13 +2112,14 @@ Created by: OoiBP</description>
 <smd name="C" x="0.9" y="0" dx="0.8" dy="1" layer="1" roundness="50"/>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.6" y2="0.4" layer="51"/>
 <rectangle x1="0.6" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-<text x="0" y="0.7" size="0.762" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.7" size="0.762" layer="27" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.778" size="0.762" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.762" layer="27" ratio="15" rot="R180" align="top-center">&gt;VALUE</text>
 <wire x1="-0.3" y1="0.2" x2="-0.3" y2="-0.2" width="0.2032" layer="51"/>
 <wire x1="-0.3" y1="-0.2" x2="0.2" y2="0" width="0.2032" layer="51"/>
 <wire x1="0.2" y1="0" x2="-0.3" y2="0.2" width="0.2032" layer="51"/>
 <wire x1="0.3" y1="0.2" x2="0.3" y2="-0.2" width="0.2032" layer="21"/>
 <wire x1="0.3" y1="0.2" x2="0.3" y2="-0.2" width="0.2032" layer="51"/>
+<text x="0" y="-0.889" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">&gt;LABEL</text>
 </package>
 <package name="BATT-HOLDER-CR2032">
 <description>CR2032 Coin Cell Holder.&lt;br&gt;
@@ -4484,8 +4485,8 @@ CASTOR</text>
 <attribute name="VALUE" value="15K" constant="no"/>
 </technology>
 <technology name="_18K">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Resistor 18K 0805" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-18K-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 18K,1%,1/8W,0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4628,8 +4629,8 @@ CASTOR</text>
 <attribute name="VALUE" value="39K" constant="no"/>
 </technology>
 <technology name="_44K2">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Resistor 44K2 0805 1%" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-44K2-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 44K2,1%,1/8W,0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4700,8 +4701,8 @@ CASTOR</text>
 <attribute name="VALUE" value="53K6" constant="no"/>
 </technology>
 <technology name="_54K9">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Resistor 54K9 0805 1%" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-54K9-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 54K9,1%,1/8W,0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -4883,6 +4884,14 @@ CASTOR</text>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="10R" constant="no"/>
 </technology>
+<technology name="_11K">
+<attribute name="CYTRON-PC" value="S-R-11K-63" constant="no"/>
+<attribute name="DESC" value="S Resistor 11K,1%,1/10W,0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="11K" constant="no"/>
+</technology>
 <technology name="_120K">
 <attribute name="CYTRON-PC" value="S-R-120K-63" constant="no"/>
 <attribute name="DESC" value="S Resistor 120K,1%,1/10W,0603" constant="no"/>
@@ -4906,6 +4915,14 @@ CASTOR</text>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+<technology name="_1K5">
+<attribute name="CYTRON-PC" value="S-R-1K5-63" constant="no"/>
+<attribute name="DESC" value="S Resistor 1K5,1%,1/10W,0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="1K5" constant="no"/>
 </technology>
 <technology name="_1M">
 <attribute name="CYTRON-PC" value="S-R-1M-63" constant="no"/>
@@ -5220,10 +5237,10 @@ CASTOR</text>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 <technology name="_100V_0.1UF">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Ceramic Capacitor 100V 0.1uF 0805" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-100-100N-85" constant="no"/>
+<attribute name="DESC" value="S Ceramic Cap 0.1uF 10% 100V X7R 0805" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21B104KCFNNNE" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="100V0.1uF" constant="no"/>
 </technology>
@@ -5493,8 +5510,8 @@ CASTOR</text>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
 <technology name="_10UF">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Ceramic Cap 10uF 10% 50V X7R 1206" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CC-50-10U-1206" constant="no"/>
+<attribute name="DESC" value="S Ceramic Cap 10uF 10% 50V X5R 1206" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="SAMSUNG" constant="no"/>
 <attribute name="MPN" value="CL31A106KBHNNNE" constant="no"/>
@@ -5567,6 +5584,14 @@ CASTOR</text>
 <attribute name="MPN" value="SP54-251-T" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="250uH" constant="no"/>
+</technology>
+<technology name="_33UH">
+<attribute name="CYTRON-PC" value="S-L-33UH-0.75A" constant="no"/>
+<attribute name="DESC" value="S Inductor 33uH 0.75A SDRH5D28" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
 </technology>
 <technology name="_4.7UH">
 <attribute name="CYTRON-PC" value="" constant="no"/>
@@ -5928,7 +5953,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technologies>
 <technology name="_50V3300UF">
 <attribute name="CYTRON-PC" value="CP-EC-50-3300" constant="no"/>
-<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="Electrolytic Capacitor 50V 3300uF" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -5936,19 +5961,19 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_63V2200UF">
 <attribute name="CYTRON-PC" value="CP-EC-63-2200" constant="no"/>
-<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="DESC" value="Electrolytic Capacitor 63V 2200uF" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="63V 2200uF" constant="no"/>
 </technology>
 <technology name="_80V1000UF">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="Aluminium Electrolytic Cap" constant="no"/>
+<attribute name="CYTRON-PC" value="CP-EC-100-1000" constant="no"/>
+<attribute name="DESC" value="Electrolytic Capacitor 100V 1000uF" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="80V 1000uF" constant="no"/>
+<attribute name="VALUE" value="100V 1000uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6125,23 +6150,41 @@ Created by: Wai Weng&lt;br&gt;</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CYTRON-PC" value="S-DS-?-63" constant="no"/>
-<attribute name="DESC" value="S LED 0603" constant="no"/>
+<technology name="_BLUE">
+<attribute name="CYTRON-PC" value="S-DS-B-63" constant="no"/>
+<attribute name="DESC" value="S LED Blue 0603" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+<technology name="_GREEN">
+<attribute name="CYTRON-PC" value="S-DS-G-63" constant="no"/>
+<attribute name="DESC" value="S LED Green 0603" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
 </technology>
 <technology name="_RED">
 <attribute name="CYTRON-PC" value="S-DS-R-63" constant="no"/>
 <attribute name="DESC" value="S LED Red 0603" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
-<attribute name="MF" value="EVERBRIGHT" constant="no"/>
-<attribute name="MPN" value="EC02-0603QRC/E-AV" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+<technology name="_YELLOW">
+<attribute name="CYTRON-PC" value="S-DS-Y-63" constant="no"/>
+<attribute name="DESC" value="S LED Yellow 0603" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6293,7 +6336,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <attribute name="VALUE" value="36V 62A" constant="no"/>
 </technology>
 <technology name="_SM6T68A">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-SM6T68A-SMB" constant="no"/>
 <attribute name="DESC" value="S TVS Diode 68V 33A SM6T68A SMB" constant="no"/>
 <attribute name="MF" value="VISHAY" constant="no"/>
 <attribute name="MPN" value="SM6T68A" constant="no"/>
@@ -6889,7 +6932,7 @@ Unidirectional TVS diode is put under DIODE-ZENER.</description>
 <technologies>
 <technology name="_10K">
 <attribute name="CYTRON-PC" value="S-NTC-10K-63" constant="no"/>
-<attribute name="DESC" value="SMD NTC Thermistor" constant="no"/>
+<attribute name="DESC" value="S NTC 10K 0603" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -8236,8 +8279,8 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Schottky Diode Pair BAT754S" constant="no"/>
+<attribute name="CYTRON-PC" value="S-D-BAT754S-SOT23" constant="no"/>
+<attribute name="DESC" value="S Schottky Diode Pair BAT754S SOT23" constant="no"/>
 <attribute name="MF" value="NXP" constant="no"/>
 <attribute name="MPN" value="BAT754S" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
