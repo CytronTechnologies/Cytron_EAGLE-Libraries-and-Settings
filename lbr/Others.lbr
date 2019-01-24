@@ -4733,8 +4733,8 @@ CASTOR</text>
 <attribute name="VALUE" value="680R" constant="no"/>
 </technology>
 <technology name="_68K">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="S Resistor 68K 0805" constant="no"/>
+<attribute name="CYTRON-PC" value="S-R-68K-85" constant="no"/>
+<attribute name="DESC" value="S Resistor 68K,1%,1/8W,0805" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
