@@ -15357,8 +15357,8 @@ SMT header is CONN-09042.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="Terminal Block - KF127" constant="no"/>
+<attribute name="CYTRON-PC" value="CN-TB-KF127-3P" constant="no"/>
+<attribute name="DESC" value="Terminal Block KF127 3pin Green" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARKS" value="" constant="no"/>
 <attribute name="VALUE" value="3 ways" constant="no"/>
