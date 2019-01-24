@@ -12840,11 +12840,11 @@ Created By: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="" constant="no"/>
-<attribute name="DESC" value="SMD Male Header - 6 Ways" constant="no"/>
+<attribute name="CYTRON-PC" value="S-CN-PH-M140S" constant="no"/>
+<attribute name="DESC" value="S Straight Male Header 1x40 Ways" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="6 Ways" constant="no"/>
+<attribute name="VALUE" value="6/40 Ways" constant="no"/>
 </technology>
 </technologies>
 </device>
