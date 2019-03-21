@@ -3279,6 +3279,34 @@ Created by: SC Lim</description>
 <wire x1="0.19" y1="0.3" x2="0.19" y2="-0.3" width="0.127" layer="51"/>
 <text x="0" y="-0.95" size="0.762" layer="51" font="vector" ratio="15" align="top-center">&gt;LABEL</text>
 </package>
+<package name="ITR1502">
+<description>Package for ITR1502 IR sensor.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-1.35" y1="1.15" x2="-0.25" y2="1.15" width="0.2032" layer="51"/>
+<wire x1="-0.25" y1="1.15" x2="-0.25" y2="-1.15" width="0.2032" layer="51"/>
+<wire x1="-0.25" y1="-1.15" x2="-1.35" y2="-1.15" width="0.2032" layer="51"/>
+<wire x1="-1.35" y1="-1.15" x2="-1.35" y2="1.15" width="0.2032" layer="51"/>
+<wire x1="0.25" y1="1.15" x2="1.35" y2="1.15" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="1.15" x2="1.35" y2="-1.15" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="-1.15" x2="0.25" y2="-1.15" width="0.2032" layer="51"/>
+<wire x1="0.25" y1="-1.15" x2="0.25" y2="1.15" width="0.2032" layer="51"/>
+<smd name="1" x="-1.65" y="1.2" dx="1.2" dy="1.1" layer="1" roundness="20"/>
+<smd name="2" x="-1.65" y="-1.2" dx="1.2" dy="1.1" layer="1" roundness="20"/>
+<smd name="3" x="1.65" y="-1.2" dx="1.2" dy="1.1" layer="1" roundness="20"/>
+<smd name="4" x="1.65" y="1.2" dx="1.2" dy="1.1" layer="1" roundness="20"/>
+<wire x1="-0.8" y1="1.3" x2="0.8" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.8" y1="0.4" x2="1.8" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="-1.3" x2="-0.8" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="0.4" x2="-1.8" y2="-0.4" width="0.2032" layer="21"/>
+<circle x="-0.6" y="0.6" radius="0.14141875" width="0.3048" layer="21"/>
+<text x="0" y="2.286" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.286" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;MPN</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -8235,14 +8263,15 @@ Created by SC Lim</description>
 </devices>
 </deviceset>
 <deviceset name="OPTO-REFLECTIVE-SENSOR" prefix="U">
-<description>This opto switch consist of an infrared emitting diode (clear) and an NPN silicon phototransistor (black).&lt;a href="http://www.everlight.com/file/ProductFile/ITR20001-T.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;
+<description>This opto switch consist of an infrared emitting diode (clear) and an NPN silicon phototransistor (black).&lt;br&gt;
+&lt;a href="http://www.everlight.com/file/ProductFile/ITR20001-T.pdf"&gt;ITR20001 Datasheet&lt;/a&gt;&lt;br&gt;
 &lt;br&gt;
 Created by SC Lim</description>
 <gates>
 <gate name="G$1" symbol="OPTO-REFLECTIVE-SENSOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ITR20001">
+<device name="_ITR20001" package="ITR20001">
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
@@ -8252,9 +8281,27 @@ Created by SC Lim</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="SN-IRS-ITR20001T" constant="no"/>
-<attribute name="DESC" value="Opto Reflective Sensor" constant="no"/>
+<attribute name="DESC" value="Opto Reflective Sensor ITR20001" constant="no"/>
 <attribute name="MF" value="Everlight" constant="no"/>
 <attribute name="MPN" value="ITR20001/T" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_ITR1502" package="ITR1502">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="4"/>
+<connect gate="G$1" pin="CATHODE" pad="3"/>
+<connect gate="G$1" pin="COLLECTOR" pad="2"/>
+<connect gate="G$1" pin="EMITTER" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="Opto Reflective Sensor ITR1502" constant="no"/>
+<attribute name="MF" value="Everlight" constant="no"/>
+<attribute name="MPN" value="ITR1502SR40A/TR8" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
