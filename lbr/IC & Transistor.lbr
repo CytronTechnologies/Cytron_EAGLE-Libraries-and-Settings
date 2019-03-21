@@ -7861,6 +7861,22 @@ Created by: Wai Weng</description>
 <text x="-10.16" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;MPN</text>
 </symbol>
+<symbol name="XL1509">
+<description>2A 150KHz 40V Buck DC to DC Converter&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pin name="VIN" x="-12.7" y="5.08" length="short"/>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
+<pin name="!EN" x="-12.7" y="0" length="short"/>
+<pin name="OUT" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="FB" x="12.7" y="5.08" length="short" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="10.16" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -13215,6 +13231,35 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="MX1508" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="2 - 9.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XL1509" prefix="U">
+<description>2A 150KHz 40V Buck DC to DC Converter&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="XL1509" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-08N">
+<connects>
+<connect gate="G$1" pin="!EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5 6 7 8"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name="-5.0">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S 5V Buck Converter XL1509-5.0 SO8" constant="no"/>
+<attribute name="MF" value="XLSEMI" constant="no"/>
+<attribute name="MPN" value="XL1509-5.0E1" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
