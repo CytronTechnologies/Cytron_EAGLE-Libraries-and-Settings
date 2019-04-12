@@ -3307,6 +3307,39 @@ Created by: Wai Weng</description>
 <text x="0" y="2.286" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;MPN</text>
 </package>
+<package name="LED-3216-REVERSE">
+<description>Reverse Mount SMD LED&lt;br&gt;
+Size: 3.2 x 1.6mm&lt;br&gt;
+&lt;br&gt;
+Same with size 1206 in inches.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<wire x1="-0.3" y1="-0.5" x2="-0.3" y2="0" width="0.2032" layer="51"/>
+<wire x1="-0.3" y1="0" x2="-0.3" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="0.3" y1="-0.5" x2="0.3" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="0.3" y1="0.5" x2="-0.3" y2="0" width="0.2032" layer="51"/>
+<smd name="A" x="1.65" y="0" dx="1" dy="1.5" layer="1" roundness="25" rot="R180"/>
+<smd name="C" x="-1.65" y="0" dx="1" dy="1.5" layer="1" roundness="25" rot="R180"/>
+<text x="0" y="2.54" size="0.762" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.762" layer="21" font="vector" ratio="15" align="top-center">&gt;LABEL</text>
+<text x="0" y="1.651" size="0.762" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-0.7" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-0.8" x2="0.7" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="-0.8" x2="1.6" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="0.7" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="0.8" x2="-0.7" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="0.8" x2="-1.6" y2="0.8" width="0.2032" layer="51"/>
+<rectangle x1="-1.6" y1="-0.7" x2="-1" y2="0.7" layer="51"/>
+<rectangle x1="1" y1="-0.7" x2="1.6" y2="0.7" layer="51"/>
+<hole x="0" y="0" drill="2.2"/>
+<wire x1="-0.7" y1="0.8" x2="-0.7" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="0.8" x2="0.7" y2="-0.8" width="0.2032" layer="51"/>
+<circle x="-2.8" y="0" radius="0.14141875" width="0.3048" layer="21"/>
+<text x="0" y="0" size="0.508" layer="46" font="vector" ratio="15" align="center">NPTH</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -5803,7 +5836,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_15MQ040N">
 <attribute name="CYTRON-PC" value="S-D-15MQ040N-SMA" constant="no"/>
-<attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
+<attribute name="DESC" value="S Schottky Diode 40V 3A 15MQ040N SMA" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="15MQ040N" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -5811,7 +5844,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 <technology name="_MBRA140T">
 <attribute name="CYTRON-PC" value="S-D-MBRA140T-SMA" constant="no"/>
-<attribute name="DESC" value="SMD Schottky Diode" constant="no"/>
+<attribute name="DESC" value="S Schottky Diode 40V 1A MBRA140T3G SMA" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="MBRA140T" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -6277,6 +6310,32 @@ Created by: Wai Weng&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
+<device name="_(3216-REVERSE)" package="LED-3216-REVERSE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="_GREEN">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Reversed LED Green 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+<technology name="_RED">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Reversed LED Red 1206" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODE-ZENER/TVS-UNI" prefix="D" uservalue="yes">
@@ -6489,7 +6548,7 @@ Created by: Wai Weng&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="CYTRON-PC" value="S-SP-2N-RA-KAN3543" constant="no"/>
-<attribute name="DESC" value="SMD Push Button (Right Angled) - 2 Pins" constant="no"/>
+<attribute name="DESC" value="S Push Button R/A KAN3543 7x3.5mm White" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
@@ -7417,8 +7476,8 @@ Created by: Wai Weng&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CYTRON-PC" value="SW-SLIDE-SPDT-SMD" constant="no"/>
-<attribute name="DESC" value="SMD Slide Switch - SPDT" constant="no"/>
+<attribute name="CYTRON-PC" value="S-SS-2C-0307" constant="no"/>
+<attribute name="DESC" value="Slide Switch 2pin SMD" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
