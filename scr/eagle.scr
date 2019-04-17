@@ -50,8 +50,8 @@ BRD:
 # Assign.
 Assign F6   'display none; display Pads Unrouted Dimension tPlace tNames tValues tDocu;'
 Assign A+F6 'display none; display Pads Unrouted Dimension bPlace bNames bValues bDocu;'
-Assign F7   'display none; display Top Pads Vias Unrouted Dimension tPlace tOrigins tStop Holes Milling;'
-Assign A+F7 'display none; display Bottom Pads Vias Unrouted Dimension bPlace bOrigins bStop Holes Milling;'
+Assign F7   'display none; display Top Pads Vias Unrouted Dimension tPlace tOrigins tStop tRestrict Holes Milling;'
+Assign A+F7 'display none; display Bottom Pads Vias Unrouted Dimension bPlace bOrigins bStop bRestrict Holes Milling;'
 Assign F8   'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'
 Assign A+F8 'display none; display Top Bottom Pads Vias Unrouted Dimension tPlace bPlace tOrigins bOrigins tNames bNames tValues bValues tStop bStop tCream bCream tKeepout bKeepout tRestrict bRestrict Holes Milling Reference tDocu bDocu;'
 

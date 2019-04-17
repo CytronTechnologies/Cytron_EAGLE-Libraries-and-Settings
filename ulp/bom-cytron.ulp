@@ -363,7 +363,8 @@ void GenerateList (void)
   }
   
   // 2010-04-17 cwi: Included description.
-  Lines[NumLines ++] = "No.\tProduct Code\tDescription\tValue\tDesignator\tQuantity\tManufacturer\tManufacturer Part Number\tPackage\tP&P Parts Library\tRemark";
+  //Lines[NumLines ++] = "No.\tProduct Code\tDescription\tValue\tDesignator\tQuantity\tManufacturer\tManufacturer Part Number\tPackage\tP&P Parts Library\tRemark";
+  Lines[NumLines ++] = "No.\tDesignator\tQuantity\tCytron Product Code\tDescription\tValue\tMPN\tPackage\tSMD\/TH\tRemark";
   sort (NumParts, Index, CytronPc, PartValue, PartDevice, PartPackage, PartName, Remark);
   for (int n1 = 0, n2 = 0; ++ n2 <= NumParts; )
   {
@@ -380,21 +381,24 @@ void GenerateList (void)
 	
 	// If the value is not from the attribute, don't print it.
 //	if (PartValueOn[i1] != 2) PartValue[i1] = "";
-    Lines[NumLines] = Number + "\t" + CytronPc[i1] + "\t" + ProductDesc[i1] + "\t" + PartValue[i1] + "\t";
+    
+    // Print the number.
+    Lines[NumLines] = Number + "\t";
+    
+    // Print the designator.
     for (;;)
     {
       Lines[NumLines] += PartName[i1];
       if (++n1 < n2)
       {
         i1 = Index [n1];
-        Lines[NumLines] += ", ";
+        Lines[NumLines] += ",";
       }
       else
         break;
     }
     
-	
-    Lines[NumLines] += "\t" + Quantity + "\t" + MF[i1] + "\t" + MPN[i1] + "\t" + PartPackage[i1] + "\t" + PnpPartsLib[i1] + "\t" + Remark[i1];
+    Lines[NumLines] += "\t" + Quantity + "\t" + CytronPc[i1] + "\t" + ProductDesc[i1] + "\t" + PartValue[i1] + "\t" + MPN[i1] + "\t" + PartPackage[i1] + "\t" + "\t" + Remark[i1];
     NumLines ++;
   }
   Lines[NumLines] = "";
