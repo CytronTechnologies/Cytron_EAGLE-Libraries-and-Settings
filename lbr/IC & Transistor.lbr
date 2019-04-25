@@ -7877,6 +7877,22 @@ Created by: Wai Weng</description>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="10.16" size="1.778" layer="97" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="CAT24C02TDI">
+<description>CAT24C02TDI 2-Kb I2C CMOS Serial EEPROM.&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<pin name="VCC" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS" x="12.7" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="SDA" x="-12.7" y="0" length="middle"/>
+<pin name="SCL" x="-12.7" y="2.54" length="middle"/>
+<pin name="WP" x="-12.7" y="-2.54" length="middle"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="97">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -13258,6 +13274,35 @@ Created by: Wai Weng</description>
 <attribute name="DESC" value="S 5V Buck Converter XL1509-5.0 SO8" constant="no"/>
 <attribute name="MF" value="XLSEMI" constant="no"/>
 <attribute name="MPN" value="XL1509-5.0E1" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAT24C02TDI" prefix="U">
+<description>CAT24C02TDI 2-Kb I2C CMOS Serial EEPROM.&lt;br&gt;
+&lt;br&gt;
+Created by: SC Lim</description>
+<gates>
+<gate name="G$1" symbol="CAT24C02TDI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+<connect gate="G$1" pin="WP" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-IC-CAT24C02TDI-TSOT-23-5" constant="no"/>
+<attribute name="DESC" value="S 2-Kb I2C CMOS Serial EEPROM CAT24C02TDI TSOT-23-5" constant="no"/>
+<attribute name="MF" value="On Semiconductor" constant="no"/>
+<attribute name="MPN" value="CAT24C02TDI" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
