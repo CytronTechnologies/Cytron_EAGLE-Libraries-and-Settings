@@ -7893,6 +7893,22 @@ Created by: SC Lim</description>
 <text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="97">&gt;MPN</text>
 </symbol>
+<symbol name="INA180">
+<description>INA180 Low and High-Side Voltage Output, Current-Sense Amplifiers.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<pin name="IN+" x="-12.7" y="5.08" length="short"/>
+<pin name="IN-" x="-12.7" y="-5.08" length="short"/>
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
+<pin name="OUT" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="VS" x="0" y="10.16" length="short" rot="R270"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="2.54" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.54" y="10.16" size="1.778" layer="97" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP34063" prefix="U">
@@ -13270,7 +13286,7 @@ Created by: Wai Weng</description>
 </connects>
 <technologies>
 <technology name="-5.0">
-<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="CYTRON-PC" value="S-VR-XL1509-5.0-SO8" constant="no"/>
 <attribute name="DESC" value="S 5V Buck Converter XL1509-5.0 SO8" constant="no"/>
 <attribute name="MF" value="XLSEMI" constant="no"/>
 <attribute name="MPN" value="XL1509-5.0E1" constant="no"/>
@@ -13303,6 +13319,35 @@ Created by: SC Lim</description>
 <attribute name="DESC" value="S 2-Kb I2C CMOS Serial EEPROM CAT24C02TDI TSOT-23-5" constant="no"/>
 <attribute name="MF" value="On Semiconductor" constant="no"/>
 <attribute name="MPN" value="CAT24C02TDI" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA180" prefix="U">
+<description>INA180 Low and High-Side Voltage Output, Current-Sense Amplifiers.&lt;br&gt;
+&lt;br&gt;
+Created by: Wai Weng</description>
+<gates>
+<gate name="G$1" symbol="INA180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="VS" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Current Sense Amplifier INA180A1 SOT23-5" constant="no"/>
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="INA180A1" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
