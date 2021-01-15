@@ -8327,6 +8327,23 @@ Created by: Wai Weng</description>
 </technology>
 </technologies>
 </device>
+<device name="_(2012)" package="2012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CYTRON-PC" value="S-FB-33R-85" constant="no"/>
+<attribute name="DESC" value="S Ferrite Bead 33R 4A 0805" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="WLB2012-330T40" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33R 4000mA" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED-RGB-INDV" prefix="DS">
