@@ -3,7 +3,7 @@
 <eagle version="7.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -795,8 +795,7 @@ Size: 5.0x 5.0mm &lt;br&gt;&lt;br&gt;
 <smd name="2" x="-2.35" y="-1.6" dx="1.3" dy="1" layer="1" roundness="30"/>
 <smd name="4" x="2.35" y="1.6" dx="1.3" dy="1" layer="1" roundness="30"/>
 <smd name="3" x="2.35" y="-1.6" dx="1.3" dy="1" layer="1" roundness="30"/>
-<text x="-3.429" y="0.635" size="0.762" layer="21" font="vector" ratio="15">.</text>
-<text x="-2.921" y="0.635" size="0.762" layer="51" font="vector" ratio="15">.</text>
+<text x="-3.048" y="2.286" size="0.762" layer="21" font="vector" ratio="15">.</text>
 <wire x1="-2.5" y1="0.85" x2="-2.5" y2="-0.85" width="0.2032" layer="51"/>
 <wire x1="-2.5" y1="-2.5" x2="2" y2="-2.5" width="0.2032" layer="51"/>
 <wire x1="2.5" y1="0.85" x2="2.5" y2="-0.85" width="0.2032" layer="51"/>
@@ -1818,19 +1817,22 @@ Created by: Wai Weng</description>
 </package>
 <package name="L-SDRH5D28">
 <description>SMD Inductor&lt;br&gt;
-Size: 6mm x 6mm&lt;br&gt;
+Size: 5.7mm x 5.7
+mm&lt;br&gt;
 &lt;br&gt;
 Created by: Wai Weng</description>
-<smd name="1" x="-2.3" y="0" dx="6.5" dy="3" layer="1" roundness="30" rot="R90"/>
-<smd name="2" x="2.3" y="0" dx="6.5" dy="3" layer="1" roundness="30" rot="R90"/>
+<smd name="1" x="-2" y="0" dx="6.2" dy="2.2" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="2" y="0" dx="6.2" dy="2.2" layer="1" roundness="20" rot="R90"/>
 <text x="0" y="3.5" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.5" size="0.762" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.2032" layer="51"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.2032" layer="51"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.2032" layer="51"/>
-<rectangle x1="-3" y1="-3" x2="-1" y2="3" layer="51"/>
-<rectangle x1="1" y1="-3" x2="3" y2="3" layer="51"/>
+<wire x1="-2.85" y1="2.85" x2="2.85" y2="2.85" width="0.2032" layer="51"/>
+<wire x1="2.85" y1="2.85" x2="2.85" y2="-2.85" width="0.2032" layer="51"/>
+<wire x1="2.85" y1="-2.85" x2="-2.85" y2="-2.85" width="0.2032" layer="51"/>
+<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="2.85" width="0.2032" layer="51"/>
+<rectangle x1="-2.85" y1="-2.85" x2="-1" y2="2.85" layer="51"/>
+<rectangle x1="1" y1="-2.85" x2="2.85" y2="2.85" layer="51"/>
+<wire x1="-0.6" y1="2.5" x2="0.6" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-0.6" y1="-2.5" x2="0.6" y2="-2.5" width="0.2032" layer="21"/>
 </package>
 <package name="D-SOD-123FL">
 <description>SMD Diode&lt;br&gt;
@@ -3491,8 +3493,8 @@ Size: 1.6 x 0.8mm&lt;br&gt;
 Same with size 0603 in inches.</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" roundness="75"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" roundness="75"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" roundness="65"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" roundness="65"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <text x="0" y="0.762" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
@@ -3512,8 +3514,8 @@ Size: 1.6 x 0.8mm&lt;br&gt;
 Same with size 0603 in inches.</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" roundness="75"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" roundness="75"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" roundness="65"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" roundness="65"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <text x="0" y="0.762" size="0.762" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
@@ -5542,6 +5544,14 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="56K" constant="no"/>
 </technology>
+<technology name="_5K1">
+<attribute name="CYTRON-PC" value="" constant="no"/>
+<attribute name="DESC" value="S Resistor 5.1K,1%,1/10W,0603" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="5K1" constant="no"/>
+</technology>
 <technology name="_5K6">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="S Resistor 5.6K,1%,1/10W,0603" constant="no"/>
@@ -6091,14 +6101,6 @@ Created by: Wai Weng</description>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="250uH" constant="no"/>
 </technology>
-<technology name="_33UH">
-<attribute name="CYTRON-PC" value="S-L-33UH-0.75A" constant="no"/>
-<attribute name="DESC" value="S Inductor 33uH 0.75A SDRH5D28" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="REMARK" value="" constant="no"/>
-<attribute name="VALUE" value="33uH" constant="no"/>
-</technology>
 <technology name="_4.7UH">
 <attribute name="CYTRON-PC" value="" constant="no"/>
 <attribute name="DESC" value="SMD Inductor" constant="no"/>
@@ -6181,7 +6183,7 @@ Created by: Wai Weng</description>
 <technologies>
 <technology name="_2.2UH">
 <attribute name="CYTRON-PC" value="S-L-2.2UH-2.6A" constant="no"/>
-<attribute name="DESC" value="S Inductor 2.2uH 2.6A SDRH5D28-2R2M" constant="no"/>
+<attribute name="DESC" value="S Inductor 2.2uH 2.6A SDRH5D28" constant="no"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="SDRH5D28-2R2M" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
@@ -6194,6 +6196,14 @@ Created by: Wai Weng</description>
 <attribute name="MPN" value="SDRH5D28-331M" constant="no"/>
 <attribute name="REMARK" value="" constant="no"/>
 <attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_33UH">
+<attribute name="CYTRON-PC" value="S-L-33UH-0.75A" constant="no"/>
+<attribute name="DESC" value="S Inductor 33uH 0.75A SDRH5D28" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REMARK" value="" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
 </technology>
 </technologies>
 </device>
